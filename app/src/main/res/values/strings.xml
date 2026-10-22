@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">轻算</string>
+    <string name="app_name">妙算</string>
     <string name="zero">0</string>
     <string name="history">历史记录</string>
     <string name="history_empty">还没有算过什么</string>

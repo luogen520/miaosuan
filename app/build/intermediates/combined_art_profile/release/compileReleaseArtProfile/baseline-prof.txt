@@ -65,7 +65,7 @@ Lj/a1;
 Lb0/a;
 Lb0/d;
 Le/g;
-HSPLe/g;-><init>(Lio/github/luogen520/qingsuan/MainActivity;)V
+HSPLe/g;-><init>(Lio/github/luogen520/miaosuan/MainActivity;)V
 HSPLe/g;->a()V
 Le/h;
 Le/i;
@@ -1107,7 +1107,7 @@ HSPLa0/J;->c()I
 HSPLa0/J;->d()I
 HSPLandroidx/emoji2/text/t;-><init>(I)V
 HSPLandroidx/fragment/app/P;->run()V
-HSPLb0/a;-><init>(Lio/github/luogen520/qingsuan/MainActivity;)V
+HSPLb0/a;-><init>(Lio/github/luogen520/miaosuan/MainActivity;)V
 HSPLe/o;->run()V
 PLe/p;->a(Li/m;Z)V
 HSPLi/b;-><init>(Lj/j;Lj/j;)V

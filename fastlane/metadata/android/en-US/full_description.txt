@@ -1,4 +1,4 @@
-Qingsuan is a simple calculator built for everyday arithmetic. One screen: the expression on top, the keypad below.
+Miaosuan is a simple calculator built for everyday arithmetic. One screen: the expression on top, the keypad below.
 
 The engine runs on BigDecimal with 20 significant digits internally, rounded to 12 digits for display, so 0.1 + 0.2 comes out as a clean 0.3. Percent signs follow the phone-calculator convention: 200−10% gives 180, 50×10% gives 5, a standalone 10% gives 0.1.
 

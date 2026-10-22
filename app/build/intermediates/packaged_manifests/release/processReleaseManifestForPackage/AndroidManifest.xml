@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.luogen520.qingsuan"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="io.github.luogen520.miaosuan"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="26"
         android:targetSdkVersion="35" />
 
     <permission
-        android:name="io.github.luogen520.qingsuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="io.github.luogen520.miaosuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="io.github.luogen520.qingsuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="io.github.luogen520.miaosuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="false"
@@ -24,7 +24,7 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.Qingsuan" >
         <activity
-            android:name="io.github.luogen520.qingsuan.MainActivity"
+            android:name="io.github.luogen520.miaosuan.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" >
@@ -37,7 +37,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="io.github.luogen520.qingsuan.androidx-startup"
+            android:authorities="io.github.luogen520.miaosuan.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

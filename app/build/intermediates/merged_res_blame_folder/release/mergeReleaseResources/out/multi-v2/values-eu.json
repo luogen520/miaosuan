@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.github.luogen520.qingsuan.app-mergeReleaseResources-30:/values-eu/values-eu.xml",
+            "outputFile": "io.github.luogen520.miaosuan.app-mergeReleaseResources-30:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/res/values-eu/values-eu.xml",

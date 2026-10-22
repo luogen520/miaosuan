@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.luogen520.qingsuan"
+    namespace = "io.github.luogen520.miaosuan"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "io.github.luogen520.qingsuan"
+        applicationId = "io.github.luogen520.miaosuan"
         minSdk = 26
         targetSdk = 35
         versionCode = 2

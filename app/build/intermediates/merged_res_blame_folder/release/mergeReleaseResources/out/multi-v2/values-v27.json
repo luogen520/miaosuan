@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.github.luogen520.qingsuan.app-mergeReleaseResources-30:/values-v27/values-v27.xml",
+            "outputFile": "io.github.luogen520.miaosuan.app-mergeReleaseResources-30:/values-v27/values-v27.xml",
             "map": [
                 {
                     "source": "/home/z/my-project/qingsuan/app/src/main/res/values-v27/themes.xml",

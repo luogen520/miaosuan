@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.github.luogen520.qingsuan.app-mergeReleaseResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "io.github.luogen520.miaosuan.app-mergeReleaseResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/home/z/.gradle/caches/8.9/transforms/3a9af1f91b952554f8fc6097cd70b90a/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",

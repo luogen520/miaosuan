@@ -4,15 +4,15 @@
     "type": "OPTIMIZED_PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "io.github.luogen520.qingsuan",
+  "applicationId": "io.github.luogen520.miaosuan",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 2,
+      "versionName": "1.1",
       "outputFile": "resources-release-optimize.ap_"
     }
   ],

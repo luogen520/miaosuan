@@ -1,4 +1,4 @@
-io.github.luogen520.qingsuan
+io.github.luogen520.miaosuan
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1339,15 +1339,15 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color history_tint
-color ic_launcher_bg
 color ink
 color ink_soft
 color key_bg
-color key_eq_bg
 color key_eq_text
 color key_fn_bg
 color key_fn_text
+color key_op_bg
 color key_op_text
+color key_stroke
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2940,7 +2940,9 @@ drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_history
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_bg
 drawable ic_launcher_fg
+drawable ic_launcher_mono
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -4652,6 +4654,7 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style ThemeOverlay_Qingsuan_BottomSheet
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

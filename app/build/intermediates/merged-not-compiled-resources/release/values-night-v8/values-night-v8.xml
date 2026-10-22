@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cinnabar">#C14B33</color>
+    <color name="cinnabar">#B4442C</color>
     <color name="error_text">#E06A50</color>
-    <color name="history_tint">#A8A295</color>
-    <color name="ink">#F0EDE6</color>
-    <color name="ink_soft">#918C82</color>
-    <color name="key_bg">#24232A</color>
-    <color name="key_eq_bg">#C14B33</color>
+    <color name="history_tint">#A69C86</color>
+    <color name="ink">#F0EADC</color>
+    <color name="ink_soft">#97907E</color>
+    <color name="key_bg">#292417</color>
     <color name="key_eq_text">#FFF6EE</color>
-    <color name="key_fn_bg">#2C2B33</color>
-    <color name="key_fn_text">#A8A295</color>
-    <color name="key_op_text">#E08A72</color>
-    <color name="paper">#17161A</color>
-    <color name="sheet_bg">#201F25</color>
+    <color name="key_fn_bg">#211D12</color>
+    <color name="key_fn_text">#A69C86</color>
+    <color name="key_op_bg">#362A18</color>
+    <color name="key_op_text">#E5876A</color>
+    <color name="key_stroke">#3B3422</color>
+    <color name="paper">#17140E</color>
+    <color name="sheet_bg">#201C13</color>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
@@ -52,9 +53,19 @@
         <item name="android:navigationBarColor">@color/paper</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="colorSurface">@color/sheet_bg</item>
+        
+        <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
+        <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>
+        <item name="colorOnSurfaceVariant">@color/ink_soft</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Qingsuan.BottomSheet</item>
     </style>
     <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="ThemeOverlay.Material3.DynamicColors.Dark"/>
+    <style name="ThemeOverlay.Qingsuan.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
+        <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>
+        <item name="colorOnSurfaceVariant">@color/ink_soft</item>
+    </style>
     <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
     <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
     <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>

@@ -90,7 +90,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/z/.gradle/caches/8.9/
 		ADDED from /home/z/my-project/qingsuan/app/src/main/AndroidManifest.xml:5:9-36
 	android:theme
 		ADDED from /home/z/my-project/qingsuan/app/src/main/AndroidManifest.xml:10:9-46
-activity#io.github.luogen520.qingsuan.MainActivity
+activity#io.github.luogen520.miaosuan.MainActivity
 ADDED from /home/z/my-project/qingsuan/app/src/main/AndroidManifest.xml:12:9-21:20
 	android:screenOrientation
 		ADDED from /home/z/my-project/qingsuan/app/src/main/AndroidManifest.xml:15:13-49
@@ -232,7 +232,7 @@ ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634
 		ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#io.github.luogen520.qingsuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#io.github.luogen520.miaosuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
@@ -242,7 +242,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#io.github.luogen520.qingsuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#io.github.luogen520.miaosuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/z/.gradle/caches/8.9/transforms/634b7d008066f4ba5477148a505e2cba/transformed/core-1.13.1/AndroidManifest.xml:26:22-94

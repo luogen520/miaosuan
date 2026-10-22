@@ -3,15 +3,15 @@ local
 color cinnabar
 color error_text
 color history_tint
-color ic_launcher_bg
 color ink
 color ink_soft
 color key_bg
-color key_eq_bg
 color key_eq_text
 color key_fn_bg
 color key_fn_text
+color key_op_bg
 color key_op_text
+color key_stroke
 color paper
 color sheet_bg
 dimen key_gap
@@ -19,7 +19,9 @@ dimen key_height
 dimen key_radius
 drawable ic_backspace
 drawable ic_history
+drawable ic_launcher_bg
 drawable ic_launcher_fg
+drawable ic_launcher_mono
 drawable key_bg_digit
 drawable key_bg_eq
 drawable key_bg_fn
@@ -89,4 +91,5 @@ style KeyRow
 style Key.Eq
 style Key.Fn
 style Key.Op
+style ThemeOverlay.Qingsuan.BottomSheet
 style Theme.Qingsuan

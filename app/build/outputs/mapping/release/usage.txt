@@ -18580,44 +18580,44 @@ com.google.errorprone.annotations.concurrent.GuardedBy
 com.google.errorprone.annotations.concurrent.LazyInit
 com.google.errorprone.annotations.concurrent.LockMethod
 com.google.errorprone.annotations.concurrent.UnlockMethod
-io.github.luogen520.qingsuan.CalcEngine$Num:
+io.github.luogen520.miaosuan.CalcEngine$Num:
     public final java.math.BigDecimal component1()
     public final boolean component2()
-io.github.luogen520.qingsuan.CalcEngine$Op:
+io.github.luogen520.miaosuan.CalcEngine$Op:
     public final char component1()
-    public final io.github.luogen520.qingsuan.CalcEngine$Op copy(char)
-    public static synthetic io.github.luogen520.qingsuan.CalcEngine$Op copy$default(io.github.luogen520.qingsuan.CalcEngine$Op,char,int,java.lang.Object)
-io.github.luogen520.qingsuan.CalcEngine:
+    public final io.github.luogen520.miaosuan.CalcEngine$Op copy(char)
+    public static synthetic io.github.luogen520.miaosuan.CalcEngine$Op copy$default(io.github.luogen520.miaosuan.CalcEngine$Op,char,int,java.lang.Object)
+io.github.luogen520.miaosuan.CalcEngine:
     private static final int PLAIN_MAX_EXP
     private static final int PLAIN_MIN_EXP
-io.github.luogen520.qingsuan.HistoryEntry:
+io.github.luogen520.miaosuan.HistoryEntry:
     public final java.lang.String component1()
     public final java.lang.String component2()
-    public final io.github.luogen520.qingsuan.HistoryEntry copy(java.lang.String,java.lang.String)
-    public static synthetic io.github.luogen520.qingsuan.HistoryEntry copy$default(io.github.luogen520.qingsuan.HistoryEntry,java.lang.String,java.lang.String,int,java.lang.Object)
-io.github.luogen520.qingsuan.R$color:
+    public final io.github.luogen520.miaosuan.HistoryEntry copy(java.lang.String,java.lang.String)
+    public static synthetic io.github.luogen520.miaosuan.HistoryEntry copy$default(io.github.luogen520.miaosuan.HistoryEntry,java.lang.String,java.lang.String,int,java.lang.Object)
+io.github.luogen520.miaosuan.R$color:
     public static int cinnabar
     public static int history_tint
-    public static int ic_launcher_bg
     public static int ink_soft
     public static int key_bg
-    public static int key_eq_bg
     public static int key_eq_text
     public static int key_fn_bg
     public static int key_fn_text
+    public static int key_op_bg
     public static int key_op_text
+    public static int key_stroke
     public static int paper
     public static int sheet_bg
     private void <init>()
-io.github.luogen520.qingsuan.R$dimen
-io.github.luogen520.qingsuan.R$drawable
-io.github.luogen520.qingsuan.R$id:
+io.github.luogen520.miaosuan.R$dimen
+io.github.luogen520.miaosuan.R$drawable
+io.github.luogen520.miaosuan.R$id:
     public static int root
     private void <init>()
-io.github.luogen520.qingsuan.R$layout:
+io.github.luogen520.miaosuan.R$layout:
     private void <init>()
-io.github.luogen520.qingsuan.R$mipmap
-io.github.luogen520.qingsuan.R$string:
+io.github.luogen520.miaosuan.R$mipmap
+io.github.luogen520.miaosuan.R$string:
     public static int app_name
     public static int backspace
     public static int history
@@ -18644,13 +18644,13 @@ io.github.luogen520.qingsuan.R$string:
     public static int key_toggle_sign
     public static int zero
     private void <init>()
-io.github.luogen520.qingsuan.R$style
-io.github.luogen520.qingsuan.R
-io.github.luogen520.qingsuan.databinding.ActivityMainBinding:
+io.github.luogen520.miaosuan.R$style
+io.github.luogen520.miaosuan.R
+io.github.luogen520.miaosuan.databinding.ActivityMainBinding:
     public synthetic bridge android.view.View getRoot()
     public android.widget.LinearLayout getRoot()
-io.github.luogen520.qingsuan.databinding.ItemHistoryBinding
-io.github.luogen520.qingsuan.databinding.SheetHistoryBinding
+io.github.luogen520.miaosuan.databinding.ItemHistoryBinding
+io.github.luogen520.miaosuan.databinding.SheetHistoryBinding
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
 kotlin.CharCodeJVMKt
@@ -30565,7 +30565,7 @@ com.google.android.material.bottomsheet.BottomSheetBehavior:
     public final boolean shouldSkipSmoothAnimation()
     public final void updateAccessibilityActions(android.view.View)
 com.google.android.material.bottomsheet.BottomSheetDialog$4:
-    public final synthetic io.github.luogen520.qingsuan.HistorySheet this$0
+    public final synthetic io.github.luogen520.miaosuan.HistorySheet this$0
 com.google.android.material.bottomsheet.BottomSheetDialog
 com.google.android.material.bottomsheet.InsetsAnimationCallback:
     public final int mDispatchMode
@@ -32074,38 +32074,38 @@ com.google.android.material.transformation.FabTransformationSheetBehavior:
 com.google.android.material.transformation.TransformationChildCard
 com.google.android.material.transformation.TransformationChildLayout
 com.google.common.util.concurrent.ListenableFuture
-io.github.luogen520.qingsuan.CalcEngine$$InternalSyntheticBackportWithForwarding$4$b28b9fa76c60528ad1a8a7e4c2e3a55f71cf87331f1108e0a531bba8931ca3de$0
-io.github.luogen520.qingsuan.CalcEngine$Cursor:
+io.github.luogen520.miaosuan.CalcEngine$$InternalSyntheticBackportWithForwarding$4$59f73ae1e5c25691c45d41d96eb236da9d4ba119bd81b2a727869d25b5666889$0
+io.github.luogen520.miaosuan.CalcEngine$Cursor:
     public static int getI()
     public static java.util.List getTokens()
     public static void setI()
-io.github.luogen520.qingsuan.CalcEngine$Num:
+io.github.luogen520.miaosuan.CalcEngine$Num:
     public synthetic void <init>(java.math.BigDecimal)
-    public static io.github.luogen520.qingsuan.CalcEngine$Num copy()
+    public static io.github.luogen520.miaosuan.CalcEngine$Num copy()
     public static boolean getPercent()
     public static java.math.BigDecimal getValue()
-io.github.luogen520.qingsuan.CalcEngine$Op:
+io.github.luogen520.miaosuan.CalcEngine$Op:
     public static char getSymbol()
-io.github.luogen520.qingsuan.CalcEngine:
-    public static final io.github.luogen520.qingsuan.CalcEngine INSTANCE
+io.github.luogen520.miaosuan.CalcEngine:
+    public static final io.github.luogen520.miaosuan.CalcEngine INSTANCE
     public static java.util.List resolvePercents()
     public static java.util.List tokenize()
-io.github.luogen520.qingsuan.HistoryEntry:
+io.github.luogen520.miaosuan.HistoryEntry:
     public static java.lang.String getExpression()
     public static java.lang.String getResult()
-io.github.luogen520.qingsuan.HistorySheet$Adapter:
+io.github.luogen520.miaosuan.HistorySheet$Adapter:
     public static void onBindViewHolder$3()
-    public static io.github.luogen520.qingsuan.HistorySheet$VH onCreateViewHolder()
-io.github.luogen520.qingsuan.HistorySheet$VH:
+    public static io.github.luogen520.miaosuan.HistorySheet$VH onCreateViewHolder()
+io.github.luogen520.miaosuan.HistorySheet$VH:
     public static android.widget.TextView getExpr()
     public static android.widget.TextView getResult()
-io.github.luogen520.qingsuan.HistorySheet:
-    public io.github.luogen520.qingsuan.HistorySheet$Adapter adapter
+io.github.luogen520.miaosuan.HistorySheet:
+    public io.github.luogen520.miaosuan.HistorySheet$Adapter adapter
     public boolean dismissWithAnimation
     public static com.google.android.material.bottomsheet.BottomSheetBehavior getBehavior()
     public static boolean shouldWindowCloseOnTouchOutside()
     public final void updateListeningForBackCallbacks()
-io.github.luogen520.qingsuan.MainActivity:
+io.github.luogen520.miaosuan.MainActivity:
     public static void appendDigit()
     public static void appendDot()
     public static void appendPercent()
@@ -32115,15 +32115,15 @@ io.github.luogen520.qingsuan.MainActivity:
     public static void equals()
     public static java.lang.String groupNumber()
     public static void openHistory()
-    public static synthetic void refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity)
+    public static synthetic void refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity)
     public static void restoreState()
     public final void startNewNumber()
     public static void toggleSign()
-io.github.luogen520.qingsuan.R$color
-io.github.luogen520.qingsuan.R$id
-io.github.luogen520.qingsuan.R$layout
-io.github.luogen520.qingsuan.R$string
-io.github.luogen520.qingsuan.databinding.ActivityMainBinding:
+io.github.luogen520.miaosuan.R$color
+io.github.luogen520.miaosuan.R$id
+io.github.luogen520.miaosuan.R$layout
+io.github.luogen520.miaosuan.R$string
+io.github.luogen520.miaosuan.databinding.ActivityMainBinding:
     public final android.widget.LinearLayout rootView
 kotlin.Function
 kotlin.Lazy

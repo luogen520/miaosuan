@@ -3,8 +3,8 @@
 # min_api: 26
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 7f3d8c3
-# pg_map_hash: SHA-256 7f3d8c3ec9bc5bc87bfeacdb18418e17f1270cf250c6b29e0ba9223ffe212d5e
+# pg_map_id: 4376af1
+# pg_map_hash: SHA-256 4376af1d74db493163434cc0c5d4a1d903581b02286567c6eca7c25f9b181f33
 android.app.AppComponentFactory -> android.app.AppComponentFactory:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -3084,9 +3084,9 @@ androidx.appcompat.app.AppCompatActivity -> e.h:
 androidx.appcompat.app.AppCompatActivity$2 -> e.g:
 # {"id":"sourceFile","fileName":"AppCompatActivity.java"}
     androidx.appcompat.app.AppCompatActivity this$0 -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"Lio/github/luogen520/qingsuan/MainActivity;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lio/github/luogen520/miaosuan/MainActivity;"}
     0:5:void <init>(androidx.appcompat.app.AppCompatActivity):128:128 -> <init>
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/luogen520/qingsuan/MainActivity;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/luogen520/miaosuan/MainActivity;)V"}
     0:5:void onContextAvailable(android.content.Context):131:131 -> a
       # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
     6:8:void onContextAvailable(android.content.Context):132:132 -> a
@@ -39735,7 +39735,7 @@ androidx.core.provider.FontsContractCompat$FontFamilyResult -> E.k:
     int mStatusCode -> f
     androidx.core.provider.FontsContractCompat$FontInfo[] mFonts -> g
       # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
-    1:1:void io.github.luogen520.qingsuan.CalcEngine$Cursor.<init>(java.util.List):61:61 -> <init>
+    1:1:void io.github.luogen520.miaosuan.CalcEngine$Cursor.<init>(java.util.List):61:61 -> <init>
     2:2:void androidx.appcompat.app.AlertDialog$Builder.<init>(android.content.Context):312:312 -> <init>
     3:6:void androidx.appcompat.app.AlertDialog$Builder.<init>(android.content.Context,int):341:344 -> <init>
     3:6:void androidx.appcompat.app.AlertDialog$Builder.<init>(android.content.Context):312 -> <init>
@@ -71886,7 +71886,7 @@ androidx.savedstate.Recreator$SavedStateProvider -> b0.a:
     2:2:void <init>(androidx.savedstate.SavedStateRegistry):76:76 -> <init>
     3:3:void <init>(androidx.savedstate.SavedStateRegistry):79:79 -> <init>
     4:4:void androidx.appcompat.app.AppCompatActivity$1.<init>(androidx.appcompat.app.AppCompatActivity):119:119 -> <init>
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/luogen520/qingsuan/MainActivity;)V"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lio/github/luogen520/miaosuan/MainActivity;)V"}
     5:9:android.os.Bundle androidx.appcompat.app.AppCompatActivity$1.saveState():123:123 -> a
     10:21:android.os.Bundle androidx.appcompat.app.AppCompatActivity$1.saveState():124:124 -> a
     22:26:android.os.Bundle saveState():83:83 -> a
@@ -90576,9 +90576,9 @@ com.google.android.material.textfield.ClearTextEndIconDelegate$$ExternalSyntheti
       # {"id":"com.android.tools.r8.synthesized"}
     5:13:void com.google.android.material.datepicker.MaterialDatePicker.lambda$initHeaderToggle$0(android.view.View):540:540 -> onClick
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;)V"}
-    14:22:void io.github.luogen520.qingsuan.HistorySheet._init_$lambda$0(io.github.luogen520.qingsuan.HistorySheet,android.view.View):33:33 -> onClick
-    23:27:void io.github.luogen520.qingsuan.HistorySheet._init_$lambda$0(io.github.luogen520.qingsuan.HistorySheet,android.view.View):34:34 -> onClick
-    28:31:void io.github.luogen520.qingsuan.HistorySheet._init_$lambda$0(io.github.luogen520.qingsuan.HistorySheet,android.view.View):35:35 -> onClick
+    14:22:void io.github.luogen520.miaosuan.HistorySheet._init_$lambda$0(io.github.luogen520.miaosuan.HistorySheet,android.view.View):33:33 -> onClick
+    23:27:void io.github.luogen520.miaosuan.HistorySheet._init_$lambda$0(io.github.luogen520.miaosuan.HistorySheet,android.view.View):34:34 -> onClick
+    28:31:void io.github.luogen520.miaosuan.HistorySheet._init_$lambda$0(io.github.luogen520.miaosuan.HistorySheet,android.view.View):35:35 -> onClick
     32:40:void com.google.android.material.textfield.PasswordToggleEndIconDelegate.lambda$new$0(android.view.View):38:38 -> onClick
     41:44:void com.google.android.material.textfield.PasswordToggleEndIconDelegate.lambda$new$0(android.view.View):42:42 -> onClick
     45:48:boolean com.google.android.material.textfield.PasswordToggleEndIconDelegate.hasPasswordTransformation():119:119 -> onClick
@@ -90916,32 +90916,32 @@ com.google.android.material.textfield.DropdownMenuEndIconDelegate$$ExternalSynth
       # {"id":"com.android.tools.r8.synthesized"}
     0:5:void F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.<init>(java.lang.Object):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    4:8:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):0:0 -> b
+    4:8:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):0:0 -> b
     4:8:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
       # {"id":"com.android.tools.r8.synthesized"}
-    9:15:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):77:77 -> b
+    9:15:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):77:77 -> b
     9:15:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    16:23:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):78:78 -> b
+    16:23:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):78:78 -> b
     16:23:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
     24:27:int androidx.core.content.ContextCompat.getColor(android.content.Context,int):529:529 -> b
-    24:27:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):78 -> b
+    24:27:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):78 -> b
     24:27:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    28:32:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):78:78 -> b
+    28:32:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):78:78 -> b
     28:32:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    33:42:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):79:79 -> b
+    33:42:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):79:79 -> b
     33:42:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    43:63:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):80:80 -> b
+    43:63:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):80:80 -> b
     43:63:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    64:67:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):81:81 -> b
+    64:67:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):81:81 -> b
     64:67:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    68:69:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):82:82 -> b
+    68:69:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):82:82 -> b
     68:69:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    70:72:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):83:83 -> b
+    70:72:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):83:83 -> b
     70:72:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
     73:75:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0:0 -> b
-    76:79:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):80:80 -> b
+    76:79:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):80:80 -> b
     76:79:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
-    80:83:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$17(io.github.luogen520.qingsuan.MainActivity,io.github.luogen520.qingsuan.HistoryEntry):78:78 -> b
+    80:83:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$17(io.github.luogen520.miaosuan.MainActivity,io.github.luogen520.miaosuan.HistoryEntry):78:78 -> b
     80:83:java.lang.Object F0.DropdownMenuEndIconDelegate$$ExternalSyntheticLambda5.invoke(java.lang.Object):0 -> b
 com.google.android.material.textfield.EndCompoundLayout -> F0.r:
 # {"id":"sourceFile","fileName":"EndCompoundLayout.java"}
@@ -96050,13 +96050,13 @@ com.google.android.material.textfield.TextInputLayout$$ExternalSyntheticLambda2 
     17:20:void androidx.transition.Transition$TransitionListener.onTransitionEnd(androidx.transition.Transition,boolean):2525:2525 -> a
     17:20:void F0.TextInputLayout$$ExternalSyntheticLambda2.notifyListener(e0.Transition$TransitionListener,e0.Transition):0 -> a
     21:25:void F0.TextInputLayout$$ExternalSyntheticLambda2.notifyListener(e0.Transition$TransitionListener,e0.Transition):0:0 -> a
-    2:6:androidx.core.view.WindowInsetsCompat io.github.luogen520.qingsuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):0:0 -> u
+    2:6:androidx.core.view.WindowInsetsCompat io.github.luogen520.miaosuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):0:0 -> u
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;LH/x0;)LH/x0;"}
     7:13:androidx.core.graphics.Insets androidx.core.view.WindowInsetsCompat.getInsets(int):668:668 -> u
-    7:13:androidx.core.view.WindowInsetsCompat io.github.luogen520.qingsuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):33 -> u
-    14:18:androidx.core.view.WindowInsetsCompat io.github.luogen520.qingsuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):33:33 -> u
-    19:29:androidx.core.view.WindowInsetsCompat io.github.luogen520.qingsuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):34:34 -> u
-    30:32:androidx.core.view.WindowInsetsCompat io.github.luogen520.qingsuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):35:35 -> u
+    7:13:androidx.core.view.WindowInsetsCompat io.github.luogen520.miaosuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):33 -> u
+    14:18:androidx.core.view.WindowInsetsCompat io.github.luogen520.miaosuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):33:33 -> u
+    19:29:androidx.core.view.WindowInsetsCompat io.github.luogen520.miaosuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):34:34 -> u
+    30:32:androidx.core.view.WindowInsetsCompat io.github.luogen520.miaosuan.MainActivity.onCreate$lambda$0(android.view.View,androidx.core.view.WindowInsetsCompat):35:35 -> u
 com.google.android.material.textfield.TextInputLayout$1 -> F0.D:
 # {"id":"sourceFile","fileName":"TextInputLayout.java"}
     int previousLineCount -> f
@@ -97510,67 +97510,67 @@ com.google.android.material.transformation.FabTransformationSheetBehavior -> com
 # {"id":"sourceFile","fileName":"FabTransformationSheetBehavior.java"}
     1:1:void <init>():53:53 -> <init>
     2:2:void <init>(android.content.Context,android.util.AttributeSet):56:56 -> <init>
-io.github.luogen520.qingsuan.CalcEngine -> I0.d:
+io.github.luogen520.miaosuan.CalcEngine -> I0.d:
 # {"id":"sourceFile","fileName":"CalcEngine.kt"}
     java.math.MathContext MC -> a
     java.math.MathContext RESULT_SIG -> b
     0:10:void <clinit>():23:23 -> <clinit>
     11:22:void <clinit>():24:24 -> <clinit>
-    0:3:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):162:162 -> a
+    0:3:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):162:162 -> a
       # {"id":"com.android.tools.r8.residualsignature","signature":"(LE/k;)Ljava/math/BigDecimal;"}
-    4:5:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> a
-    4:5:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):163 -> a
-    6:15:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):163:163 -> a
-    16:17:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> a
-    16:17:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):164 -> a
-    18:34:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):164:164 -> a
-    35:42:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):165:165 -> a
-    43:46:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> a
-    43:46:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):166 -> a
-    47:48:void io.github.luogen520.qingsuan.CalcEngine$Cursor.setI(int):62:62 -> a
-    47:48:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):166 -> a
-    49:54:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):167:167 -> a
-    55:65:java.math.BigDecimal evalAddSub(io.github.luogen520.qingsuan.CalcEngine$Cursor):168:168 -> a
-    0:3:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):174:174 -> b
+    4:5:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> a
+    4:5:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):163 -> a
+    6:15:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):163:163 -> a
+    16:17:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> a
+    16:17:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):164 -> a
+    18:34:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):164:164 -> a
+    35:42:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):165:165 -> a
+    43:46:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> a
+    43:46:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):166 -> a
+    47:48:void io.github.luogen520.miaosuan.CalcEngine$Cursor.setI(int):62:62 -> a
+    47:48:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):166 -> a
+    49:54:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):167:167 -> a
+    55:65:java.math.BigDecimal evalAddSub(io.github.luogen520.miaosuan.CalcEngine$Cursor):168:168 -> a
+    0:3:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):174:174 -> b
       # {"id":"com.android.tools.r8.residualsignature","signature":"(LE/k;)Ljava/math/BigDecimal;"}
-    4:5:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> b
-    4:5:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):175 -> b
-    6:15:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):175:175 -> b
-    16:17:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> b
-    16:17:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):176 -> b
-    18:34:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):176:176 -> b
-    35:42:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):177:177 -> b
-    43:46:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> b
-    43:46:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):178 -> b
-    47:48:void io.github.luogen520.qingsuan.CalcEngine$Cursor.setI(int):62:62 -> b
-    47:48:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):178 -> b
-    49:52:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):179:179 -> b
-    53:67:java.math.BigDecimal evalMulDiv(io.github.luogen520.qingsuan.CalcEngine$Cursor):180:180 -> b
-    0:1:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> c
-    0:1:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):186 -> c
+    4:5:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> b
+    4:5:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):175 -> b
+    6:15:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):175:175 -> b
+    16:17:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> b
+    16:17:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):176 -> b
+    18:34:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):176:176 -> b
+    35:42:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):177:177 -> b
+    43:46:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> b
+    43:46:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):178 -> b
+    47:48:void io.github.luogen520.miaosuan.CalcEngine$Cursor.setI(int):62:62 -> b
+    47:48:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):178 -> b
+    49:52:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):179:179 -> b
+    53:67:java.math.BigDecimal evalMulDiv(io.github.luogen520.miaosuan.CalcEngine$Cursor):180:180 -> b
+    0:1:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> c
+    0:1:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):186 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(LE/k;)Ljava/math/BigDecimal;"}
-    2:13:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):186:186 -> c
-    14:15:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> c
-    14:15:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):187 -> c
-    16:21:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):187:187 -> c
-    22:25:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):188:188 -> c
-    26:29:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> c
-    26:29:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):189 -> c
-    30:31:void io.github.luogen520.qingsuan.CalcEngine$Cursor.setI(int):62:62 -> c
-    30:31:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):189 -> c
-    32:33:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):190:190 -> c
-    34:36:java.math.BigDecimal io.github.luogen520.qingsuan.CalcEngine$Num.getValue():58:58 -> c
-    34:36:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):190 -> c
+    2:13:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):186:186 -> c
+    14:15:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> c
+    14:15:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):187 -> c
+    16:21:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):187:187 -> c
+    22:25:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):188:188 -> c
+    26:29:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> c
+    26:29:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):189 -> c
+    30:31:void io.github.luogen520.miaosuan.CalcEngine$Cursor.setI(int):62:62 -> c
+    30:31:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):189 -> c
+    32:33:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):190:190 -> c
+    34:36:java.math.BigDecimal io.github.luogen520.miaosuan.CalcEngine$Num.getValue():58:58 -> c
+    34:36:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):190 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    37:38:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):188:188 -> c
-    39:41:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> c
-    39:41:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):188 -> c
-    42:42:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):188:188 -> c
-    43:44:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):186:186 -> c
-    45:47:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> c
-    45:47:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):186 -> c
-    48:48:java.math.BigDecimal evalNum(io.github.luogen520.qingsuan.CalcEngine$Cursor):186:186 -> c
+    37:38:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):188:188 -> c
+    39:41:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> c
+    39:41:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):188 -> c
+    42:42:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):188:188 -> c
+    43:44:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):186:186 -> c
+    45:47:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> c
+    45:47:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):186 -> c
+    48:48:java.math.BigDecimal evalNum(io.github.luogen520.miaosuan.CalcEngine$Cursor):186:186 -> c
     5:11:java.util.List tokenize(java.lang.String):68:68 -> d
     5:11:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     12:29:java.util.List tokenize(java.lang.String):70:70 -> d
@@ -97584,21 +97584,21 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     54:55:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     56:61:java.util.List tokenize(java.lang.String):75:75 -> d
     56:61:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    62:65:boolean io.github.luogen520.qingsuan.CalcEngine$Num.getPercent():58:58 -> d
+    62:65:boolean io.github.luogen520.miaosuan.CalcEngine$Num.getPercent():58:58 -> d
     62:65:java.util.List tokenize(java.lang.String):75 -> d
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     62:65:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     66:70:java.util.List tokenize(java.lang.String):75:75 -> d
     66:70:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    71:82:io.github.luogen520.qingsuan.CalcEngine$Num io.github.luogen520.qingsuan.CalcEngine$Num.copy(java.math.BigDecimal,boolean):0:0 -> d
-    71:82:io.github.luogen520.qingsuan.CalcEngine$Num io.github.luogen520.qingsuan.CalcEngine$Num.copy$default(io.github.luogen520.qingsuan.CalcEngine$Num,java.math.BigDecimal,boolean,int,java.lang.Object):0 -> d
+    71:82:io.github.luogen520.miaosuan.CalcEngine$Num io.github.luogen520.miaosuan.CalcEngine$Num.copy(java.math.BigDecimal,boolean):0:0 -> d
+    71:82:io.github.luogen520.miaosuan.CalcEngine$Num io.github.luogen520.miaosuan.CalcEngine$Num.copy$default(io.github.luogen520.miaosuan.CalcEngine$Num,java.math.BigDecimal,boolean,int,java.lang.Object):0 -> d
     71:82:java.util.List tokenize(java.lang.String):75 -> d
     71:82:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     83:88:java.util.List tokenize(java.lang.String):75:75 -> d
     83:88:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     89:90:java.util.List tokenize(java.lang.String):76:76 -> d
     89:90:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    91:93:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    91:93:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     91:93:java.util.List tokenize(java.lang.String):76 -> d
     91:93:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     94:103:java.util.List tokenize(java.lang.String):76:76 -> d
@@ -97607,7 +97607,7 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     104:114:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     115:116:java.util.List tokenize(java.lang.String):102:102 -> d
     115:116:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    117:119:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    117:119:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     117:119:java.util.List tokenize(java.lang.String):102 -> d
     117:119:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     120:120:java.util.List tokenize(java.lang.String):102:102 -> d
@@ -97616,14 +97616,14 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     121:138:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     139:140:java.util.List tokenize(java.lang.String):99:99 -> d
     139:140:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    141:143:void io.github.luogen520.qingsuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
+    141:143:void io.github.luogen520.miaosuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
     141:143:java.util.List tokenize(java.lang.String):99 -> d
     141:143:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     144:148:java.util.List tokenize(java.lang.String):99:99 -> d
     144:148:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     149:150:java.util.List tokenize(java.lang.String):98:98 -> d
     149:150:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    151:153:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    151:153:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     151:153:java.util.List tokenize(java.lang.String):98 -> d
     151:153:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     154:156:java.util.List tokenize(java.lang.String):98:98 -> d
@@ -97636,7 +97636,7 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     191:200:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     201:211:java.util.List tokenize(java.lang.String):88:88 -> d
     201:211:java.math.BigDecimal evaluate(java.lang.String):30 -> d
-    212:214:void io.github.luogen520.qingsuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
+    212:214:void io.github.luogen520.miaosuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
     212:214:java.util.List tokenize(java.lang.String):88 -> d
     212:214:java.math.BigDecimal evaluate(java.lang.String):30 -> d
     215:220:java.util.List tokenize(java.lang.String):88:88 -> d
@@ -97651,7 +97651,7 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     275:276:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     277:282:java.util.List resolvePercents(java.util.List):141:141 -> d
     277:282:java.math.BigDecimal evaluate(java.lang.String):34 -> d
-    283:293:boolean io.github.luogen520.qingsuan.CalcEngine$Num.getPercent():58:58 -> d
+    283:293:boolean io.github.luogen520.miaosuan.CalcEngine$Num.getPercent():58:58 -> d
     283:293:java.util.List resolvePercents(java.util.List):141 -> d
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     283:293:java.math.BigDecimal evaluate(java.lang.String):34 -> d
@@ -97668,7 +97668,7 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     360:372:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     373:374:java.util.List resolvePercents(java.util.List):152:152 -> d
     373:374:java.math.BigDecimal evaluate(java.lang.String):34 -> d
-    375:377:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    375:377:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     375:377:java.util.List resolvePercents(java.util.List):152 -> d
     375:377:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     378:378:java.util.List resolvePercents(java.util.List):152:152 -> d
@@ -97712,25 +97712,25 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     449:457:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     458:462:java.util.List resolvePercents(java.util.List):154:154 -> d
     458:462:java.math.BigDecimal evaluate(java.lang.String):34 -> d
-    463:465:void io.github.luogen520.qingsuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
+    463:465:void io.github.luogen520.miaosuan.CalcEngine$Num.<init>(java.math.BigDecimal,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker):58:58 -> d
     463:465:java.util.List resolvePercents(java.util.List):154 -> d
     463:465:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     466:470:java.util.List resolvePercents(java.util.List):154:154 -> d
     466:470:java.math.BigDecimal evaluate(java.lang.String):34 -> d
     471:475:java.math.BigDecimal evaluate(java.lang.String):35:35 -> d
     476:479:java.math.BigDecimal evaluate(java.lang.String):37:37 -> d
-    480:481:int io.github.luogen520.qingsuan.CalcEngine$Cursor.getI():62:62 -> d
+    480:481:int io.github.luogen520.miaosuan.CalcEngine$Cursor.getI():62:62 -> d
     480:481:java.math.BigDecimal evaluate(java.lang.String):39 -> d
     482:490:java.math.BigDecimal evaluate(java.lang.String):39:39 -> d
-    491:493:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    491:493:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     491:493:java.math.BigDecimal evaluate(java.lang.String):39 -> d
     494:494:java.math.BigDecimal evaluate(java.lang.String):39:39 -> d
     495:496:java.math.BigDecimal evaluate(java.lang.String):42:42 -> d
-    497:501:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    497:501:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     497:501:java.math.BigDecimal evaluate(java.lang.String):42 -> d
     502:502:java.math.BigDecimal evaluate(java.lang.String):42:42 -> d
     503:504:java.math.BigDecimal evaluate(java.lang.String):33:33 -> d
-    505:507:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> d
+    505:507:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> d
     505:507:java.math.BigDecimal evaluate(java.lang.String):33 -> d
     508:508:java.math.BigDecimal evaluate(java.lang.String):33:33 -> d
     5:13:java.lang.String format(java.math.BigDecimal):48:48 -> e
@@ -97759,10 +97759,10 @@ io.github.luogen520.qingsuan.CalcEngine -> I0.d:
     179:184:kotlin.Pair kotlin.TuplesKt.to(java.lang.Object,java.lang.Object):43:43 -> f
     179:184:kotlin.Pair readNumber(java.lang.String,int):132 -> f
     185:186:kotlin.Pair readNumber(java.lang.String,int):117:117 -> f
-    187:191:void io.github.luogen520.qingsuan.CalcException.<init>(java.lang.String):8:8 -> f
+    187:191:void io.github.luogen520.miaosuan.CalcException.<init>(java.lang.String):8:8 -> f
     187:191:kotlin.Pair readNumber(java.lang.String,int):117 -> f
     192:192:kotlin.Pair readNumber(java.lang.String,int):117:117 -> f
-io.github.luogen520.qingsuan.CalcEngine$Num -> I0.a:
+io.github.luogen520.miaosuan.CalcEngine$Num -> I0.a:
 # {"id":"sourceFile","fileName":"CalcEngine.kt"}
     java.math.BigDecimal value -> a
     boolean percent -> b
@@ -97770,18 +97770,18 @@ io.github.luogen520.qingsuan.CalcEngine$Num -> I0.a:
     4:30:boolean equals(java.lang.Object):0:0 -> equals
     0:15:int hashCode():0:0 -> hashCode
     0:31:java.lang.String toString():0:0 -> toString
-io.github.luogen520.qingsuan.CalcEngine$Op -> I0.b:
+io.github.luogen520.miaosuan.CalcEngine$Op -> I0.b:
 # {"id":"sourceFile","fileName":"CalcEngine.kt"}
     char symbol -> a
     0:5:void <init>(char):59:59 -> <init>
     4:19:boolean equals(java.lang.Object):0:0 -> equals
     0:6:int hashCode():0:0 -> hashCode
     0:21:java.lang.String toString():0:0 -> toString
-io.github.luogen520.qingsuan.CalcEngine$Token -> I0.c:
+io.github.luogen520.miaosuan.CalcEngine$Token -> I0.c:
 # {"id":"sourceFile","fileName":"CalcEngine.kt"}
-io.github.luogen520.qingsuan.CalcException -> I0.e:
+io.github.luogen520.miaosuan.CalcException -> I0.e:
 # {"id":"sourceFile","fileName":"CalcEngine.kt"}
-io.github.luogen520.qingsuan.HistoryEntry -> I0.f:
+io.github.luogen520.miaosuan.HistoryEntry -> I0.f:
 # {"id":"sourceFile","fileName":"HistoryEntry.kt"}
     java.lang.String expression -> a
     java.lang.String result -> b
@@ -97789,7 +97789,7 @@ io.github.luogen520.qingsuan.HistoryEntry -> I0.f:
     4:34:boolean equals(java.lang.Object):0:0 -> equals
     0:15:int hashCode():0:0 -> hashCode
     0:31:java.lang.String toString():0:0 -> toString
-io.github.luogen520.qingsuan.HistorySheet -> I0.j:
+io.github.luogen520.miaosuan.HistorySheet -> I0.j:
 # {"id":"sourceFile","fileName":"HistorySheet.kt"}
     com.google.android.material.bottomsheet.BottomSheetBehavior com.google.android.material.bottomsheet.BottomSheetDialog.behavior -> k
     android.widget.FrameLayout com.google.android.material.bottomsheet.BottomSheetDialog.container -> l
@@ -97976,69 +97976,69 @@ io.github.luogen520.qingsuan.HistorySheet -> I0.j:
     1:1:void com.google.android.material.bottomsheet.BottomSheetDialog.setContentView(int):129:129 -> setContentView
     2:2:void com.google.android.material.bottomsheet.BottomSheetDialog.setContentView(android.view.View):155:155 -> setContentView
     3:3:void com.google.android.material.bottomsheet.BottomSheetDialog.setContentView(android.view.View,android.view.ViewGroup$LayoutParams):160:160 -> setContentView
-io.github.luogen520.qingsuan.HistorySheet$Adapter -> I0.h:
+io.github.luogen520.miaosuan.HistorySheet$Adapter -> I0.h:
 # {"id":"sourceFile","fileName":"HistorySheet.kt"}
-    io.github.luogen520.qingsuan.HistorySheet this$0 -> d
+    io.github.luogen520.miaosuan.HistorySheet this$0 -> d
       # {"id":"com.android.tools.r8.residualsignature","signature":"LI0/j;"}
-    0:5:void <init>(io.github.luogen520.qingsuan.HistorySheet):39:39 -> <init>
+    0:5:void <init>(io.github.luogen520.miaosuan.HistorySheet):39:39 -> <init>
       # {"id":"com.android.tools.r8.residualsignature","signature":"(LI0/j;)V"}
-    0:3:java.util.List io.github.luogen520.qingsuan.HistorySheet.access$getEntries$p(io.github.luogen520.qingsuan.HistorySheet):12:12 -> a
+    0:3:java.util.List io.github.luogen520.miaosuan.HistorySheet.access$getEntries$p(io.github.luogen520.miaosuan.HistorySheet):12:12 -> a
     0:3:int getItemCount():45 -> a
     4:8:int getItemCount():45:45 -> a
     0:1:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39:39 -> c
       # {"id":"com.android.tools.r8.residualsignature","signature":"(La0/b0;I)V"}
-    2:5:java.util.List io.github.luogen520.qingsuan.HistorySheet.access$getEntries$p(io.github.luogen520.qingsuan.HistorySheet):12:12 -> c
-    2:5:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):48 -> c
+    2:5:java.util.List io.github.luogen520.miaosuan.HistorySheet.access$getEntries$p(io.github.luogen520.miaosuan.HistorySheet):12:12 -> c
+    2:5:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):48 -> c
     2:5:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    6:11:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):48:48 -> c
+    6:11:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):48:48 -> c
     6:11:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    12:13:java.lang.String io.github.luogen520.qingsuan.HistoryEntry.getExpression():4:4 -> c
-    12:13:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):49 -> c
+    12:13:java.lang.String io.github.luogen520.miaosuan.HistoryEntry.getExpression():4:4 -> c
+    12:13:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):49 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     12:13:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    14:18:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):49:49 -> c
+    14:18:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):49:49 -> c
     14:18:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    19:25:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):50:50 -> c
+    19:25:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):50:50 -> c
     19:25:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    26:37:void onBindViewHolder(io.github.luogen520.qingsuan.HistorySheet$VH,int):51:51 -> c
+    26:37:void onBindViewHolder(io.github.luogen520.miaosuan.HistorySheet$VH,int):51:51 -> c
     26:37:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):39 -> c
-    0:4:io.github.luogen520.qingsuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):0:0 -> d
+    0:4:io.github.luogen520.miaosuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):0:0 -> d
     0:4:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):39 -> d
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/ViewGroup;)La0/b0;"}
-    5:20:io.github.luogen520.qingsuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):41:41 -> d
+    5:20:io.github.luogen520.miaosuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):41:41 -> d
     5:20:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):39 -> d
-    21:29:io.github.luogen520.qingsuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):42:42 -> d
+    21:29:io.github.luogen520.miaosuan.HistorySheet$VH onCreateViewHolder(android.view.ViewGroup,int):42:42 -> d
     21:29:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):39 -> d
-io.github.luogen520.qingsuan.HistorySheet$Adapter$$ExternalSyntheticLambda0 -> I0.g:
+io.github.luogen520.miaosuan.HistorySheet$Adapter$$ExternalSyntheticLambda0 -> I0.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     int I0.HistorySheet$Adapter$$ExternalSyntheticLambda0.$r8$classId -> f
       # {"id":"com.android.tools.r8.synthesized"}
-    io.github.luogen520.qingsuan.HistorySheet io.github.luogen520.qingsuan.HistorySheet$Adapter$$InternalSyntheticLambda$5$ee87a9bdd0b83669a5a252f27fe71492a49bbc8e15fea201c178a459596968ba$0.f$0 -> g
+    io.github.luogen520.miaosuan.HistorySheet io.github.luogen520.miaosuan.HistorySheet$Adapter$$InternalSyntheticLambda$5$502111f43a179237d9464459c891c46b25ad92faacf622fec3055b107906de78$0.f$0 -> g
       # {"id":"com.android.tools.r8.residualsignature","signature":"Landroid/view/KeyEvent$Callback;"}
       # {"id":"com.android.tools.r8.synthesized"}
-    io.github.luogen520.qingsuan.HistoryEntry io.github.luogen520.qingsuan.HistorySheet$Adapter$$InternalSyntheticLambda$5$ee87a9bdd0b83669a5a252f27fe71492a49bbc8e15fea201c178a459596968ba$0.f$1 -> h
+    io.github.luogen520.miaosuan.HistoryEntry io.github.luogen520.miaosuan.HistorySheet$Adapter$$InternalSyntheticLambda$5$502111f43a179237d9464459c891c46b25ad92faacf622fec3055b107906de78$0.f$1 -> h
       # {"id":"com.android.tools.r8.residualsignature","signature":"Ljava/lang/Object;"}
       # {"id":"com.android.tools.r8.synthesized"}
     0:9:void I0.HistorySheet$Adapter$$ExternalSyntheticLambda0.<init>(android.view.KeyEvent$Callback,java.lang.Object,int):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    12:16:void io.github.luogen520.qingsuan.MainActivity.key$lambda$1(android.view.View,kotlin.jvm.functions.Function0,android.view.View):45:45 -> onClick
+    12:16:void io.github.luogen520.miaosuan.MainActivity.key$lambda$1(android.view.View,kotlin.jvm.functions.Function0,android.view.View):45:45 -> onClick
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;)V"}
-    17:22:void io.github.luogen520.qingsuan.MainActivity.key$lambda$1(android.view.View,kotlin.jvm.functions.Function0,android.view.View):46:46 -> onClick
-    23:26:kotlin.jvm.functions.Function1 io.github.luogen520.qingsuan.HistorySheet.access$getOnPick$p(io.github.luogen520.qingsuan.HistorySheet):12:12 -> onClick
-    23:26:void io.github.luogen520.qingsuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.qingsuan.HistorySheet,io.github.luogen520.qingsuan.HistoryEntry,android.view.View):52 -> onClick
-    27:31:void io.github.luogen520.qingsuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.qingsuan.HistorySheet,io.github.luogen520.qingsuan.HistoryEntry,android.view.View):52:52 -> onClick
-    32:35:void io.github.luogen520.qingsuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.qingsuan.HistorySheet,io.github.luogen520.qingsuan.HistoryEntry,android.view.View):53:53 -> onClick
-io.github.luogen520.qingsuan.HistorySheet$VH -> I0.i:
+    17:22:void io.github.luogen520.miaosuan.MainActivity.key$lambda$1(android.view.View,kotlin.jvm.functions.Function0,android.view.View):46:46 -> onClick
+    23:26:kotlin.jvm.functions.Function1 io.github.luogen520.miaosuan.HistorySheet.access$getOnPick$p(io.github.luogen520.miaosuan.HistorySheet):12:12 -> onClick
+    23:26:void io.github.luogen520.miaosuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.miaosuan.HistorySheet,io.github.luogen520.miaosuan.HistoryEntry,android.view.View):52 -> onClick
+    27:31:void io.github.luogen520.miaosuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.miaosuan.HistorySheet,io.github.luogen520.miaosuan.HistoryEntry,android.view.View):52:52 -> onClick
+    32:35:void io.github.luogen520.miaosuan.HistorySheet$Adapter.onBindViewHolder$lambda$0(io.github.luogen520.miaosuan.HistorySheet,io.github.luogen520.miaosuan.HistoryEntry,android.view.View):53:53 -> onClick
+io.github.luogen520.miaosuan.HistorySheet$VH -> I0.i:
 # {"id":"sourceFile","fileName":"HistorySheet.kt"}
     android.widget.TextView expr -> u
     android.widget.TextView result -> v
     0:5:void <init>(android.view.View):58:58 -> <init>
     6:21:void <init>(android.view.View):59:59 -> <init>
     22:33:void <init>(android.view.View):60:60 -> <init>
-io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainActivity:
+io.github.luogen520.miaosuan.MainActivity -> io.github.luogen520.miaosuan.MainActivity:
 # {"id":"sourceFile","fileName":"MainActivity.kt"}
-    io.github.luogen520.qingsuan.databinding.ActivityMainBinding binding -> C
+    io.github.luogen520.miaosuan.databinding.ActivityMainBinding binding -> C
       # {"id":"com.android.tools.r8.residualsignature","signature":"LJ0/a;"}
     java.lang.StringBuilder input -> D
     boolean isError -> E
@@ -98079,125 +98079,125 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     145:147:void rememberLastOperation(java.lang.String):246:246 -> A
     10:12:void onCreate(android.os.Bundle):27:27 -> onCreate
     13:20:void onCreate(android.os.Bundle):28:28 -> onCreate
-    21:27:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):145:145 -> onCreate
-    21:27:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    21:27:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):145:145 -> onCreate
+    21:27:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     21:27:void onCreate(android.os.Bundle):28 -> onCreate
-    28:39:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):159:159 -> onCreate
-    28:39:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    28:39:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    28:39:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):159:159 -> onCreate
+    28:39:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    28:39:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     28:39:void onCreate(android.os.Bundle):28 -> onCreate
-    40:51:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):165:165 -> onCreate
-    40:51:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    40:51:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    40:51:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):165:165 -> onCreate
+    40:51:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    40:51:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     40:51:void onCreate(android.os.Bundle):28 -> onCreate
     52:63:void toggleSign():171:171 -> onCreate
-    52:63:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):171 -> onCreate
-    52:63:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    52:63:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    52:63:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):171 -> onCreate
+    52:63:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    52:63:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     52:63:void onCreate(android.os.Bundle):28 -> onCreate
     64:75:void toggleSign():177:177 -> onCreate
-    64:75:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):177 -> onCreate
-    64:75:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    64:75:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    64:75:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):177 -> onCreate
+    64:75:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    64:75:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     64:75:void onCreate(android.os.Bundle):28 -> onCreate
-    76:88:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):183:183 -> onCreate
-    76:88:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    76:88:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    76:88:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):183:183 -> onCreate
+    76:88:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    76:88:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     76:88:void onCreate(android.os.Bundle):28 -> onCreate
     89:101:void backspace():189:189 -> onCreate
-    89:101:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):189 -> onCreate
-    89:101:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    89:101:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    89:101:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):189 -> onCreate
+    89:101:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    89:101:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     89:101:void onCreate(android.os.Bundle):28 -> onCreate
     102:114:void clearAll():195:195 -> onCreate
-    102:114:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):195 -> onCreate
-    102:114:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    102:114:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    102:114:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):195 -> onCreate
+    102:114:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    102:114:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     102:114:void onCreate(android.os.Bundle):28 -> onCreate
     115:127:void clearAll():201:201 -> onCreate
-    115:127:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):201 -> onCreate
-    115:127:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    115:127:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    115:127:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):201 -> onCreate
+    115:127:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    115:127:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     115:127:void onCreate(android.os.Bundle):28 -> onCreate
-    128:140:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):207:207 -> onCreate
-    128:140:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    128:140:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    128:140:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):207:207 -> onCreate
+    128:140:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    128:140:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     128:140:void onCreate(android.os.Bundle):28 -> onCreate
     141:153:void equals():213:213 -> onCreate
-    141:153:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):213 -> onCreate
-    141:153:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    141:153:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    141:153:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):213 -> onCreate
+    141:153:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    141:153:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     141:153:void onCreate(android.os.Bundle):28 -> onCreate
     154:166:void equals():219:219 -> onCreate
-    154:166:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):219 -> onCreate
-    154:166:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    154:166:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    154:166:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):219 -> onCreate
+    154:166:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    154:166:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     154:166:void onCreate(android.os.Bundle):28 -> onCreate
     167:179:void equals():225:225 -> onCreate
-    167:179:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):225 -> onCreate
-    167:179:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    167:179:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    167:179:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):225 -> onCreate
+    167:179:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    167:179:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     167:179:void onCreate(android.os.Bundle):28 -> onCreate
     180:192:void equals():231:231 -> onCreate
-    180:192:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):231 -> onCreate
-    180:192:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    180:192:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    180:192:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):231 -> onCreate
+    180:192:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    180:192:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     180:192:void onCreate(android.os.Bundle):28 -> onCreate
     193:205:void rememberLastOperation(java.lang.String):237:237 -> onCreate
-    193:205:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):237 -> onCreate
-    193:205:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    193:205:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    193:205:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):237 -> onCreate
+    193:205:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    193:205:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     193:205:void onCreate(android.os.Bundle):28 -> onCreate
-    206:218:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):243:243 -> onCreate
-    206:218:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    206:218:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    206:218:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):243:243 -> onCreate
+    206:218:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    206:218:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     206:218:void onCreate(android.os.Bundle):28 -> onCreate
     219:231:void rememberLastOperation(java.lang.String):249:249 -> onCreate
-    219:231:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):249 -> onCreate
-    219:231:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    219:231:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    219:231:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):249 -> onCreate
+    219:231:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    219:231:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     219:231:void onCreate(android.os.Bundle):28 -> onCreate
     232:244:void startNewNumber():255:255 -> onCreate
-    232:244:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):255 -> onCreate
-    232:244:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    232:244:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    232:244:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):255 -> onCreate
+    232:244:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    232:244:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     232:244:void onCreate(android.os.Bundle):28 -> onCreate
     245:257:java.lang.String currentNumber():261:261 -> onCreate
-    245:257:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):261 -> onCreate
-    245:257:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    245:257:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    245:257:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):261 -> onCreate
+    245:257:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    245:257:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     245:257:void onCreate(android.os.Bundle):28 -> onCreate
     258:270:void refreshDisplay(java.lang.String):267:267 -> onCreate
-    258:270:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):267 -> onCreate
-    258:270:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    258:270:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    258:270:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):267 -> onCreate
+    258:270:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    258:270:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     258:270:void onCreate(android.os.Bundle):28 -> onCreate
     271:283:java.lang.String grouped(java.lang.String):273:273 -> onCreate
-    271:283:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):273 -> onCreate
-    271:283:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    271:283:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    271:283:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):273 -> onCreate
+    271:283:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    271:283:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     271:283:void onCreate(android.os.Bundle):28 -> onCreate
     284:293:java.lang.String grouped(java.lang.String):279:279 -> onCreate
-    284:293:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):279 -> onCreate
-    284:293:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    284:293:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    284:293:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):279 -> onCreate
+    284:293:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    284:293:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     284:293:void onCreate(android.os.Bundle):28 -> onCreate
-    294:299:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):284:284 -> onCreate
-    294:299:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    294:299:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    294:299:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):284:284 -> onCreate
+    294:299:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    294:299:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     294:299:void onCreate(android.os.Bundle):28 -> onCreate
-    300:312:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):287:287 -> onCreate
-    300:312:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    300:312:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    300:312:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):287:287 -> onCreate
+    300:312:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    300:312:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     300:312:void onCreate(android.os.Bundle):28 -> onCreate
     313:322:java.lang.String groupNumber(java.lang.String):293:293 -> onCreate
-    313:322:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):293 -> onCreate
-    313:322:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    313:322:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    313:322:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):293 -> onCreate
+    313:322:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    313:322:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     313:322:void onCreate(android.os.Bundle):28 -> onCreate
-    323:330:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):298:298 -> onCreate
-    323:330:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    323:330:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    323:330:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):298:298 -> onCreate
+    323:330:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    323:330:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     323:330:void onCreate(android.os.Bundle):28 -> onCreate
     331:332:void onCreate(android.os.Bundle):28:28 -> onCreate
     333:335:void onCreate(android.os.Bundle):29:29 -> onCreate
@@ -98237,7 +98237,7 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     507:516:void onCreate(android.os.Bundle):38 -> onCreate
     517:520:void restoreState(android.os.Bundle):325:325 -> onCreate
     517:520:void onCreate(android.os.Bundle):38 -> onCreate
-    521:527:void refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> onCreate
+    521:527:void refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> onCreate
     521:527:void restoreState(android.os.Bundle):328 -> onCreate
     521:527:void onCreate(android.os.Bundle):38 -> onCreate
     528:552:void restoreState(android.os.Bundle):330:330 -> onCreate
@@ -98282,95 +98282,95 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     692:711:void kotlin.collections.MapsKt___MapsKt.forEach(java.util.Map,kotlin.jvm.functions.Function1):216:216 -> onCreate
     692:711:void bindKeys():57 -> onCreate
     692:711:void onCreate(android.os.Bundle):39 -> onCreate
-    712:732:kotlin.Unit bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57:57 -> onCreate
+    712:732:kotlin.Unit bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57:57 -> onCreate
     712:732:void bindKeys():57 -> onCreate
     712:732:void onCreate(android.os.Bundle):39 -> onCreate
-    733:748:kotlin.Unit bindKeys$lambda$4(io.github.luogen520.qingsuan.MainActivity):58:58 -> onCreate
+    733:748:kotlin.Unit bindKeys$lambda$4(io.github.luogen520.miaosuan.MainActivity):58:58 -> onCreate
     733:748:void bindKeys():58 -> onCreate
     733:748:void onCreate(android.os.Bundle):39 -> onCreate
-    749:764:kotlin.Unit bindKeys$lambda$5(io.github.luogen520.qingsuan.MainActivity):59:59 -> onCreate
+    749:764:kotlin.Unit bindKeys$lambda$5(io.github.luogen520.miaosuan.MainActivity):59:59 -> onCreate
     749:764:void bindKeys():59 -> onCreate
     749:764:void onCreate(android.os.Bundle):39 -> onCreate
-    765:778:kotlin.Unit bindKeys$lambda$6(io.github.luogen520.qingsuan.MainActivity):60:60 -> onCreate
+    765:778:kotlin.Unit bindKeys$lambda$6(io.github.luogen520.miaosuan.MainActivity):60:60 -> onCreate
     765:778:void bindKeys():60 -> onCreate
     765:778:void onCreate(android.os.Bundle):39 -> onCreate
-    779:794:kotlin.Unit bindKeys$lambda$7(io.github.luogen520.qingsuan.MainActivity):61:61 -> onCreate
+    779:794:kotlin.Unit bindKeys$lambda$7(io.github.luogen520.miaosuan.MainActivity):61:61 -> onCreate
     779:794:void bindKeys():61 -> onCreate
     779:794:void onCreate(android.os.Bundle):39 -> onCreate
-    795:808:kotlin.Unit bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62:62 -> onCreate
+    795:808:kotlin.Unit bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62:62 -> onCreate
     795:808:void bindKeys():62 -> onCreate
     795:808:void onCreate(android.os.Bundle):39 -> onCreate
-    809:822:kotlin.Unit bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63:63 -> onCreate
+    809:822:kotlin.Unit bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63:63 -> onCreate
     809:822:void bindKeys():63 -> onCreate
     809:822:void onCreate(android.os.Bundle):39 -> onCreate
-    823:837:kotlin.Unit bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64:64 -> onCreate
+    823:837:kotlin.Unit bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64:64 -> onCreate
     823:837:void bindKeys():64 -> onCreate
     823:837:void onCreate(android.os.Bundle):39 -> onCreate
-    838:852:kotlin.Unit bindKeys$lambda$11(io.github.luogen520.qingsuan.MainActivity):65:65 -> onCreate
+    838:852:kotlin.Unit bindKeys$lambda$11(io.github.luogen520.miaosuan.MainActivity):65:65 -> onCreate
     838:852:void bindKeys():65 -> onCreate
     838:852:void onCreate(android.os.Bundle):39 -> onCreate
-    853:867:kotlin.Unit bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66:66 -> onCreate
+    853:867:kotlin.Unit bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66:66 -> onCreate
     853:867:void bindKeys():66 -> onCreate
     853:867:void onCreate(android.os.Bundle):39 -> onCreate
-    868:882:kotlin.Unit bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67:67 -> onCreate
+    868:882:kotlin.Unit bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67:67 -> onCreate
     868:882:void bindKeys():67 -> onCreate
     868:882:void onCreate(android.os.Bundle):39 -> onCreate
-    883:896:boolean bindKeys$lambda$14(io.github.luogen520.qingsuan.MainActivity,android.view.View):70:70 -> onCreate
+    883:896:boolean bindKeys$lambda$14(io.github.luogen520.miaosuan.MainActivity,android.view.View):70:70 -> onCreate
     883:896:void bindKeys():70 -> onCreate
     883:896:void onCreate(android.os.Bundle):39 -> onCreate
-    897:910:boolean bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71:71 -> onCreate
+    897:910:boolean bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71:71 -> onCreate
     897:910:void bindKeys():71 -> onCreate
     897:910:void onCreate(android.os.Bundle):39 -> onCreate
-    911:932:kotlin.Unit bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72:72 -> onCreate
+    911:932:kotlin.Unit bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72:72 -> onCreate
     911:932:void bindKeys():72 -> onCreate
     911:932:void onCreate(android.os.Bundle):39 -> onCreate
-    933:937:boolean bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71:71 -> onCreate
+    933:937:boolean bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71:71 -> onCreate
     933:937:void bindKeys():71 -> onCreate
     933:937:void onCreate(android.os.Bundle):39 -> onCreate
-    938:942:boolean bindKeys$lambda$14(io.github.luogen520.qingsuan.MainActivity,android.view.View):70:70 -> onCreate
+    938:942:boolean bindKeys$lambda$14(io.github.luogen520.miaosuan.MainActivity,android.view.View):70:70 -> onCreate
     938:942:void bindKeys():70 -> onCreate
     938:942:void onCreate(android.os.Bundle):39 -> onCreate
-    943:947:kotlin.Unit bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67:67 -> onCreate
+    943:947:kotlin.Unit bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67:67 -> onCreate
     943:947:void bindKeys():67 -> onCreate
     943:947:void onCreate(android.os.Bundle):39 -> onCreate
-    948:952:kotlin.Unit bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66:66 -> onCreate
+    948:952:kotlin.Unit bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66:66 -> onCreate
     948:952:void bindKeys():66 -> onCreate
     948:952:void onCreate(android.os.Bundle):39 -> onCreate
-    953:957:kotlin.Unit bindKeys$lambda$11(io.github.luogen520.qingsuan.MainActivity):65:65 -> onCreate
+    953:957:kotlin.Unit bindKeys$lambda$11(io.github.luogen520.miaosuan.MainActivity):65:65 -> onCreate
     953:957:void bindKeys():65 -> onCreate
     953:957:void onCreate(android.os.Bundle):39 -> onCreate
-    958:962:kotlin.Unit bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64:64 -> onCreate
+    958:962:kotlin.Unit bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64:64 -> onCreate
     958:962:void bindKeys():64 -> onCreate
     958:962:void onCreate(android.os.Bundle):39 -> onCreate
-    963:967:kotlin.Unit bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63:63 -> onCreate
+    963:967:kotlin.Unit bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63:63 -> onCreate
     963:967:void bindKeys():63 -> onCreate
     963:967:void onCreate(android.os.Bundle):39 -> onCreate
-    968:972:kotlin.Unit bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62:62 -> onCreate
+    968:972:kotlin.Unit bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62:62 -> onCreate
     968:972:void bindKeys():62 -> onCreate
     968:972:void onCreate(android.os.Bundle):39 -> onCreate
-    973:977:kotlin.Unit bindKeys$lambda$7(io.github.luogen520.qingsuan.MainActivity):61:61 -> onCreate
+    973:977:kotlin.Unit bindKeys$lambda$7(io.github.luogen520.miaosuan.MainActivity):61:61 -> onCreate
     973:977:void bindKeys():61 -> onCreate
     973:977:void onCreate(android.os.Bundle):39 -> onCreate
-    978:982:kotlin.Unit bindKeys$lambda$6(io.github.luogen520.qingsuan.MainActivity):60:60 -> onCreate
+    978:982:kotlin.Unit bindKeys$lambda$6(io.github.luogen520.miaosuan.MainActivity):60:60 -> onCreate
     978:982:void bindKeys():60 -> onCreate
     978:982:void onCreate(android.os.Bundle):39 -> onCreate
-    983:987:kotlin.Unit bindKeys$lambda$5(io.github.luogen520.qingsuan.MainActivity):59:59 -> onCreate
+    983:987:kotlin.Unit bindKeys$lambda$5(io.github.luogen520.miaosuan.MainActivity):59:59 -> onCreate
     983:987:void bindKeys():59 -> onCreate
     983:987:void onCreate(android.os.Bundle):39 -> onCreate
-    988:992:kotlin.Unit bindKeys$lambda$4(io.github.luogen520.qingsuan.MainActivity):58:58 -> onCreate
+    988:992:kotlin.Unit bindKeys$lambda$4(io.github.luogen520.miaosuan.MainActivity):58:58 -> onCreate
     988:992:void bindKeys():58 -> onCreate
     988:992:void onCreate(android.os.Bundle):39 -> onCreate
     993:997:void bindKeys():52:52 -> onCreate
     993:997:void onCreate(android.os.Bundle):39 -> onCreate
     998:1002:void onCreate(android.os.Bundle):32:32 -> onCreate
-    1003:1010:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):302:302 -> onCreate
-    1003:1010:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    1003:1010:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    1003:1010:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):302:302 -> onCreate
+    1003:1010:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    1003:1010:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     1003:1010:void onCreate(android.os.Bundle):28 -> onCreate
     1011:1022:void onSaveInstanceState(android.os.Bundle):303:303 -> onCreate
-    1011:1022:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.bind(android.view.View):303 -> onCreate
-    1011:1022:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
-    1011:1022:io.github.luogen520.qingsuan.databinding.ActivityMainBinding io.github.luogen520.qingsuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
+    1011:1022:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.bind(android.view.View):303 -> onCreate
+    1011:1022:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean):149 -> onCreate
+    1011:1022:io.github.luogen520.miaosuan.databinding.ActivityMainBinding io.github.luogen520.miaosuan.databinding.ActivityMainBinding.inflate(android.view.LayoutInflater):139 -> onCreate
     1011:1022:void onCreate(android.os.Bundle):28 -> onCreate
     5:7:void onSaveInstanceState(android.os.Bundle):303:303 -> onSaveInstanceState
     8:18:void onSaveInstanceState(android.os.Bundle):304:304 -> onSaveInstanceState
@@ -98391,7 +98391,7 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     88:101:void onSaveInstanceState(android.os.Bundle):310 -> onSaveInstanceState
     102:103:java.util.Collection kotlin.collections.CollectionsKt___CollectionsKt.mapTo(java.lang.Iterable,java.util.Collection,kotlin.jvm.functions.Function1):1629:1629 -> onSaveInstanceState
     102:103:void onSaveInstanceState(android.os.Bundle):310 -> onSaveInstanceState
-    104:105:java.lang.String io.github.luogen520.qingsuan.HistoryEntry.getExpression():4:4 -> onSaveInstanceState
+    104:105:java.lang.String io.github.luogen520.miaosuan.HistoryEntry.getExpression():4:4 -> onSaveInstanceState
     104:105:void onSaveInstanceState(android.os.Bundle):310 -> onSaveInstanceState
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     106:127:void onSaveInstanceState(android.os.Bundle):310:310 -> onSaveInstanceState
@@ -98406,14 +98406,14 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     44:52:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> t
     44:52:void appendOperator(java.lang.String):117 -> t
     53:55:void appendOperator(java.lang.String):119:119 -> t
-    56:63:void refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> t
+    56:63:void refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> t
     56:63:void appendOperator(java.lang.String):120 -> t
     0:10:void clearAll():195:195 -> u
     11:12:void clearAll():196:196 -> u
     13:15:void clearAll():197:197 -> u
     16:17:void clearAll():198:198 -> u
     18:19:void clearAll():199:199 -> u
-    20:27:void refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> u
+    20:27:void refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> u
     20:27:void clearAll():200 -> u
     0:11:java.lang.String currentNumber():261:261 -> v
     12:39:java.lang.String currentNumber():262:262 -> v
@@ -98451,57 +98451,57 @@ io.github.luogen520.qingsuan.MainActivity -> io.github.luogen520.qingsuan.MainAc
     0:9:void key(android.view.View,kotlin.jvm.functions.Function0):44:44 -> y
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/view/View;LQ0/a;)V"}
     0:18:void refreshDisplay(java.lang.String):267:267 -> z
-io.github.luogen520.qingsuan.MainActivity$$ExternalSyntheticLambda1 -> I0.l:
+io.github.luogen520.miaosuan.MainActivity$$ExternalSyntheticLambda1 -> I0.l:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.github.luogen520.qingsuan.MainActivity io.github.luogen520.qingsuan.MainActivity$$InternalSyntheticLambda$2$482e700282380e7e8e5474e8a2763ad201419310e494b251ec9d70d0a8a6b7da$0.f$0 -> a
+    io.github.luogen520.miaosuan.MainActivity io.github.luogen520.miaosuan.MainActivity$$InternalSyntheticLambda$2$2903954911ed571c79fc4326cf5a8cc240300acc7797a4a72282e23230cc59b1$0.f$0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
-    java.lang.String io.github.luogen520.qingsuan.MainActivity$$InternalSyntheticLambda$2$482e700282380e7e8e5474e8a2763ad201419310e494b251ec9d70d0a8a6b7da$0.f$1 -> b
+    java.lang.String io.github.luogen520.miaosuan.MainActivity$$InternalSyntheticLambda$2$2903954911ed571c79fc4326cf5a8cc240300acc7797a4a72282e23230cc59b1$0.f$1 -> b
       # {"id":"com.android.tools.r8.synthesized"}
-    0:7:void I0.MainActivity$$ExternalSyntheticLambda1.<init>(io.github.luogen520.qingsuan.MainActivity,java.lang.String):0:0 -> <init>
+    0:7:void I0.MainActivity$$ExternalSyntheticLambda1.<init>(io.github.luogen520.miaosuan.MainActivity,java.lang.String):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    0:5:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):99:99 -> a
-    0:5:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    0:5:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):99:99 -> a
+    0:5:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     0:5:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
-    6:8:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):99:99 -> a
-    6:8:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    6:8:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):99:99 -> a
+    6:8:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     6:8:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    9:14:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):100:100 -> a
-    9:14:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    9:14:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):100:100 -> a
+    9:14:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     9:14:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    15:18:void io.github.luogen520.qingsuan.MainActivity.startNewNumber():255:255 -> a
-    15:18:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):100 -> a
-    15:18:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    15:18:void io.github.luogen520.miaosuan.MainActivity.startNewNumber():255:255 -> a
+    15:18:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):100 -> a
+    15:18:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     15:18:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    19:20:void io.github.luogen520.qingsuan.MainActivity.startNewNumber():256:256 -> a
-    19:20:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):100 -> a
-    19:20:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    19:20:void io.github.luogen520.miaosuan.MainActivity.startNewNumber():256:256 -> a
+    19:20:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):100 -> a
+    19:20:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     19:20:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    21:39:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):102:102 -> a
-    21:39:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    21:39:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):102:102 -> a
+    21:39:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     21:39:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    40:69:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):104:104 -> a
-    40:69:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    40:69:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):104:104 -> a
+    40:69:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     40:69:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    70:86:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):105:105 -> a
-    70:86:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    70:86:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):105:105 -> a
+    70:86:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     70:86:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    87:89:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):106:106 -> a
-    87:89:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    87:89:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):106:106 -> a
+    87:89:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     87:89:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
-    90:96:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    90:96:void io.github.luogen520.qingsuan.MainActivity.appendDigit(java.lang.String):107 -> a
-    90:96:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.qingsuan.MainActivity,java.lang.String):57 -> a
+    90:96:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    90:96:void io.github.luogen520.miaosuan.MainActivity.appendDigit(java.lang.String):107 -> a
+    90:96:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$3$lambda$2(io.github.luogen520.miaosuan.MainActivity,java.lang.String):57 -> a
     90:96:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0 -> a
     97:99:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda1.invoke():0:0 -> a
-io.github.luogen520.qingsuan.MainActivity$$ExternalSyntheticLambda10 -> I0.k:
+io.github.luogen520.miaosuan.MainActivity$$ExternalSyntheticLambda10 -> I0.k:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     int I0.MainActivity$$ExternalSyntheticLambda10.$r8$classId -> a
       # {"id":"com.android.tools.r8.synthesized"}
-    io.github.luogen520.qingsuan.MainActivity io.github.luogen520.qingsuan.MainActivity$$InternalSyntheticLambda$2$482e700282380e7e8e5474e8a2763ad201419310e494b251ec9d70d0a8a6b7da$5.f$0 -> b
+    io.github.luogen520.miaosuan.MainActivity io.github.luogen520.miaosuan.MainActivity$$InternalSyntheticLambda$2$2903954911ed571c79fc4326cf5a8cc240300acc7797a4a72282e23230cc59b1$5.f$0 -> b
       # {"id":"com.android.tools.r8.residualsignature","signature":"Le/h;"}
       # {"id":"com.android.tools.r8.synthesized"}
     0:7:void I0.MainActivity$$ExternalSyntheticLambda10.<init>(e.AppCompatActivity,int):0:0 -> <init>
@@ -98511,331 +98511,331 @@ io.github.luogen520.qingsuan.MainActivity$$ExternalSyntheticLambda10 -> I0.k:
     19:22:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
     23:24:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    25:31:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$7(io.github.luogen520.qingsuan.MainActivity):61:61 -> a
+    25:31:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$7(io.github.luogen520.miaosuan.MainActivity):61:61 -> a
     25:31:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     32:36:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    37:43:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$6(io.github.luogen520.qingsuan.MainActivity):60:60 -> a
+    37:43:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$6(io.github.luogen520.miaosuan.MainActivity):60:60 -> a
     37:43:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     44:48:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    49:55:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$5(io.github.luogen520.qingsuan.MainActivity):59:59 -> a
+    49:55:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$5(io.github.luogen520.miaosuan.MainActivity):59:59 -> a
     49:55:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     56:60:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    61:67:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$4(io.github.luogen520.qingsuan.MainActivity):58:58 -> a
+    61:67:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$4(io.github.luogen520.miaosuan.MainActivity):58:58 -> a
     61:67:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     68:72:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    73:77:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72:72 -> a
+    73:77:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72:72 -> a
     73:77:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    78:79:void io.github.luogen520.qingsuan.MainActivity.openHistory():76:76 -> a
-    78:79:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72 -> a
+    78:79:void io.github.luogen520.miaosuan.MainActivity.openHistory():76:76 -> a
+    78:79:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72 -> a
     78:79:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    80:90:void io.github.luogen520.qingsuan.MainActivity.openHistory():86:86 -> a
-    80:90:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72 -> a
+    80:90:void io.github.luogen520.miaosuan.MainActivity.openHistory():86:86 -> a
+    80:90:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72 -> a
     80:90:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    91:95:void io.github.luogen520.qingsuan.MainActivity.openHistory():76:76 -> a
-    91:95:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72 -> a
+    91:95:void io.github.luogen520.miaosuan.MainActivity.openHistory():76:76 -> a
+    91:95:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72 -> a
     91:95:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    96:98:void io.github.luogen520.qingsuan.MainActivity.openHistory():86:86 -> a
-    96:98:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.qingsuan.MainActivity):72 -> a
+    96:98:void io.github.luogen520.miaosuan.MainActivity.openHistory():86:86 -> a
+    96:98:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$16(io.github.luogen520.miaosuan.MainActivity):72 -> a
     96:98:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     99:101:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    102:107:void io.github.luogen520.qingsuan.MainActivity.toggleSign():148:148 -> a
-    102:107:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    102:107:void io.github.luogen520.miaosuan.MainActivity.toggleSign():148:148 -> a
+    102:107:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     102:107:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    108:110:void io.github.luogen520.qingsuan.MainActivity.toggleSign():148:148 -> a
-    108:110:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    108:110:void io.github.luogen520.miaosuan.MainActivity.toggleSign():148:148 -> a
+    108:110:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     108:110:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    111:124:void io.github.luogen520.qingsuan.MainActivity.toggleSign():149:149 -> a
-    111:124:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    111:124:void io.github.luogen520.miaosuan.MainActivity.toggleSign():149:149 -> a
+    111:124:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     111:124:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    125:153:void io.github.luogen520.qingsuan.MainActivity.toggleSign():151:151 -> a
-    125:153:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    125:153:void io.github.luogen520.miaosuan.MainActivity.toggleSign():151:151 -> a
+    125:153:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     125:153:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    154:161:void io.github.luogen520.qingsuan.MainActivity.toggleSign():152:152 -> a
-    154:161:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    154:161:void io.github.luogen520.miaosuan.MainActivity.toggleSign():152:152 -> a
+    154:161:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     154:161:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    162:170:void io.github.luogen520.qingsuan.MainActivity.toggleSign():153:153 -> a
-    162:170:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    162:170:void io.github.luogen520.miaosuan.MainActivity.toggleSign():153:153 -> a
+    162:170:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     162:170:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    171:179:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    171:179:void io.github.luogen520.qingsuan.MainActivity.toggleSign():154 -> a
-    171:179:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    171:179:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    171:179:void io.github.luogen520.miaosuan.MainActivity.toggleSign():154 -> a
+    171:179:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     171:179:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    180:195:void io.github.luogen520.qingsuan.MainActivity.toggleSign():157:157 -> a
-    180:195:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    180:195:void io.github.luogen520.miaosuan.MainActivity.toggleSign():157:157 -> a
+    180:195:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     180:195:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    196:202:void io.github.luogen520.qingsuan.MainActivity.toggleSign():171:171 -> a
-    196:202:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    196:202:void io.github.luogen520.miaosuan.MainActivity.toggleSign():171:171 -> a
+    196:202:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     196:202:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    203:230:void io.github.luogen520.qingsuan.MainActivity.toggleSign():172:172 -> a
-    203:230:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    203:230:void io.github.luogen520.miaosuan.MainActivity.toggleSign():172:172 -> a
+    203:230:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     203:230:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    231:240:void io.github.luogen520.qingsuan.MainActivity.toggleSign():174:174 -> a
-    231:240:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    231:240:void io.github.luogen520.miaosuan.MainActivity.toggleSign():174:174 -> a
+    231:240:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     231:240:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    241:250:void io.github.luogen520.qingsuan.MainActivity.toggleSign():175:175 -> a
-    241:250:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    241:250:void io.github.luogen520.miaosuan.MainActivity.toggleSign():175:175 -> a
+    241:250:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     241:250:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    251:254:void io.github.luogen520.qingsuan.MainActivity.toggleSign():177:177 -> a
-    251:254:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    251:254:void io.github.luogen520.miaosuan.MainActivity.toggleSign():177:177 -> a
+    251:254:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     251:254:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    255:257:void io.github.luogen520.qingsuan.MainActivity.toggleSign():179:179 -> a
-    255:257:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    255:257:void io.github.luogen520.miaosuan.MainActivity.toggleSign():179:179 -> a
+    255:257:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     255:257:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    258:260:void io.github.luogen520.qingsuan.MainActivity.toggleSign():181:181 -> a
-    258:260:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    258:260:void io.github.luogen520.miaosuan.MainActivity.toggleSign():181:181 -> a
+    258:260:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     258:260:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    261:263:void io.github.luogen520.qingsuan.MainActivity.toggleSign():166:166 -> a
-    261:263:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    261:263:void io.github.luogen520.miaosuan.MainActivity.toggleSign():166:166 -> a
+    261:263:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     261:263:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    264:266:void io.github.luogen520.qingsuan.MainActivity.toggleSign():167:167 -> a
-    264:266:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    264:266:void io.github.luogen520.miaosuan.MainActivity.toggleSign():167:167 -> a
+    264:266:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     264:266:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    267:274:void io.github.luogen520.qingsuan.MainActivity.toggleSign():160:160 -> a
-    267:274:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    267:274:void io.github.luogen520.miaosuan.MainActivity.toggleSign():160:160 -> a
+    267:274:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     267:274:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    275:290:void io.github.luogen520.qingsuan.MainActivity.toggleSign():161:161 -> a
-    275:290:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    275:290:void io.github.luogen520.miaosuan.MainActivity.toggleSign():161:161 -> a
+    275:290:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     275:290:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    291:292:void io.github.luogen520.qingsuan.MainActivity.toggleSign():162:162 -> a
-    291:292:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    291:292:void io.github.luogen520.miaosuan.MainActivity.toggleSign():162:162 -> a
+    291:292:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     291:292:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    293:299:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    293:299:void io.github.luogen520.qingsuan.MainActivity.toggleSign():184 -> a
-    293:299:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.qingsuan.MainActivity):67 -> a
+    293:299:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    293:299:void io.github.luogen520.miaosuan.MainActivity.toggleSign():184 -> a
+    293:299:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$13(io.github.luogen520.miaosuan.MainActivity):67 -> a
     293:299:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     300:302:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    303:309:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.openHistory$lambda$18(io.github.luogen520.qingsuan.MainActivity):85:85 -> a
+    303:309:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.openHistory$lambda$18(io.github.luogen520.miaosuan.MainActivity):85:85 -> a
     303:309:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     310:312:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    313:318:void io.github.luogen520.qingsuan.MainActivity.equals():204:204 -> a
-    313:318:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    313:318:void io.github.luogen520.miaosuan.MainActivity.equals():204:204 -> a
+    313:318:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     313:318:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    319:323:void io.github.luogen520.qingsuan.MainActivity.equals():204:204 -> a
-    319:323:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    319:323:void io.github.luogen520.miaosuan.MainActivity.equals():204:204 -> a
+    319:323:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     319:323:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    324:334:void io.github.luogen520.qingsuan.MainActivity.equals():205:205 -> a
-    324:334:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    324:334:void io.github.luogen520.miaosuan.MainActivity.equals():205:205 -> a
+    324:334:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     324:334:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    335:338:void io.github.luogen520.qingsuan.MainActivity.equals():206:206 -> a
-    335:338:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    335:338:void io.github.luogen520.miaosuan.MainActivity.equals():206:206 -> a
+    335:338:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     335:338:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    339:340:void io.github.luogen520.qingsuan.MainActivity.equals():208:208 -> a
-    339:340:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    339:340:void io.github.luogen520.miaosuan.MainActivity.equals():208:208 -> a
+    339:340:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     339:340:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    341:346:void io.github.luogen520.qingsuan.MainActivity.equals():209:209 -> a
-    341:346:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    341:346:void io.github.luogen520.miaosuan.MainActivity.equals():209:209 -> a
+    341:346:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     341:346:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    347:364:void io.github.luogen520.qingsuan.MainActivity.equals():210:210 -> a
-    347:364:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    347:364:void io.github.luogen520.miaosuan.MainActivity.equals():210:210 -> a
+    347:364:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     347:364:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    365:372:void io.github.luogen520.qingsuan.MainActivity.equals():213:213 -> a
-    365:372:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    365:372:void io.github.luogen520.miaosuan.MainActivity.equals():213:213 -> a
+    365:372:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     365:372:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    373:379:void io.github.luogen520.qingsuan.MainActivity.equals():221:221 -> a
-    373:379:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    373:379:void io.github.luogen520.miaosuan.MainActivity.equals():221:221 -> a
+    373:379:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     373:379:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     380:383:int androidx.core.content.ContextCompat.getColor(android.content.Context,int):529:529 -> a
-    380:383:void io.github.luogen520.qingsuan.MainActivity.equals():221 -> a
-    380:383:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    380:383:void io.github.luogen520.miaosuan.MainActivity.equals():221 -> a
+    380:383:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     380:383:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    384:388:void io.github.luogen520.qingsuan.MainActivity.equals():221:221 -> a
-    384:388:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    384:388:void io.github.luogen520.miaosuan.MainActivity.equals():221:221 -> a
+    384:388:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     384:388:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    389:407:void io.github.luogen520.qingsuan.MainActivity.equals():222:222 -> a
-    389:407:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    389:407:void io.github.luogen520.miaosuan.MainActivity.equals():222:222 -> a
+    389:407:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     389:407:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    408:410:void io.github.luogen520.qingsuan.MainActivity.equals():223:223 -> a
-    408:410:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    408:410:void io.github.luogen520.miaosuan.MainActivity.equals():223:223 -> a
+    408:410:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     408:410:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    411:424:void io.github.luogen520.qingsuan.MainActivity.equals():224:224 -> a
-    411:424:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    411:424:void io.github.luogen520.miaosuan.MainActivity.equals():224:224 -> a
+    411:424:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     411:424:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    425:426:java.lang.String io.github.luogen520.qingsuan.HistoryEntry.getExpression():4:4 -> a
-    425:426:void io.github.luogen520.qingsuan.MainActivity.equals():224 -> a
+    425:426:java.lang.String io.github.luogen520.miaosuan.HistoryEntry.getExpression():4:4 -> a
+    425:426:void io.github.luogen520.miaosuan.MainActivity.equals():224 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    425:426:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    425:426:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     425:426:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     427:432:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> a
-    427:432:void io.github.luogen520.qingsuan.MainActivity.equals():224 -> a
-    427:432:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    427:432:void io.github.luogen520.miaosuan.MainActivity.equals():224 -> a
+    427:432:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     427:432:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    433:440:void io.github.luogen520.qingsuan.MainActivity.equals():225:225 -> a
-    433:440:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    433:440:void io.github.luogen520.miaosuan.MainActivity.equals():225:225 -> a
+    433:440:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     433:440:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    441:456:void io.github.luogen520.qingsuan.MainActivity.equals():226:226 -> a
-    441:456:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    441:456:void io.github.luogen520.miaosuan.MainActivity.equals():226:226 -> a
+    441:456:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     441:456:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    457:462:void io.github.luogen520.qingsuan.MainActivity.equals():228:228 -> a
-    457:462:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    457:462:void io.github.luogen520.miaosuan.MainActivity.equals():228:228 -> a
+    457:462:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     457:462:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    463:464:void io.github.luogen520.qingsuan.MainActivity.equals():229:229 -> a
-    463:464:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    463:464:void io.github.luogen520.miaosuan.MainActivity.equals():229:229 -> a
+    463:464:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     463:464:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    465:468:void io.github.luogen520.qingsuan.MainActivity.equals():230:230 -> a
-    465:468:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    465:468:void io.github.luogen520.miaosuan.MainActivity.equals():230:230 -> a
+    465:468:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     465:468:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    469:472:void io.github.luogen520.qingsuan.MainActivity.equals():222:222 -> a
-    469:472:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    469:472:void io.github.luogen520.miaosuan.MainActivity.equals():222:222 -> a
+    469:472:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     469:472:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    473:477:void io.github.luogen520.qingsuan.MainActivity.equals():221:221 -> a
-    473:477:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    473:477:void io.github.luogen520.miaosuan.MainActivity.equals():221:221 -> a
+    473:477:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     473:477:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    478:479:void io.github.luogen520.qingsuan.MainActivity.equals():215:215 -> a
-    478:479:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    478:479:void io.github.luogen520.miaosuan.MainActivity.equals():215:215 -> a
+    478:479:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     478:479:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    480:490:void io.github.luogen520.qingsuan.MainActivity.equals():216:216 -> a
-    480:490:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    480:490:void io.github.luogen520.miaosuan.MainActivity.equals():216:216 -> a
+    480:490:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     480:490:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    491:497:void io.github.luogen520.qingsuan.MainActivity.equals():217:217 -> a
-    491:497:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    491:497:void io.github.luogen520.miaosuan.MainActivity.equals():217:217 -> a
+    491:497:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     491:497:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     498:501:int androidx.core.content.ContextCompat.getColor(android.content.Context,int):529:529 -> a
-    498:501:void io.github.luogen520.qingsuan.MainActivity.equals():217 -> a
-    498:501:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    498:501:void io.github.luogen520.miaosuan.MainActivity.equals():217 -> a
+    498:501:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     498:501:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    502:506:void io.github.luogen520.qingsuan.MainActivity.equals():217:217 -> a
-    502:506:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    502:506:void io.github.luogen520.miaosuan.MainActivity.equals():217:217 -> a
+    502:506:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     502:506:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    507:519:void io.github.luogen520.qingsuan.MainActivity.equals():218:218 -> a
-    507:519:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    507:519:void io.github.luogen520.miaosuan.MainActivity.equals():218:218 -> a
+    507:519:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     507:519:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     520:522:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    523:526:void io.github.luogen520.qingsuan.MainActivity.equals():218:218 -> a
-    523:526:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    523:526:void io.github.luogen520.miaosuan.MainActivity.equals():218:218 -> a
+    523:526:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     523:526:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    527:530:void io.github.luogen520.qingsuan.MainActivity.equals():217:217 -> a
-    527:530:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    527:530:void io.github.luogen520.miaosuan.MainActivity.equals():217:217 -> a
+    527:530:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     527:530:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    531:534:void io.github.luogen520.qingsuan.MainActivity.equals():216:216 -> a
-    531:534:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.qingsuan.MainActivity):66 -> a
+    531:534:void io.github.luogen520.miaosuan.MainActivity.equals():216:216 -> a
+    531:534:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$12(io.github.luogen520.miaosuan.MainActivity):66 -> a
     531:534:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     535:536:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    537:541:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$11(io.github.luogen520.qingsuan.MainActivity):65:65 -> a
+    537:541:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$11(io.github.luogen520.miaosuan.MainActivity):65:65 -> a
     537:541:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     542:544:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    545:550:void io.github.luogen520.qingsuan.MainActivity.backspace():188:188 -> a
-    545:550:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64 -> a
+    545:550:void io.github.luogen520.miaosuan.MainActivity.backspace():188:188 -> a
+    545:550:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     545:550:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    551:554:void io.github.luogen520.qingsuan.MainActivity.backspace():188:188 -> a
-    551:554:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64 -> a
+    551:554:void io.github.luogen520.miaosuan.MainActivity.backspace():188:188 -> a
+    551:554:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64 -> a
     551:554:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    555:556:void io.github.luogen520.qingsuan.MainActivity.backspace():189:189 -> a
-    555:556:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64 -> a
+    555:556:void io.github.luogen520.miaosuan.MainActivity.backspace():189:189 -> a
+    555:556:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64 -> a
     555:556:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    557:579:void io.github.luogen520.qingsuan.MainActivity.backspace():190:190 -> a
-    557:579:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64 -> a
+    557:579:void io.github.luogen520.miaosuan.MainActivity.backspace():190:190 -> a
+    557:579:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64 -> a
     557:579:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    580:586:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    580:586:void io.github.luogen520.qingsuan.MainActivity.backspace():191 -> a
-    580:586:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.qingsuan.MainActivity):64 -> a
+    580:586:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    580:586:void io.github.luogen520.miaosuan.MainActivity.backspace():191 -> a
+    580:586:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$10(io.github.luogen520.miaosuan.MainActivity):64 -> a
     580:586:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     587:589:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    590:595:void io.github.luogen520.qingsuan.MainActivity.appendPercent():138:138 -> a
-    590:595:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    590:595:void io.github.luogen520.miaosuan.MainActivity.appendPercent():138:138 -> a
+    590:595:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     590:595:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    596:598:void io.github.luogen520.qingsuan.MainActivity.appendPercent():138:138 -> a
-    596:598:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    596:598:void io.github.luogen520.miaosuan.MainActivity.appendPercent():138:138 -> a
+    596:598:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
     596:598:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    599:616:void io.github.luogen520.qingsuan.MainActivity.appendPercent():139:139 -> a
-    599:616:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    599:616:void io.github.luogen520.miaosuan.MainActivity.appendPercent():139:139 -> a
+    599:616:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
     599:616:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    617:618:void io.github.luogen520.qingsuan.MainActivity.appendPercent():140:140 -> a
-    617:618:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    617:618:void io.github.luogen520.miaosuan.MainActivity.appendPercent():140:140 -> a
+    617:618:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
     617:618:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    619:623:void io.github.luogen520.qingsuan.MainActivity.appendPercent():141:141 -> a
-    619:623:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    619:623:void io.github.luogen520.miaosuan.MainActivity.appendPercent():141:141 -> a
+    619:623:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
     619:623:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    624:630:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    624:630:void io.github.luogen520.qingsuan.MainActivity.appendPercent():143 -> a
-    624:630:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.qingsuan.MainActivity):63 -> a
+    624:630:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    624:630:void io.github.luogen520.miaosuan.MainActivity.appendPercent():143 -> a
+    624:630:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$9(io.github.luogen520.miaosuan.MainActivity):63 -> a
     624:630:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     631:633:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-    634:639:void io.github.luogen520.qingsuan.MainActivity.appendDot():124:124 -> a
-    634:639:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    634:639:void io.github.luogen520.miaosuan.MainActivity.appendDot():124:124 -> a
+    634:639:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     634:639:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    640:642:void io.github.luogen520.qingsuan.MainActivity.appendDot():124:124 -> a
-    640:642:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    640:642:void io.github.luogen520.miaosuan.MainActivity.appendDot():124:124 -> a
+    640:642:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     640:642:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    643:648:void io.github.luogen520.qingsuan.MainActivity.appendDot():125:125 -> a
-    643:648:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    643:648:void io.github.luogen520.miaosuan.MainActivity.appendDot():125:125 -> a
+    643:648:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     643:648:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    649:651:void io.github.luogen520.qingsuan.MainActivity.startNewNumber():255:255 -> a
-    649:651:void io.github.luogen520.qingsuan.MainActivity.appendDot():125 -> a
-    649:651:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    649:651:void io.github.luogen520.miaosuan.MainActivity.startNewNumber():255:255 -> a
+    649:651:void io.github.luogen520.miaosuan.MainActivity.appendDot():125 -> a
+    649:651:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     649:651:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    652:653:void io.github.luogen520.qingsuan.MainActivity.startNewNumber():256:256 -> a
-    652:653:void io.github.luogen520.qingsuan.MainActivity.appendDot():125 -> a
-    652:653:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    652:653:void io.github.luogen520.miaosuan.MainActivity.startNewNumber():256:256 -> a
+    652:653:void io.github.luogen520.miaosuan.MainActivity.appendDot():125 -> a
+    652:653:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     652:653:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    654:668:void io.github.luogen520.qingsuan.MainActivity.appendDot():126:126 -> a
-    654:668:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    654:668:void io.github.luogen520.miaosuan.MainActivity.appendDot():126:126 -> a
+    654:668:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     654:668:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    669:685:void io.github.luogen520.qingsuan.MainActivity.appendDot():127:127 -> a
-    669:685:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    669:685:void io.github.luogen520.miaosuan.MainActivity.appendDot():127:127 -> a
+    669:685:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     669:685:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    686:691:void io.github.luogen520.qingsuan.MainActivity.appendDot():128:128 -> a
-    686:691:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    686:691:void io.github.luogen520.miaosuan.MainActivity.appendDot():128:128 -> a
+    686:691:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     686:691:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    692:695:void io.github.luogen520.qingsuan.MainActivity.appendDot():129:129 -> a
-    692:695:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    692:695:void io.github.luogen520.miaosuan.MainActivity.appendDot():129:129 -> a
+    692:695:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     692:695:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     696:700:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,char,boolean):0:0 -> a
     696:700:boolean kotlin.text.StringsKt__StringsKt.contains$default(java.lang.CharSequence,char,boolean,int,java.lang.Object):1170 -> a
-    696:700:void io.github.luogen520.qingsuan.MainActivity.appendDot():129 -> a
-    696:700:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    696:700:void io.github.luogen520.miaosuan.MainActivity.appendDot():129 -> a
+    696:700:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     696:700:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     701:707:boolean kotlin.text.StringsKt__StringsKt.contains(java.lang.CharSequence,char,boolean):1171:1171 -> a
     701:707:boolean kotlin.text.StringsKt__StringsKt.contains$default(java.lang.CharSequence,char,boolean,int,java.lang.Object):1170 -> a
-    701:707:void io.github.luogen520.qingsuan.MainActivity.appendDot():129 -> a
-    701:707:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    701:707:void io.github.luogen520.miaosuan.MainActivity.appendDot():129 -> a
+    701:707:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     701:707:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    708:710:void io.github.luogen520.qingsuan.MainActivity.appendDot():132:132 -> a
-    708:710:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    708:710:void io.github.luogen520.miaosuan.MainActivity.appendDot():132:132 -> a
+    708:710:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     708:710:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
-    711:717:void io.github.luogen520.qingsuan.MainActivity.refreshDisplay$default(io.github.luogen520.qingsuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
-    711:717:void io.github.luogen520.qingsuan.MainActivity.appendDot():134 -> a
-    711:717:kotlin.Unit io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.qingsuan.MainActivity):62 -> a
+    711:717:void io.github.luogen520.miaosuan.MainActivity.refreshDisplay$default(io.github.luogen520.miaosuan.MainActivity,java.lang.String,int,java.lang.Object):266:266 -> a
+    711:717:void io.github.luogen520.miaosuan.MainActivity.appendDot():134 -> a
+    711:717:kotlin.Unit io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$8(io.github.luogen520.miaosuan.MainActivity):62 -> a
     711:717:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0 -> a
     718:721:java.lang.Object I0.MainActivity$$ExternalSyntheticLambda10.invoke():0:0 -> a
-io.github.luogen520.qingsuan.MainActivity$$ExternalSyntheticLambda3 -> I0.m:
+io.github.luogen520.miaosuan.MainActivity$$ExternalSyntheticLambda3 -> I0.m:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
     int I0.MainActivity$$ExternalSyntheticLambda3.$r8$classId -> a
       # {"id":"com.android.tools.r8.synthesized"}
-    io.github.luogen520.qingsuan.MainActivity io.github.luogen520.qingsuan.MainActivity$$InternalSyntheticLambda$2$482e700282380e7e8e5474e8a2763ad201419310e494b251ec9d70d0a8a6b7da$11.f$0 -> b
+    io.github.luogen520.miaosuan.MainActivity io.github.luogen520.miaosuan.MainActivity$$InternalSyntheticLambda$2$2903954911ed571c79fc4326cf5a8cc240300acc7797a4a72282e23230cc59b1$11.f$0 -> b
       # {"id":"com.android.tools.r8.synthesized"}
-    0:7:void I0.MainActivity$$ExternalSyntheticLambda3.<init>(io.github.luogen520.qingsuan.MainActivity,int):0:0 -> <init>
+    0:7:void I0.MainActivity$$ExternalSyntheticLambda3.<init>(io.github.luogen520.miaosuan.MainActivity,int):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    8:12:void io.github.luogen520.qingsuan.MainActivity.copyResult():90:90 -> onLongClick
-    8:12:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    8:12:void io.github.luogen520.miaosuan.MainActivity.copyResult():90:90 -> onLongClick
+    8:12:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     8:12:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
       # {"id":"com.android.tools.r8.synthesized"}
-    13:23:void io.github.luogen520.qingsuan.MainActivity.copyResult():91:91 -> onLongClick
-    13:23:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    13:23:void io.github.luogen520.miaosuan.MainActivity.copyResult():91:91 -> onLongClick
+    13:23:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
     13:23:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
     24:32:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> onLongClick
-    24:32:void io.github.luogen520.qingsuan.MainActivity.copyResult():92 -> onLongClick
-    24:32:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    24:32:void io.github.luogen520.miaosuan.MainActivity.copyResult():92 -> onLongClick
+    24:32:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
     24:32:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
-    33:45:void io.github.luogen520.qingsuan.MainActivity.copyResult():93:93 -> onLongClick
-    33:45:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    33:45:void io.github.luogen520.miaosuan.MainActivity.copyResult():93:93 -> onLongClick
+    33:45:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
     33:45:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
-    46:58:void io.github.luogen520.qingsuan.MainActivity.copyResult():94:94 -> onLongClick
-    46:58:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    46:58:void io.github.luogen520.miaosuan.MainActivity.copyResult():94:94 -> onLongClick
+    46:58:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
     46:58:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
-    59:66:void io.github.luogen520.qingsuan.MainActivity.copyResult():95:95 -> onLongClick
-    59:66:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.qingsuan.MainActivity,android.view.View):71 -> onLongClick
+    59:66:void io.github.luogen520.miaosuan.MainActivity.copyResult():95:95 -> onLongClick
+    59:66:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$15(io.github.luogen520.miaosuan.MainActivity,android.view.View):71 -> onLongClick
     59:66:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
     67:68:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0:0 -> onLongClick
-    69:73:boolean io.github.luogen520.qingsuan.MainActivity.bindKeys$lambda$14(io.github.luogen520.qingsuan.MainActivity,android.view.View):70:70 -> onLongClick
+    69:73:boolean io.github.luogen520.miaosuan.MainActivity.bindKeys$lambda$14(io.github.luogen520.miaosuan.MainActivity,android.view.View):70:70 -> onLongClick
     69:73:boolean I0.MainActivity$$ExternalSyntheticLambda3.onLongClick(android.view.View):0 -> onLongClick
-io.github.luogen520.qingsuan.databinding.ActivityMainBinding -> J0.a:
+io.github.luogen520.miaosuan.databinding.ActivityMainBinding -> J0.a:
 # {"id":"sourceFile","fileName":"ActivityMainBinding.java"}
     android.widget.Button btn0 -> a
     android.widget.Button btn1 -> b
