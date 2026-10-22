@@ -1,10 +1,14 @@
 package io.github.luogen520.qingsuan
 
 import android.os.Bundle
+import android.view.HapticFeedbackConstants
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import io.github.luogen520.qingsuan.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +28,23 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // 全面屏：内容避开状态栏和手势条
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
+            val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+            WindowInsetsCompat.CONSUMED
+        }
+
+        if (savedInstanceState != null) restoreState(savedInstanceState)
         bindKeys()
+    }
+
+    /** 每个按键按下都给一下轻触感，像老计算器的键程。 */
+    private fun View.key(action: () -> Unit) {
+        setOnClickListener {
+            performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)
+            action()
+        }
     }
 
     private fun bindKeys() {
@@ -34,22 +54,22 @@ class MainActivity : AppCompatActivity() {
             binding.btn6 to "6", binding.btn7 to "7", binding.btn8 to "8",
             binding.btn9 to "9",
         )
-        digitKeys.forEach { (btn, d) -> btn.setOnClickListener { appendDigit(d) } }
-        binding.btnPlus.setOnClickListener { appendOperator("+") }
-        binding.btnMinus.setOnClickListener { appendOperator("−") }
-        binding.btnMultiply.setOnClickListener { appendOperator("×") }
-        binding.btnDivide.setOnClickListener { appendOperator("÷") }
-        binding.btnDot.setOnClickListener { appendDot() }
-        binding.btnPercent.setOnClickListener { appendPercent() }
-        binding.btnBackspace.setOnClickListener { backspace() }
-        binding.btnClear.setOnClickListener { clearAll() }
-        binding.btnEquals.setOnClickListener { equals() }
-        binding.btnToggleSign.setOnClickListener { toggleSign() }
+        digitKeys.forEach { (btn, d) -> btn.key { appendDigit(d) } }
+        binding.btnPlus.key { appendOperator("+") }
+        binding.btnMinus.key { appendOperator("−") }
+        binding.btnMultiply.key { appendOperator("×") }
+        binding.btnDivide.key { appendOperator("÷") }
+        binding.btnDot.key { appendDot() }
+        binding.btnPercent.key { appendPercent() }
+        binding.btnBackspace.key { backspace() }
+        binding.btnClear.key { clearAll() }
+        binding.btnEquals.key { equals() }
+        binding.btnToggleSign.key { toggleSign() }
 
         // 长按退格一键清空，长按结果复制到剪贴板
         binding.btnBackspace.setOnLongClickListener { clearAll(); true }
         binding.txtMain.setOnLongClickListener { copyResult(); true }
-        binding.btnHistory.setOnClickListener { openHistory() }
+        binding.btnHistory.key { openHistory() }
     }
 
     private fun openHistory() {
@@ -277,6 +297,37 @@ class MainActivity : AppCompatActivity() {
             sb.append(ch)
         }
         return sb.toString() + frac
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString("input", input.toString())
+        outState.putBoolean("error", isError)
+        outState.putBoolean("evaluated", evaluated)
+        lastOp?.let { outState.putChar("lastOp", it) }
+        outState.putString("lastOperand", lastOperand)
+        outState.putString("exprLine", binding.txtExpr.text.toString())
+        val packed = history.map { "${it.expression}\u001F${it.result}" }
+        outState.putStringArrayList("history", ArrayList(packed))
+    }
+
+    private fun restoreState(state: Bundle) {
+        input.clear().append(state.getString("input") ?: "0")
+        isError = state.getBoolean("error")
+        evaluated = state.getBoolean("evaluated")
+        lastOp = if (state.containsKey("lastOp")) state.getChar("lastOp") else null
+        lastOperand = state.getString("lastOperand")
+        state.getStringArrayList("history")?.forEach { line ->
+            val sep = line.indexOf('\u001F')
+            if (sep > 0) history.add(HistoryEntry(line.substring(0, sep), line.substring(sep + 1)))
+        }
+        if (isError) {
+            binding.txtMain.text = "错误"
+            binding.txtMain.setTextColor(ContextCompat.getColor(this, R.color.error_text))
+        } else {
+            refreshDisplay()
+        }
+        binding.txtExpr.text = state.getString("exprLine") ?: ""
     }
 
     private fun isOperator(c: Char) = c in "+−×÷"
