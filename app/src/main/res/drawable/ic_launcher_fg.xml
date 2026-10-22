@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 一颗穿在杆上的大算珠，琥珀的，跟界面上的等号键同一个颜色 -->
+<!-- 第四版图标：曜石底上一道琥珀渐变的等号。
+     不再画算珠，就留一个最干脆的 "="，光晕衬底，远看小图也认得出 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
@@ -7,41 +8,39 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- 穿珠的杆 -->
-    <path
-        android:pathData="M22,54 L86,54"
-        android:strokeColor="#FFFFFF"
-        android:strokeAlpha="0.3"
-        android:strokeWidth="4"
-        android:strokeLineCap="round"
-        android:fillColor="#00000000" />
-
-    <!-- 珠子落下的影子 -->
-    <path
-        android:fillColor="#000000"
-        android:fillAlpha="0.22"
-        android:pathData="M38,73 a16,3.4 0 1,0 32,0 a16,3.4 0 1,0 -32,0 z" />
-
-    <!-- 大算珠，琥珀渐变 -->
-    <path android:pathData="M35,54 a19,15.5 0 1,0 38,0 a19,15.5 0 1,0 -38,0 z">
+    <!-- 等号背后的暖光，径向渐隐 -->
+    <path android:pathData="M24,57a30,28 0 1,0 60,0a30,28 0 1,0 -60,0z">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:type="linear"
-                android:startX="35" android:startY="38.5"
-                android:endX="73" android:endY="69.5"
-                android:startColor="#FFC969"
-                android:endColor="#F08C1F" />
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="57"
+                android:gradientRadius="30"
+                android:startColor="#4DF5A625"
+                android:endColor="#00F5A625" />
         </aapt:attr>
     </path>
 
-    <!-- 珠上两笔高光 -->
+    <!-- 上下两道胶囊圆头的横杠，共用一道 45° 琥珀渐变 -->
+    <path android:pathData="M38,43h32a5,5 0 0 1 0,10h-32a5,5 0 0 1 0,-10z M38,56h32a5,5 0 0 1 0,10h-32a5,5 0 0 1 0,-10z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="33"
+                android:startY="43"
+                android:endX="75"
+                android:endY="66"
+                android:startColor="#FFCD73"
+                android:endColor="#F0801C" />
+        </aapt:attr>
+    </path>
+
+    <!-- 每道杠上沿一点高光，像玻璃珠的表面 -->
     <path
-        android:fillColor="#FFFFFF"
-        android:fillAlpha="0.6"
-        android:pathData="M42.5,46.5 a5.5,3.5 0 1,0 11,0 a5.5,3.5 0 1,0 -11,0 z" />
+        android:pathData="M38,46h26a1.6,1.6 0 0 1 0,3.2h-26a1.6,1.6 0 0 1 0,-3.2z"
+        android:fillColor="#59FFFFFF" />
     <path
-        android:fillColor="#FFFFFF"
-        android:fillAlpha="0.35"
-        android:pathData="M40.5,55 a2.2,1.6 0 1,0 4.4,0 a2.2,1.6 0 1,0 -4.4,0 z" />
+        android:pathData="M38,59h30a1.6,1.6 0 0 1 0,3.2h-30a1.6,1.6 0 0 1 0,-3.2z"
+        android:fillColor="#40FFFFFF" />
 
 </vector>
