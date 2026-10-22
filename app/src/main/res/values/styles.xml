@@ -26,6 +26,7 @@
         <item name="android:background">@drawable/key_bg_fn</item>
         <item name="android:textColor">@color/key_fn_text</item>
         <item name="android:textSize">22sp</item>
+        <item name="android:padding">0dp</item>
     </style>
 
     <style name="Key.Op">

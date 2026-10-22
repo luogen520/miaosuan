@@ -8,7 +8,7 @@
     <string name="copied">已复制结果</string>
 
     <string name="key_clear">C</string>
-    <string name="key_backspace">⌫</string>
+    <string name="backspace">退格</string>
     <string name="key_percent">%</string>
     <string name="key_divide">÷</string>
     <string name="key_multiply">×</string>

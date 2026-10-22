@@ -1915,6 +1915,7 @@
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">轻算</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="backspace">退格</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
     <string description="A description of an accessibility action to expand the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_expand">Expand the bottom sheet</string>
@@ -1956,7 +1957,6 @@
     <string name="key_7">7</string>
     <string name="key_8">8</string>
     <string name="key_9">9</string>
-    <string name="key_backspace">⌫</string>
     <string name="key_clear">C</string>
     <string name="key_divide">÷</string>
     <string name="key_dot">.</string>
@@ -5518,6 +5518,7 @@
         <item name="android:background">@drawable/key_bg_fn</item>
         <item name="android:textColor">@color/key_fn_text</item>
         <item name="android:textSize">22sp</item>
+        <item name="android:padding">0dp</item>
     </style>
     <style name="Key.Op">
         <item name="android:background">@drawable/key_bg_op</item>

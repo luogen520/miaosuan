@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinnabar">#C14B33</color>
+    <color name="error_text">#B3402B</color>
+    <color name="history_tint">#6E6759</color>
+    <color name="ic_launcher_bg">#F1E7D3</color>
+    <color name="ink">#26241E</color>
+    <color name="ink_soft">#8F897C</color>
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_eq_bg">#C14B33</color>
+    <color name="key_eq_text">#FFF6EE</color>
+    <color name="key_fn_bg">#EFE9DC</color>
+    <color name="key_fn_text">#6E6759</color>
+    <color name="key_op_text">#C14B33</color>
+    <color name="paper">#F7F3EB</color>
+    <color name="sheet_bg">#FCF9F2</color>
+    <dimen name="key_gap">5dp</dimen>
+    <dimen name="key_height">62dp</dimen>
+    <dimen name="key_radius">22dp</dimen>
+    <string name="app_name">轻算</string>
+    <string name="copied">已复制结果</string>
+    <string name="history">历史记录</string>
+    <string name="history_clear">清空</string>
+    <string name="history_empty">还没有算过什么</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_backspace">⌫</string>
+    <string name="key_clear">C</string>
+    <string name="key_divide">÷</string>
+    <string name="key_dot">.</string>
+    <string name="key_equals">=</string>
+    <string name="key_minus">−</string>
+    <string name="key_multiply">×</string>
+    <string name="key_percent">%</string>
+    <string name="key_plus">+</string>
+    <string name="key_toggle_sign">±</string>
+    <string name="zero">0</string>
+    <style name="Key">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/key_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
+        <item name="android:background">@drawable/key_bg_digit</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Key.Eq">
+        <item name="android:background">@drawable/key_bg_eq</item>
+        <item name="android:textColor">@color/key_eq_text</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="Key.Fn">
+        <item name="android:background">@drawable/key_bg_fn</item>
+        <item name="android:textColor">@color/key_fn_text</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="Key.Op">
+        <item name="android:background">@drawable/key_bg_op</item>
+        <item name="android:textColor">@color/key_op_text</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="KeyRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/key_gap</item>
+        <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Theme.Qingsuan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorSurface">@color/sheet_bg</item>
+    </style>
+</resources>

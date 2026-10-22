@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -64,7 +65,13 @@
 
         <LinearLayout style="@style/KeyRow">
             <Button android:id="@+id/btnClear" style="@style/Key.Fn" android:text="@string/key_clear" />
-            <Button android:id="@+id/btnBackspace" style="@style/Key.Fn" android:text="@string/key_backspace" />
+            <ImageButton
+                android:id="@+id/btnBackspace"
+                style="@style/Key.Fn"
+                android:contentDescription="@string/backspace"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_backspace"
+                tools:ignore="UseAppTint" />
             <Button android:id="@+id/btnPercent" style="@style/Key.Fn" android:text="@string/key_percent" />
             <Button android:id="@+id/btnDivide" style="@style/Key.Op" android:text="@string/key_divide" />
         </LinearLayout>
