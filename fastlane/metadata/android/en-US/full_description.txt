@@ -1,0 +1,7 @@
+Qingsuan is a simple calculator built for everyday arithmetic. One screen: the expression on top, the keypad below.
+
+The engine runs on BigDecimal with 20 significant digits internally, rounded to 12 digits for display, so 0.1 + 0.2 comes out as a clean 0.3. Percent signs follow the phone-calculator convention: 200−10% gives 180, 50×10% gives 5, a standalone 10% gives 0.1.
+
+On top of that: thousands separators, a 50-entry history you can tap to reuse, repeated equals to apply the last operation again, long-press to copy a result, long-press backspace to clear. Dark theme follows the system, and themed icons are supported on Android 13+.
+
+The app has no network permission, no ads, no third-party SDK, and requests no permissions at all. Requires Android 8.0 or newer.

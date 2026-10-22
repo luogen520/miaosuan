@@ -1,0 +1,1 @@
+A clean, precise calculator for Android. No ads, no network, no permissions.
