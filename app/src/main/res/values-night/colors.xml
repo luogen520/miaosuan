@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 夜间换成墨色纸面，全部走暖灰，不发蓝 -->
-    <color name="paper">#17140E</color>
-    <color name="ink">#F0EADC</color>
-    <color name="ink_soft">#97907E</color>
-    <color name="cinnabar">#B4442C</color>
+    <!-- 夜里是曜石：近黑底、白字、琥珀提亮，全程无蓝无紫 -->
+    <color name="paper">#101216</color>
+    <color name="ink">#F2F3F5</color>
+    <color name="ink_soft">#7C828D</color>
 
-    <color name="key_bg">#292417</color>
-    <color name="key_stroke">#3B3422</color>
-    <color name="key_fn_bg">#211D12</color>
-    <color name="key_fn_text">#A69C86</color>
-    <color name="key_op_bg">#362A18</color>
-    <color name="key_op_text">#E5876A</color>
-    <color name="key_eq_text">#FFF6EE</color>
-    <color name="history_tint">#A69C86</color>
-    <color name="error_text">#E06A50</color>
-    <color name="sheet_bg">#201C13</color>
+    <color name="key_bg">#1C1E24</color>
+    <color name="key_fn_text">#8A909B</color>
+    <color name="key_op_text">#FFB35C</color>
+    <color name="key_eq_text">#241503</color>
+    <color name="history_tint">#8A909B</color>
+    <color name="error_text">#F2704F</color>
+    <color name="sheet_bg">#191B21</color>
 </resources>

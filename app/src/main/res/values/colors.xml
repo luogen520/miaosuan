@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 纸墨配色：米白纸面、墨色文字、朱砂点睛 -->
-    <color name="paper">#F6F1E6</color>
-    <color name="ink">#2A241A</color>
-    <color name="ink_soft">#9A907C</color>
-    <color name="cinnabar">#B4442C</color>
+    <!-- 曜石琥珀：冷白底、墨字、琥珀点睛 -->
+    <color name="paper">#F7F8FA</color>
+    <color name="ink">#16181D</color>
+    <color name="ink_soft">#878D98</color>
 
     <color name="key_bg">#FFFFFF</color>
-    <color name="key_stroke">#E8DFC9</color>
-    <color name="key_fn_bg">#EFE7D3</color>
-    <color name="key_fn_text">#6F6650</color>
-    <color name="key_op_bg">#F5E4D2</color>
-    <color name="key_op_text">#B4442C</color>
-    <color name="key_eq_text">#FFF6EE</color>
-    <color name="history_tint">#6F6650</color>
-    <color name="error_text">#B3402B</color>
-    <color name="sheet_bg">#FBF7EE</color>
+    <color name="key_fn_text">#7C828D</color>
+    <color name="key_op_text">#B26A00</color>
+    <color name="key_eq_text">#241503</color>
+    <color name="history_tint">#7C828D</color>
+    <color name="error_text">#C4472B</color>
+    <color name="sheet_bg">#FFFFFF</color>
 </resources>
