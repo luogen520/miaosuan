@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 一架轻巧的小算盘：梁上一颗没拨下去，下面拨了三颗，中间那颗是朱砂的 -->
+<!-- 一架轻巧的小算盘：框、梁、三根档，珠子是拨到一半的样子，中间那颗朱砂的 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
@@ -7,60 +7,82 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
+    <!-- 外框 -->
+    <path
+        android:pathData="M38,29 L70,29 A10,10 0 0 1 80,39 L80,69 A10,10 0 0 1 70,79 L38,79 A10,10 0 0 1 28,69 L28,39 A10,10 0 0 1 38,29 Z"
+        android:strokeColor="#33291B"
+        android:strokeWidth="4.5"
+        android:fillColor="#00000000" />
+
     <!-- 横梁 -->
     <path
-        android:pathData="M30,53.5 L78,53.5"
+        android:pathData="M28,51 L80,51"
         android:strokeColor="#33291B"
-        android:strokeWidth="5.5"
+        android:strokeWidth="4"
+        android:fillColor="#00000000" />
+
+    <!-- 三根档杆 -->
+    <path
+        android:pathData="M39,31 L39,77 M54,31 L54,77 M69,31 L69,77"
+        android:strokeColor="#33291B"
+        android:strokeAlpha="0.22"
+        android:strokeWidth="2.2"
         android:strokeLineCap="round"
         android:fillColor="#00000000" />
 
-    <!-- 梁上两颗珠 -->
+    <!-- 梁上的珠：左边那颗拨下来了，右边那颗还悬着 -->
     <path
         android:fillColor="#33291B"
-        android:pathData="M33.5,38.5 a7.5,6.5 0 1,0 15,0 a7.5,6.5 0 1,0 -15,0 z" />
+        android:pathData="M32.5,43 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z" />
     <path
         android:fillColor="#33291B"
-        android:pathData="M59.5,38.5 a7.5,6.5 0 1,0 15,0 a7.5,6.5 0 1,0 -15,0 z" />
+        android:pathData="M62.5,37 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z" />
 
-    <!-- 梁下三颗珠，中间是朱砂 -->
+    <!-- 梁下的珠：左边拨上一颗，中间朱砂的也拨上去了，右边还没动 -->
     <path
         android:fillColor="#33291B"
-        android:pathData="M32,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z" />
-    <path android:pathData="M47,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z">
+        android:pathData="M32.5,59 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z" />
+    <path
+        android:fillColor="#33291B"
+        android:pathData="M32.5,71 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z" />
+    <path android:pathData="M47.5,59 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z">
         <aapt:attr name="android:fillColor">
             <gradient
                 android:type="linear"
-                android:startX="47" android:startY="61.5"
-                android:endX="61" android:endY="73.5"
+                android:startX="47.5" android:startY="54"
+                android:endX="60.5" android:endY="64"
                 android:startColor="#D65E3E"
                 android:endColor="#A63F26" />
         </aapt:attr>
     </path>
     <path
         android:fillColor="#33291B"
-        android:pathData="M62,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z" />
+        android:pathData="M62.5,71 a6.5,5 0 1,0 13,0 a6.5,5 0 1,0 -13,0 z" />
 
     <!-- 每颗珠左上一点高光 -->
     <path
         android:fillColor="#FFFFFF"
-        android:fillAlpha="0.5"
-        android:pathData="M35.7,36.1 a2.1,1.3 0 1,0 4.2,0 a2.1,1.3 0 1,0 -4.2,0 z" />
+        android:fillAlpha="0.45"
+        android:pathData="M34.2,41.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M64.2,35.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M34.2,57.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M34.2,69.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
     <path
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.5"
-        android:pathData="M61.7,36.1 a2.1,1.3 0 1,0 4.2,0 a2.1,1.3 0 1,0 -4.2,0 z" />
+        android:pathData="M49.2,57.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
     <path
         android:fillColor="#FFFFFF"
-        android:fillAlpha="0.5"
-        android:pathData="M33.7,65.2 a2.1,1.3 0 1,0 4.2,0 a2.1,1.3 0 1,0 -4.2,0 z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:fillAlpha="0.55"
-        android:pathData="M48.7,65.2 a2.1,1.3 0 1,0 4.2,0 a2.1,1.3 0 1,0 -4.2,0 z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:fillAlpha="0.5"
-        android:pathData="M63.7,65.2 a2.1,1.3 0 1,0 4.2,0 a2.1,1.3 0 1,0 -4.2,0 z" />
+        android:fillAlpha="0.45"
+        android:pathData="M64.2,69.1 a2,1.2 0 1,0 4,0 a2,1.2 0 1,0 -4,0 z" />
 
 </vector>
