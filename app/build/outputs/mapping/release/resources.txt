@@ -2,8 +2,8 @@ Marking layout:mtrl_calendar_day:2131427402 reachable: referenced from /home/z/m
 Marking attr:seekBarStyle:2130903919 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:theme:2130904093 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:materialThemeOverlay:2130903765 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:special_effects_controller_view_tag:2131231113 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_lifecycle_owner:2131231193 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:special_effects_controller_view_tag:2131231114 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_lifecycle_owner:2131231194 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:buttonStyle:2130903183 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:checkboxStyle:2130903201 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarTheme:2130903049 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -15,11 +15,11 @@ Marking dimen:m3_carousel_small_item_size_min:2131099893 reachable: referenced f
 Marking dimen:m3_carousel_small_item_size_max:2131099892 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_action_menu_layout:2131427331 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_action_menu_item_layout:2131427330 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:pooling_container_listener_holder_tag:2131231060 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_event_manager:2131231144 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_unhandled_key_listeners:2131231145 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:cancel_button:2131230831 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:confirm_button:2131230849 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:pooling_container_listener_holder_tag:2131231061 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_event_manager:2131231145 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_unhandled_key_listeners:2131231146 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:cancel_button:2131230832 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:confirm_button:2131230850 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollable:2130903841 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:design_password_eye:2131165318 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:password_toggle_content_description:2131689651 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -27,23 +27,23 @@ Marking attr:dialogTheme:2130903392 reachable: referenced from /home/z/my-projec
 Marking style:Widget_Material3_SideSheet:2131755984 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:side_sheet_accessibility_pane_title:2131689660 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:radioButtonStyle:2130903896 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_view_model_store_owner:2131231196 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:transition_pause_alpha:2131231177 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_view_model_store_owner:2131231197 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:transition_pause_alpha:2131231178 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_back_progress_bottom_container_max_scale_x_distance:2131099823 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_back_progress_bottom_container_max_scale_y_distance:2131099824 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:design_navigation_menu_item:2131427370 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_navigation_icon_size:2131099767 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:design_menu_item_text:2131230870 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:design_menu_item_text:2131230871 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorControlHighlight:2130903265 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:design_menu_item_action_area_stub:2131230869 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:navigation_empty_icon:2131165406 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:design_menu_item_action_area_stub:2131230870 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:navigation_empty_icon:2131165407 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:textAppearanceLineHeightEnabled:2130904066 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:toolbarStyle:2130904140 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_Toolbar:2131756135 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:materialClockStyle:2130903751 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_radial_view_group:2131427388 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:report_drawn:2131231069 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:split_action_bar:2131231115 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:report_drawn:2131231070 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:split_action_bar:2131231116 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar:2131230768 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_context_bar:2131230776 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_min_touch_target_size:2131100357 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -51,12 +51,12 @@ Marking attr:bottomSheetStyle:2130903158 reachable: referenced from /home/z/my-p
 Marking style:Widget_Design_BottomSheet_Modal:2131755834 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:bottomsheet_action_expand_halfway:2131689506 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_bottom_sheet_peek_height_min:2131099757 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_on_apply_window_listener:2131231138 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_window_insets_animation_callback:2131231146 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:save_overlay_view:2131231079 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:month_title:2131230990 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_heading:2131231136 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:month_grid:2131230985 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_on_apply_window_listener:2131231139 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_window_insets_animation_callback:2131231147 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:save_overlay_view:2131231080 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:month_title:2131230991 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_heading:2131231137 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:month_grid:2131230986 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_0:2131230736 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_1:2131230737 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_2:2131230748 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -89,10 +89,10 @@ Marking id:accessibility_custom_action_28:2131230757 reachable: referenced from 
 Marking id:accessibility_custom_action_29:2131230758 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_30:2131230760 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_custom_action_31:2131230761 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_pane_title:2131231137 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_actions:2131231134 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_on_receive_content_mime_types:2131231140 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_on_receive_content_listener:2131231139 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_pane_title:2131231138 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_actions:2131231135 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_on_receive_content_mime_types:2131231141 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_on_receive_content_listener:2131231140 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_back_progress_side_container_max_scale_x_distance_shrink:2131099828 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_back_progress_side_container_max_scale_x_distance_grow:2131099827 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_back_progress_side_container_max_scale_y_distance:2131099829 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -106,11 +106,11 @@ Marking attr:imageButtonStyle:2130903571 reachable: referenced from /home/z/my-p
 Marking dimen:abc_config_prefDialogWidth:2131099671 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_cascading_menu_item_layout:2131427339 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_value_index:2131230980 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_value_index:2131230981 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionDurationShort3:2130903809 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionEasingLinearInterpolator:2130903818 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:clear_text_end_icon_content_description:2131689519 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_ic_cancel:2131165384 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_ic_cancel:2131165385 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_textinput_caption_translate_y:2131099789 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionDurationShort4:2130903810 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903815 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -118,12 +118,12 @@ Marking dimen:material_helper_text_font_1_3_padding_horizontal:2131100225 reacha
 Marking dimen:material_helper_text_default_padding_top:2131100224 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_helper_text_font_1_3_padding_top:2131100226 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:accessibility_action_clickable_span:2131230735 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_accessibility_clickable_spans:2131231135 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_accessibility_clickable_spans:2131231136 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:recyclerViewStyle:2130903901 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking dimen:fastscroll_default_thickness:2131099792 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking dimen:fastscroll_minimum_range:2131099794 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking dimen:fastscroll_margin:2131099793 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:is_pooling_container_tag:2131230941 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:fastscroll_default_thickness:2131099793 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:fastscroll_minimum_range:2131099795 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking dimen:fastscroll_margin:2131099794 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:is_pooling_container_tag:2131230942 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:coordinatorLayoutStyle:2130903345 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:nestedScrollViewStyle:2130903840 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_textfield_default_mtrl_alpha:2131165300 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -175,17 +175,17 @@ Marking drawable:abc_seekbar_thumb_material:2131165284 reachable: referenced fro
 Marking color:abc_tint_seek_thumb:2131034134 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:abc_tint_spinner:2131034135 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarWidgetTheme:2130903050 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:decor_content_parent:2131230864 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:decor_content_parent:2131230865 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking bool:abc_action_bar_embed_tabs:2130968576 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionBarStyle:2130903045 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:snackbar_text:2131231109 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:snackbar_action:2131231108 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:snackbar_text:2131231110 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:snackbar_action:2131231109 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_snackbar_padding_vertical_2lines:2131099783 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_snackbar_padding_vertical:2131099782 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:editTextStyle:2130903425 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_Design_TextInputEditText:2131755841 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:txtItemExpr:2131231184 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:txtItemResult:2131231185 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:txtItemExpr:2131231185 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:txtItemResult:2131231186 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorSurface:2130903305 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorOnSurface:2130903283 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_snackbar_background_corner_radius:2131100404 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -193,12 +193,12 @@ Marking attr:actionBarPopupTheme:2130903042 reachable: referenced from /home/z/m
 Marking attr:panelMenuListTheme:2130903863 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Theme_AppCompat_CompactMenu:2131755537 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_expanded_menu_layout:2131427341 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_screen_reader_focusable:2131231141 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_screen_reader_focusable:2131231142 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_dialog_title_material:2131427340 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_screen_toolbar:2131427351 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_screen_simple_overlay_action_mode:2131427350 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_screen_simple:2131427349 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:title:2131231164 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:title:2131231165 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_calendar_vertical:2131427410 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_calendar_horizontal:2131427405 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_calendar_navigation_height:2131100303 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -208,28 +208,31 @@ Marking dimen:mtrl_calendar_days_of_week_height:2131100287 reachable: referenced
 Marking dimen:mtrl_calendar_day_height:2131100282 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_calendar_month_vertical_padding:2131100301 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_calendar_bottom_padding:2131100279 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_days_of_week:2131230994 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_months:2131230997 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_days_of_week:2131230995 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_months:2131230998 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking integer:mtrl_calendar_year_selector_span:2131296306 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_year_selector_frame:2131231000 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:month_navigation_fragment_toggle:2131230987 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:month_navigation_previous:2131230989 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:month_navigation_next:2131230988 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_day_selector_frame:2131230993 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:transition_current_scene:2131231174 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_year_selector_frame:2131231001 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:month_navigation_fragment_toggle:2131230988 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:month_navigation_previous:2131230990 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:month_navigation_next:2131230989 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_day_selector_frame:2131230994 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:transition_current_scene:2131231175 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Theme_AppCompat_Light:2131755550 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:topPanel:2131231169 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:buttonPanel:2131230830 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:contentPanel:2131230852 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:customPanel:2131230859 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:ink:2131034210 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:error_text:2131034204 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:topPanel:2131231170 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:buttonPanel:2131230831 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:contentPanel:2131230853 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:customPanel:2131230860 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_theme_auto:2131165343 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_theme_dark:2131165344 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:ic_theme_light:2131165345 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:ink:2131034209 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:error_text:2131034203 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:alpha:2130903084 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:lStar:2130903619 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:exposed_dropdown_menu_content_description:2131689523 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_dropdown_arrow:2131165381 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_dropdown_arrow:2131165382 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_RadioButton:2131756060 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:visible_removing_fragment_view_tag:2131231198 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:visible_removing_fragment_view_tag:2131231199 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking animator:fragment_fade_enter:2130837509 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking animator:fragment_fade_exit:2130837510 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking animator:fragment_close_enter:2130837507 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -258,16 +261,16 @@ Marking dimen:mtrl_calendar_day_width:2131100286 reachable: referenced from /hom
 Marking dimen:mtrl_calendar_month_horizontal_padding:2131100300 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_picker_fullscreen:2131427417 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_picker_dialog:2131427416 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_frame:2131230995 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_calendar_main_pane:2131230996 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_picker_header_selection_text:2131231007 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_picker_header_toggle:2131231009 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:mtrl_picker_title_text:2131231013 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:material_ic_calendar_black_24dp:2131165360 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:material_ic_edit_black_24dp:2131165362 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_frame:2131230996 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_calendar_main_pane:2131230997 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_picker_header_selection_text:2131231008 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_picker_header_toggle:2131231010 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:mtrl_picker_title_text:2131231014 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:material_ic_calendar_black_24dp:2131165361 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:material_ic_edit_black_24dp:2131165363 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131689637 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_text_input_mode:2131689639 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:fullscreen_header:2131230917 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:fullscreen_header:2131230918 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_calendar_dialog_background_inset:2131100288 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_cab_background_top_material:2131165242 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking drawable:abc_ratingbar_material:2131165277 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -286,18 +289,18 @@ Marking layout:abc_list_menu_item_layout:2131427344 reachable: referenced from /
 Marking attr:state_indeterminate:2130903981 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:state_error:2130903980 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_CheckBox:2131756059 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165371 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165372 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:isMaterial3Theme:2130903584 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button:2131165370 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button_icon:2131165372 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:checked:2131230840 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:unchecked:2131231187 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:indeterminate:2131230937 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button:2131165371 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button_icon:2131165373 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:checked:2131230841 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:unchecked:2131231188 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:indeterminate:2131230938 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_checkbox_state_description_checked:2131689598 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_checkbox_state_description_unchecked:2131689600 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_checkbox_state_description_indeterminate:2131689599 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorError:2130903267 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:tag_state_description:2131231142 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:tag_state_description:2131231143 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:listMenuViewStyle:2130903705 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:dropDownListViewStyle:2130903419 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_prepend_shortcut_label:2131689489 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -310,14 +313,14 @@ Marking string:abc_menu_function_shortcut_label:2131689484 reachable: referenced
 Marking string:abc_menu_space_shortcut_label:2131689487 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_enter_shortcut_label:2131689483 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:abc_menu_delete_shortcut_label:2131689482 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:shortcut:2131231101 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:submenuarrow:2131231131 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:group_divider:2131230923 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:content:2131230851 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:shortcut:2131231102 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:submenuarrow:2131231132 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:group_divider:2131230924 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:content:2131230852 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_radio:2131427345 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_checkbox:2131427342 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_list_menu_item_icon:2131427343 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:fragment_container_view_tag:2131230916 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:fragment_container_view_tag:2131230917 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_calendar_month_labeled:2131427407 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:androidx_startup:2131689499 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:materialButtonStyle:2130903729 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -333,10 +336,10 @@ Marking style:Widget_Design_TextInputLayout:2131755842 reachable: referenced fro
 Marking dimen:mtrl_textinput_box_label_cutout_padding:2131100417 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_textinput_box_stroke_width_default:2131100418 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_textinput_box_stroke_width_focused:2131100419 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:mtrl_filled_background_color:2131034841 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:mtrl_textinput_default_box_stroke_color:2131034868 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:mtrl_textinput_disabled_color:2131034869 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:mtrl_textinput_hovered_box_stroke_color:2131034872 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:mtrl_filled_background_color:2131034837 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:mtrl_textinput_default_box_stroke_color:2131034864 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:mtrl_textinput_disabled_color:2131034865 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:mtrl_textinput_hovered_box_stroke_color:2131034868 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_shape_corner_size_small_component:2131100391 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:m3_comp_outlined_autocomplete_menu_container_elevation:2131099984 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_exposed_dropdown_menu_popup_vertical_padding:2131100328 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -347,33 +350,33 @@ Marking dimen:material_filled_edittext_font_2_0_padding_bottom:2131100220 reacha
 Marking dimen:material_filled_edittext_font_1_3_padding_top:2131100219 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_filled_edittext_font_1_3_padding_bottom:2131100218 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:TextAppearance_AppCompat_Caption:2131755420 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:design_error:2131034188 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:design_error:2131034187 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:character_counter_overflowed_content_description:2131689517 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:character_counter_content_description:2131689516 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:character_counter_pattern:2131689518 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_counter:2131231157 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_counter:2131231158 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_textinput_counter_margin_start:2131100420 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_error:2131231158 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_helper_text:2131231159 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_placeholder:2131231160 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_error:2131231159 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_helper_text:2131231160 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_placeholder:2131231161 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_year_selection:2131689640 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_day_selection:2131689638 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_TimePicker_Clock:2131756127 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_clock_hand_stroke_width:2131100204 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_clock_hand_center_dot_radius:2131100202 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:spacer:2131231112 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:spacer:2131231113 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:abc_popup_menu_item_layout:2131427347 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_timepicker:2131427392 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_clock_face:2131230963 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_clock_period_toggle:2131230968 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_minute_tv:2131230973 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_hour_tv:2131230970 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_clock_hand:2131230964 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:selection_type:2131231100 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_clock_face:2131230964 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_clock_period_toggle:2131230969 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_minute_tv:2131230974 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_hour_tv:2131230971 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_clock_hand:2131230965 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:selection_type:2131231101 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_chip_close_icon_content_description:2131689601 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_time_chip:2131427390 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_time_input:2131427391 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_label:2131230971 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_label:2131230972 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:spinnerStyle:2130903964 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:support_simple_spinner_dropdown_item:2131427437 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorPrimary:2130903292 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -383,15 +386,15 @@ Marking attr:checkedTextViewStyle:2130903212 reachable: referenced from /home/z/
 Marking attr:elevationOverlayEnabled:2130903429 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:elevationOverlayColor:2130903428 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:elevationOverlayAccentColor:2130903427 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:text_input_error_icon:2131231155 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:text_input_end_icon:2131231154 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:text_input_error_icon:2131231156 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:text_input_end_icon:2131231155 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:error_icon_content_description:2131689522 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_suffix_text:2131231162 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_suffix_text:2131231163 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:design_text_input_end_icon:2131427371 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_input_text_to_prefix_suffix_padding:2131100227 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:design_text_input_start_icon:2131427372 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textinput_prefix_text:2131231161 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231194 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textinput_prefix_text:2131231162 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231195 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Theme_AppCompat_Empty:2131755549 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:item_history:2131427375 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:actionModeStyle:2130903068 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -400,18 +403,18 @@ Marking id:action_mode_close_button:2131230783 reachable: referenced from /home/
 Marking layout:abc_action_bar_title_item:2131427328 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_title:2131230774 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:action_bar_subtitle:2131230773 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:view_tree_saved_state_registry_owner:2131231195 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:view_tree_saved_state_registry_owner:2131231196 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:alertDialogTheme:2130903082 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:parentPanel:2131231051 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:scrollView:2131231086 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:parentPanel:2131231052 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:scrollView:2131231087 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:alertDialogCenterButtons:2130903080 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:title_template:2131231166 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:title_template:2131231167 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:alertTitle:2131230788 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textSpacerNoButtons:2131231150 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:titleDividerNoCustom:2131231165 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:textSpacerNoTitle:2131231151 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:scrollIndicatorUp:2131231085 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:scrollIndicatorDown:2131231084 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textSpacerNoButtons:2131231151 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:titleDividerNoCustom:2131231166 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:textSpacerNoTitle:2131231152 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:scrollIndicatorUp:2131231086 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:scrollIndicatorDown:2131231085 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_navigate_to_current_year_description:2131689620 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_navigate_to_year_description:2131689621 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:mtrl_calendar_year:2131427411 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -419,13 +422,13 @@ Marking attr:bottomSheetDialogTheme:2130903156 reachable: referenced from /home/
 Marking style:Theme_Design_Light_BottomSheetDialog:2131755561 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:enableEdgeToEdge:2130903431 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:sheet_history:2131427436 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:listHistory:2131230954 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:txtEmpty:2131231182 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:listHistory:2131230955 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:txtEmpty:2131231183 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btnClearHistory:2131230820 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:design_bottom_sheet_dialog:2131427359 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:coordinator:2131230854 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:design_bottom_sheet:2131230867 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:touch_outside:2131231170 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:coordinator:2131230855 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:design_bottom_sheet:2131230868 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:touch_outside:2131231171 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:activity_main:2131427356 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn0:2131230808 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btn1:2131230809 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -447,18 +450,19 @@ Marking id:btnMinus:2131230825 reachable: referenced from /home/z/my-project/qin
 Marking id:btnMultiply:2131230826 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btnPercent:2131230827 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:btnPlus:2131230828 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:btnToggleSign:2131230829 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:txtExpr:2131231183 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:txtMain:2131231186 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btnTheme:2131230829 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:btnToggleSign:2131230830 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:txtExpr:2131231184 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:txtMain:2131231187 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_clockface_view:2131427387 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_clock_hand_padding:2131100203 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking color:material_timepicker_clockface:2131034816 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking color:material_timepicker_clockface:2131034812 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:material_clockface_textview:2131427386 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:material_clock_level:2131230965 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:material_clock_level:2131230966 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_time_picker_minimum_screen_height:2131100231 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_time_picker_minimum_screen_width:2131100232 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_clock_size:2131100210 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking id:circle_center:2131230842 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking id:circle_center:2131230843 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
@@ -616,6 +620,7 @@ maxLines
 ACTION_ACCESSIBILITY_FOCUS
 layoutDescription
 GONE
+nightMode
 child
 strokeWidth
 font_weight
@@ -661,6 +666,7 @@ IconCompat
 false
 label
 trimPathStart
+prefs
 android:support:fragments
 ACTION_DRAG_DROP
 ACTION_MOVE_WINDOW
@@ -940,6 +946,7 @@ AppCompatDelegate
 NEGATIVE_BUTTON_TEXT_KEY
 lifecycle
 view
+ui
 java.lang.Short
 positionSelector
 androidx.profileinstaller.action.INST...
@@ -1032,6 +1039,7 @@ dexopt/baseline.profm
 xx
 tileMode
 ACCESSIBILITY_CLICKABLE_SPAN_ID
+binding
 none
 BOTTOM
 type
@@ -1198,14 +1206,14 @@ mAttachInfo
 mIsChildViewEnabled
 classes.dex
 BackgroundColor
-Marking id:parent:2131231050 used because it matches string pool constant parent
-Marking id:parentPanel:2131231051 used because it matches string pool constant parent
-Marking id:parentRelative:2131231052 used because it matches string pool constant parent
-Marking id:parent_matrix:2131231053 used because it matches string pool constant parent
+Marking id:parent:2131231051 used because it matches string pool constant parent
+Marking id:parentPanel:2131231052 used because it matches string pool constant parent
+Marking id:parentRelative:2131231053 used because it matches string pool constant parent
+Marking id:parent_matrix:2131231054 used because it matches string pool constant parent
 Marking attr:pathMotionArc:2130903870 used because it matches string pool constant path
 Marking attr:path_percent:2130903871 used because it matches string pool constant path
-Marking id:path:2131231055 used because it matches string pool constant path
-Marking id:pathRelative:2131231056 used because it matches string pool constant path
+Marking id:path:2131231056 used because it matches string pool constant path
+Marking id:pathRelative:2131231057 used because it matches string pool constant path
 Marking string:path_password_eye:2131689652 used because it matches string pool constant path
 Marking string:path_password_eye_mask_strike_through:2131689653 used because it matches string pool constant path
 Marking string:path_password_eye_mask_visible:2131689654 used because it matches string pool constant path
@@ -1228,13 +1236,13 @@ Marking attr:fontProviderSystemFontFamily:2130903529 used because it matches str
 Marking attr:fontStyle:2130903530 used because it matches string pool constant font
 Marking attr:fontVariationSettings:2130903531 used because it matches string pool constant font
 Marking attr:fontWeight:2130903532 used because it matches string pool constant font
-Marking id:standard:2131231122 used because it matches string pool constant standard
-Marking id:decelerate:2131230862 used because it matches string pool constant decelerate
-Marking id:decelerateAndComplete:2131230863 used because it matches string pool constant decelerate
+Marking id:standard:2131231123 used because it matches string pool constant standard
+Marking id:decelerate:2131230863 used because it matches string pool constant decelerate
+Marking id:decelerateAndComplete:2131230864 used because it matches string pool constant decelerate
 Marking attr:drawableLeftCompat:2130903408 used because it matches string pool constant drawableLeft
 Marking attr:addElevationShadow:2130903078 used because it matches string pool constant add
 Marking id:add:2131230787 used because it matches string pool constant add
-Marking id:unchecked:2131231187 used because it matches string pool constant unchecked
+Marking id:unchecked:2131231188 used because it matches string pool constant unchecked
 Marking attr:enableEdgeToEdge:2130903431 used because it matches string pool constant en
 Marking attr:endIconCheckable:2130903432 used because it matches string pool constant en
 Marking attr:endIconContentDescription:2130903433 used because it matches string pool constant en
@@ -1247,10 +1255,10 @@ Marking attr:endIconTintMode:2130903439 used because it matches string pool cons
 Marking attr:enforceMaterialTheme:2130903440 used because it matches string pool constant en
 Marking attr:enforceTextAppearance:2130903441 used because it matches string pool constant en
 Marking attr:ensureMinTouchTargetSize:2130903442 used because it matches string pool constant en
-Marking id:end:2131230894 used because it matches string pool constant en
-Marking id:endToStart:2131230895 used because it matches string pool constant en
-Marking id:enterAlways:2131230896 used because it matches string pool constant en
-Marking id:enterAlwaysCollapsed:2131230897 used because it matches string pool constant en
+Marking id:end:2131230895 used because it matches string pool constant en
+Marking id:endToStart:2131230896 used because it matches string pool constant en
+Marking id:enterAlways:2131230897 used because it matches string pool constant en
+Marking id:enterAlwaysCollapsed:2131230898 used because it matches string pool constant en
 Marking attr:maxLines:2130903775 used because it matches string pool constant maxLines
 Marking attr:layoutDescription:2130903627 used because it matches string pool constant layoutDescription
 Marking attr:strokeWidth:2130903989 used because it matches string pool constant strokeWidth
@@ -1270,30 +1278,30 @@ Marking attr:contentPaddingRight:2130903339 used because it matches string pool 
 Marking attr:contentPaddingStart:2130903340 used because it matches string pool constant content
 Marking attr:contentPaddingTop:2130903341 used because it matches string pool constant content
 Marking attr:contentScrim:2130903342 used because it matches string pool constant content
-Marking id:content:2131230851 used because it matches string pool constant content
-Marking id:contentPanel:2131230852 used because it matches string pool constant content
+Marking id:content:2131230852 used because it matches string pool constant content
+Marking id:contentPanel:2131230853 used because it matches string pool constant content
 Marking attr:alpha:2130903084 used because it matches string pool constant alpha
 Marking attr:alphabeticModifiers:2130903085 used because it matches string pool constant alpha
 Marking attr:selectorSize:2130903923 used because it matches string pool constant selector
 Marking attr:labelBehavior:2130903620 used because it matches string pool constant label
 Marking attr:labelStyle:2130903621 used because it matches string pool constant label
 Marking attr:labelVisibilityMode:2130903622 used because it matches string pool constant label
-Marking id:labeled:2131230946 used because it matches string pool constant label
+Marking id:labeled:2131230947 used because it matches string pool constant label
 Marking attr:indeterminateAnimationType:2130903572 used because it matches string pool constant indeterminate
 Marking attr:indeterminateProgressStyle:2130903573 used because it matches string pool constant indeterminate
-Marking drawable:indeterminate_static:2131165343 used because it matches string pool constant indeterminate
-Marking id:indeterminate:2131230937 used because it matches string pool constant indeterminate
+Marking drawable:indeterminate_static:2131165346 used because it matches string pool constant indeterminate
+Marking id:indeterminate:2131230938 used because it matches string pool constant indeterminate
 Marking attr:closeIconEnabled:2130903241 used because it matches string pool constant closeIconEnabled
 Marking id:TOP_END:2131230732 used because it matches string pool constant TOP
 Marking id:TOP_START:2131230733 used because it matches string pool constant TOP
-Marking id:skipCollapsed:2131231106 used because it matches string pool constant skip
+Marking id:skipCollapsed:2131231107 used because it matches string pool constant skip
 Marking attr:drawableEndCompat:2130903407 used because it matches string pool constant drawableEnd
 Marking anim:linear_indeterminate_line1_head_interpolator:2130771997 used because it matches string pool constant linear
 Marking anim:linear_indeterminate_line1_tail_interpolator:2130771998 used because it matches string pool constant linear
 Marking anim:linear_indeterminate_line2_head_interpolator:2130771999 used because it matches string pool constant linear
 Marking anim:linear_indeterminate_line2_tail_interpolator:2130772000 used because it matches string pool constant linear
 Marking attr:linearProgressIndicatorStyle:2130903698 used because it matches string pool constant linear
-Marking id:linear:2131230953 used because it matches string pool constant linear
+Marking id:linear:2131230954 used because it matches string pool constant linear
 Marking attr:menu:2130903780 used because it matches string pool constant menu
 Marking attr:menuAlignmentMode:2130903781 used because it matches string pool constant menu
 Marking attr:menuGravity:2130903782 used because it matches string pool constant menu
@@ -1365,7 +1373,7 @@ Marking color:background_floating_material_dark:2131034141 used because it match
 Marking color:background_floating_material_light:2131034142 used because it matches string pool constant background
 Marking color:background_material_dark:2131034143 used because it matches string pool constant background
 Marking color:background_material_light:2131034144 used because it matches string pool constant background
-Marking id:position:2131231061 used because it matches string pool constant position
+Marking id:position:2131231062 used because it matches string pool constant position
 Marking style:Theme_AppCompat:2131755536 used because it matches string pool constant Theme.AppCompat
 Marking style:Theme_AppCompat_CompactMenu:2131755537 used because it matches string pool constant Theme.AppCompat
 Marking style:Theme_AppCompat_DayNight:2131755538 used because it matches string pool constant Theme.AppCompat
@@ -1453,20 +1461,14 @@ Marking layout:activity_main:2131427356 used because it matches string pool cons
 Marking attr:keyPositionType:2130903616 used because it matches string pool constant key
 Marking attr:keyboardIcon:2130903617 used because it matches string pool constant key
 Marking attr:keylines:2130903618 used because it matches string pool constant key
-Marking color:key_bg:2131034212 used because it matches string pool constant key
-Marking color:key_eq_text:2131034213 used because it matches string pool constant key
-Marking color:key_fn_bg:2131034214 used because it matches string pool constant key
-Marking color:key_fn_text:2131034215 used because it matches string pool constant key
-Marking color:key_op_bg:2131034216 used because it matches string pool constant key
-Marking color:key_op_text:2131034217 used because it matches string pool constant key
-Marking color:key_stroke:2131034218 used because it matches string pool constant key
-Marking dimen:key_gap:2131099805 used because it matches string pool constant key
-Marking dimen:key_height:2131099806 used because it matches string pool constant key
-Marking dimen:key_radius:2131099807 used because it matches string pool constant key
-Marking drawable:key_bg_digit:2131165344 used because it matches string pool constant key
-Marking drawable:key_bg_eq:2131165345 used because it matches string pool constant key
-Marking drawable:key_bg_fn:2131165346 used because it matches string pool constant key
-Marking drawable:key_bg_op:2131165347 used because it matches string pool constant key
+Marking color:key_bg:2131034211 used because it matches string pool constant key
+Marking color:key_eq_text:2131034212 used because it matches string pool constant key
+Marking color:key_fn_text:2131034213 used because it matches string pool constant key
+Marking color:key_op_text:2131034214 used because it matches string pool constant key
+Marking dimen:key_gap:2131099806 used because it matches string pool constant key
+Marking dimen:key_height:2131099807 used because it matches string pool constant key
+Marking drawable:key_bg_eq:2131165347 used because it matches string pool constant key
+Marking drawable:key_bg_round:2131165348 used because it matches string pool constant key
 Marking string:key_0:2131689532 used because it matches string pool constant key
 Marking string:key_1:2131689533 used because it matches string pool constant key
 Marking string:key_2:2131689534 used because it matches string pool constant key
@@ -1486,15 +1488,15 @@ Marking string:key_multiply:2131689547 used because it matches string pool const
 Marking string:key_percent:2131689548 used because it matches string pool constant key
 Marking string:key_plus:2131689549 used because it matches string pool constant key
 Marking string:key_toggle_sign:2131689550 used because it matches string pool constant key
-Marking id:dimensions:2131230873 used because it matches string pool constant dimen
+Marking id:dimensions:2131230874 used because it matches string pool constant dimen
 Marking attr:closeIconVisible:2130903246 used because it matches string pool constant closeIconVisible
 Marking attr:viewInflaterClass:2130904179 used because it matches string pool constant view
-Marking id:view_offset_helper:2131231192 used because it matches string pool constant view
-Marking id:view_tree_lifecycle_owner:2131231193 used because it matches string pool constant view
-Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231194 used because it matches string pool constant view
-Marking id:view_tree_saved_state_registry_owner:2131231195 used because it matches string pool constant view
-Marking id:view_tree_view_model_store_owner:2131231196 used because it matches string pool constant view
-Marking id:up:2131231190 used because it matches string pool constant up
+Marking id:view_offset_helper:2131231193 used because it matches string pool constant view
+Marking id:view_tree_lifecycle_owner:2131231194 used because it matches string pool constant view
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131231195 used because it matches string pool constant view
+Marking id:view_tree_saved_state_registry_owner:2131231196 used because it matches string pool constant view
+Marking id:view_tree_view_model_store_owner:2131231197 used because it matches string pool constant view
+Marking id:up:2131231191 used because it matches string pool constant up
 Marking anim:fragment_fast_out_extra_slow_in:2130771996 used because it matches string pool constant fragment_
 Marking animator:fragment_close_enter:2130837507 used because it matches string pool constant fragment_
 Marking animator:fragment_close_exit:2130837508 used because it matches string pool constant fragment_
@@ -1502,7 +1504,7 @@ Marking animator:fragment_fade_enter:2130837509 used because it matches string p
 Marking animator:fragment_fade_exit:2130837510 used because it matches string pool constant fragment_
 Marking animator:fragment_open_enter:2130837511 used because it matches string pool constant fragment_
 Marking animator:fragment_open_exit:2130837512 used because it matches string pool constant fragment_
-Marking id:fragment_container_view_tag:2131230916 used because it matches string pool constant fragment_
+Marking id:fragment_container_view_tag:2131230917 used because it matches string pool constant fragment_
 Marking color:androidx_core_ripple_material_light:2131034139 used because it matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2131034140 used because it matches string pool constant android
 Marking string:androidx_startup:2131689499 used because it matches string pool constant android
@@ -1699,9 +1701,9 @@ Marking attr:layout_optimizationLevel:2130903688 used because it matches string 
 Marking attr:layout_scrollEffect:2130903689 used because it matches string pool constant layout
 Marking attr:layout_scrollFlags:2130903690 used because it matches string pool constant layout
 Marking attr:layout_scrollInterpolator:2130903691 used because it matches string pool constant layout
-Marking id:layout:2131230947 used because it matches string pool constant layout
+Marking id:layout:2131230948 used because it matches string pool constant layout
 Marking attr:shortcutMatchRequired:2130903935 used because it matches string pool constant short
-Marking id:shortcut:2131231101 used because it matches string pool constant short
+Marking id:shortcut:2131231102 used because it matches string pool constant short
 Marking attr:windowActionBar:2130904188 used because it matches string pool constant window
 Marking attr:windowActionBarOverlay:2130904189 used because it matches string pool constant window
 Marking attr:windowActionModeOverlay:2130904190 used because it matches string pool constant window
@@ -1712,7 +1714,7 @@ Marking attr:windowFixedWidthMinor:2130904194 used because it matches string poo
 Marking attr:windowMinWidthMajor:2130904195 used because it matches string pool constant window
 Marking attr:windowMinWidthMinor:2130904196 used because it matches string pool constant window
 Marking attr:windowNoTitle:2130904197 used because it matches string pool constant window
-Marking id:none:2131231025 used because it matches string pool constant none
+Marking id:none:2131231026 used because it matches string pool constant none
 Marking id:BOTTOM_END:2131230721 used because it matches string pool constant BOTTOM
 Marking id:BOTTOM_START:2131230722 used because it matches string pool constant BOTTOM
 Marking attr:drawableStartCompat:2130903411 used because it matches string pool constant drawableStart
@@ -1746,10 +1748,10 @@ Marking attr:itemTextAppearanceActiveBoldEnabled:2130903612 used because it matc
 Marking attr:itemTextAppearanceInactive:2130903613 used because it matches string pool constant item
 Marking attr:itemTextColor:2130903614 used because it matches string pool constant item
 Marking attr:itemVerticalPadding:2130903615 used because it matches string pool constant item
-Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131099802 used because it matches string pool constant item
-Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131099803 used because it matches string pool constant item
-Marking dimen:item_touch_helper_swipe_escape_velocity:2131099804 used because it matches string pool constant item
-Marking id:item_touch_helper_previous_elevation:2131230943 used because it matches string pool constant item
+Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131099803 used because it matches string pool constant item
+Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131099804 used because it matches string pool constant item
+Marking dimen:item_touch_helper_swipe_escape_velocity:2131099805 used because it matches string pool constant item
+Marking id:item_touch_helper_previous_elevation:2131230944 used because it matches string pool constant item
 Marking layout:item_history:2131427375 used because it matches string pool constant item
 Marking string:item_view_role_description:2131689531 used because it matches string pool constant item
 Marking string:character_counter_content_description:2131689516 used because it matches string pool constant char
@@ -1770,7 +1772,7 @@ Marking attr:floatingActionButtonSmallTertiaryStyle:2130903498 used because it m
 Marking attr:floatingActionButtonStyle:2130903499 used because it matches string pool constant float
 Marking attr:floatingActionButtonSurfaceStyle:2130903500 used because it matches string pool constant float
 Marking attr:floatingActionButtonTertiaryStyle:2130903501 used because it matches string pool constant float
-Marking id:floating:2131230914 used because it matches string pool constant float
+Marking id:floating:2131230915 used because it matches string pool constant float
 Marking attr:checkedButton:2130903202 used because it matches string pool constant checked
 Marking attr:checkedChip:2130903203 used because it matches string pool constant checked
 Marking attr:checkedIcon:2130903204 used because it matches string pool constant checked
@@ -1782,10 +1784,10 @@ Marking attr:checkedIconTint:2130903209 used because it matches string pool cons
 Marking attr:checkedIconVisible:2130903210 used because it matches string pool constant checked
 Marking attr:checkedState:2130903211 used because it matches string pool constant checked
 Marking attr:checkedTextViewStyle:2130903212 used because it matches string pool constant checked
-Marking id:checked:2131230840 used because it matches string pool constant checked
-Marking id:group_divider:2131230923 used because it matches string pool constant group
-Marking id:groups:2131230924 used because it matches string pool constant group
-Marking color:history_tint:2131034209 used because it matches string pool constant history
+Marking id:checked:2131230841 used because it matches string pool constant checked
+Marking id:group_divider:2131230924 used because it matches string pool constant group
+Marking id:groups:2131230925 used because it matches string pool constant group
+Marking color:history_tint:2131034208 used because it matches string pool constant history
 Marking string:history:2131689527 used because it matches string pool constant history
 Marking string:history_clear:2131689528 used because it matches string pool constant history
 Marking string:history_empty:2131689529 used because it matches string pool constant history
@@ -1799,9 +1801,9 @@ Marking attr:errorIconTintMode:2130903449 used because it matches string pool co
 Marking attr:errorShown:2130903450 used because it matches string pool constant error
 Marking attr:errorTextAppearance:2130903451 used because it matches string pool constant error
 Marking attr:errorTextColor:2130903452 used because it matches string pool constant error
-Marking color:error_color_material_dark:2131034202 used because it matches string pool constant error
-Marking color:error_color_material_light:2131034203 used because it matches string pool constant error
-Marking color:error_text:2131034204 used because it matches string pool constant error
+Marking color:error_color_material_dark:2131034201 used because it matches string pool constant error
+Marking color:error_color_material_light:2131034202 used because it matches string pool constant error
+Marking color:error_text:2131034203 used because it matches string pool constant error
 Marking string:error_a11y_label:2131689521 used because it matches string pool constant error
 Marking string:error_icon_content_description:2131689522 used because it matches string pool constant error
 Marking attr:values:2130904176 used because it matches string pool constant value
@@ -1812,7 +1814,7 @@ Marking animator:fragment_fade_enter:2130837509 used because it matches string p
 Marking animator:fragment_fade_exit:2130837510 used because it matches string pool constant fragment
 Marking animator:fragment_open_enter:2130837511 used because it matches string pool constant fragment
 Marking animator:fragment_open_exit:2130837512 used because it matches string pool constant fragment
-Marking id:fragment_container_view_tag:2131230916 used because it matches string pool constant fragment
+Marking id:fragment_container_view_tag:2131230917 used because it matches string pool constant fragment
 @anim/abc_fade_in : reachable=false
 @anim/abc_fade_out : reachable=false
 @anim/abc_grow_fade_in_from_bottom : reachable=false
@@ -3284,7 +3286,6 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @color/cardview_light_background : reachable=false
 @color/cardview_shadow_end_color : reachable=false
 @color/cardview_shadow_start_color : reachable=false
-@color/cinnabar : reachable=false
 @color/design_bottom_navigation_shadow_color : reachable=false
 @color/design_box_stroke_color : reachable=false
     @color/mtrl_textinput_focused_box_stroke_color
@@ -3344,11 +3345,8 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @color/ink_soft : reachable=false
 @color/key_bg : reachable=true
 @color/key_eq_text : reachable=true
-@color/key_fn_bg : reachable=true
 @color/key_fn_text : reachable=true
-@color/key_op_bg : reachable=true
 @color/key_op_text : reachable=true
-@color/key_stroke : reachable=true
 @color/m3_appbar_overlay_color : reachable=false
     @attr/elevationOverlayColor
 @color/m3_assist_chip_icon_tint_color : reachable=false
@@ -4909,6 +4907,7 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @dimen/design_textinput_caption_translate_y : reachable=true
 @dimen/disabled_alpha_material_dark : reachable=false
 @dimen/disabled_alpha_material_light : reachable=false
+@dimen/edge_margin : reachable=false
 @dimen/fastscroll_default_thickness : reachable=true
 @dimen/fastscroll_margin : reachable=true
 @dimen/fastscroll_minimum_range : reachable=true
@@ -4924,7 +4923,6 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @dimen/item_touch_helper_swipe_escape_velocity : reachable=true
 @dimen/key_gap : reachable=true
 @dimen/key_height : reachable=true
-@dimen/key_radius : reachable=true
 @dimen/m3_alert_dialog_action_bottom_padding : reachable=false
 @dimen/m3_alert_dialog_action_top_padding : reachable=false
 @dimen/m3_alert_dialog_corner_size : reachable=false
@@ -6071,21 +6069,13 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @drawable/ic_mtrl_chip_checked_circle : reachable=false
 @drawable/ic_mtrl_chip_close_circle : reachable=false
 @drawable/ic_search_black_24 : reachable=false
+@drawable/ic_theme_auto : reachable=true
+@drawable/ic_theme_dark : reachable=true
+@drawable/ic_theme_light : reachable=true
 @drawable/indeterminate_static : reachable=true
-@drawable/key_bg_digit : reachable=true
-    @dimen/key_radius
-    @color/key_bg
-    @color/key_stroke
 @drawable/key_bg_eq : reachable=true
-    @dimen/key_radius
-@drawable/key_bg_fn : reachable=true
-    @dimen/key_radius
-    @color/key_fn_bg
-    @color/key_stroke
-@drawable/key_bg_op : reachable=true
-    @dimen/key_radius
-    @color/key_op_bg
-    @color/key_stroke
+@drawable/key_bg_round : reachable=true
+    @color/key_bg
 @drawable/m3_avd_hide_password : reachable=false
     @drawable/$m3_avd_hide_password__0
     @drawable/$m3_avd_hide_password__1
@@ -6452,6 +6442,7 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @id/btnMultiply : reachable=true
 @id/btnPercent : reachable=true
 @id/btnPlus : reachable=true
+@id/btnTheme : reachable=true
 @id/btnToggleSign : reachable=true
 @id/buttonPanel : reachable=true
 @id/cancel_button : reachable=true
@@ -7068,6 +7059,8 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
     @drawable/ic_history
     @color/history_tint
     @string/history
+    @drawable/ic_theme_auto
+    @string/toggle_theme
     @color/ink_soft
     @color/ink
     @string/zero
@@ -7663,6 +7656,7 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @string/side_sheet_accessibility_pane_title : reachable=true
 @string/side_sheet_behavior : reachable=false
 @string/status_bar_notification_info_overflow : reachable=false
+@string/toggle_theme : reachable=false
 @string/zero : reachable=false
 @style/AlertDialog_AppCompat : reachable=false
     @style/Base_AlertDialog_AppCompat
@@ -11919,11 +11913,12 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
     @attr/cardBackgroundColor
 @style/Key : reachable=false
     @color/ink
-    @drawable/key_bg_digit
+    @drawable/key_bg_round
     @dimen/key_height
     @dimen/key_gap
 @style/KeyRow : reachable=false
     @dimen/key_gap
+    @dimen/edge_margin
 @style/Key_Eq : reachable=false
     @style/Key
     @color/key_eq_text
@@ -11931,11 +11926,9 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @style/Key_Fn : reachable=false
     @style/Key
     @color/key_fn_text
-    @drawable/key_bg_fn
 @style/Key_Op : reachable=false
     @style/Key
     @color/key_op_text
-    @drawable/key_bg_op
 @style/MaterialAlertDialog_Material3 : reachable=false
     @style/MaterialAlertDialog_MaterialComponents
     @layout/m3_alert_dialog
@@ -16850,24 +16843,21 @@ The root reachable resources are:
  color:background_floating_material_light:2131034142
  color:background_material_dark:2131034143
  color:background_material_light:2131034144
- color:design_error:2131034188
- color:error_color_material_dark:2131034202
- color:error_color_material_light:2131034203
- color:error_text:2131034204
- color:history_tint:2131034209
- color:ink:2131034210
- color:key_bg:2131034212
- color:key_eq_text:2131034213
- color:key_fn_bg:2131034214
- color:key_fn_text:2131034215
- color:key_op_bg:2131034216
- color:key_op_text:2131034217
- color:key_stroke:2131034218
- color:material_timepicker_clockface:2131034816
- color:mtrl_filled_background_color:2131034841
- color:mtrl_textinput_default_box_stroke_color:2131034868
- color:mtrl_textinput_disabled_color:2131034869
- color:mtrl_textinput_hovered_box_stroke_color:2131034872
+ color:design_error:2131034187
+ color:error_color_material_dark:2131034201
+ color:error_color_material_light:2131034202
+ color:error_text:2131034203
+ color:history_tint:2131034208
+ color:ink:2131034209
+ color:key_bg:2131034211
+ color:key_eq_text:2131034212
+ color:key_fn_text:2131034213
+ color:key_op_text:2131034214
+ color:material_timepicker_clockface:2131034812
+ color:mtrl_filled_background_color:2131034837
+ color:mtrl_textinput_default_box_stroke_color:2131034864
+ color:mtrl_textinput_disabled_color:2131034865
+ color:mtrl_textinput_hovered_box_stroke_color:2131034868
  dimen:abc_cascading_menus_min_smallest_width:2131099670
  dimen:abc_config_prefDialogWidth:2131099671
  dimen:abc_star_big:2131099707
@@ -16878,15 +16868,14 @@ The root reachable resources are:
  dimen:design_snackbar_padding_vertical:2131099782
  dimen:design_snackbar_padding_vertical_2lines:2131099783
  dimen:design_textinput_caption_translate_y:2131099789
- dimen:fastscroll_default_thickness:2131099792
- dimen:fastscroll_margin:2131099793
- dimen:fastscroll_minimum_range:2131099794
- dimen:item_touch_helper_max_drag_scroll_per_frame:2131099802
- dimen:item_touch_helper_swipe_escape_max_velocity:2131099803
- dimen:item_touch_helper_swipe_escape_velocity:2131099804
- dimen:key_gap:2131099805
- dimen:key_height:2131099806
- dimen:key_radius:2131099807
+ dimen:fastscroll_default_thickness:2131099793
+ dimen:fastscroll_margin:2131099794
+ dimen:fastscroll_minimum_range:2131099795
+ dimen:item_touch_helper_max_drag_scroll_per_frame:2131099803
+ dimen:item_touch_helper_swipe_escape_max_velocity:2131099804
+ dimen:item_touch_helper_swipe_escape_velocity:2131099805
+ dimen:key_gap:2131099806
+ dimen:key_height:2131099807
  dimen:m3_back_progress_bottom_container_max_scale_x_distance:2131099823
  dimen:m3_back_progress_bottom_container_max_scale_y_distance:2131099824
  dimen:m3_back_progress_side_container_max_scale_x_distance_grow:2131099827
@@ -16978,19 +16967,20 @@ The root reachable resources are:
  drawable:abc_textfield_search_material:2131165303
  drawable:abc_vector_test:2131165304
  drawable:design_password_eye:2131165318
- drawable:indeterminate_static:2131165343
- drawable:key_bg_digit:2131165344
- drawable:key_bg_eq:2131165345
- drawable:key_bg_fn:2131165346
- drawable:key_bg_op:2131165347
- drawable:material_ic_calendar_black_24dp:2131165360
- drawable:material_ic_edit_black_24dp:2131165362
- drawable:mtrl_checkbox_button:2131165370
- drawable:mtrl_checkbox_button_checked_unchecked:2131165371
- drawable:mtrl_checkbox_button_icon:2131165372
- drawable:mtrl_dropdown_arrow:2131165381
- drawable:mtrl_ic_cancel:2131165384
- drawable:navigation_empty_icon:2131165406
+ drawable:ic_theme_auto:2131165343
+ drawable:ic_theme_dark:2131165344
+ drawable:ic_theme_light:2131165345
+ drawable:indeterminate_static:2131165346
+ drawable:key_bg_eq:2131165347
+ drawable:key_bg_round:2131165348
+ drawable:material_ic_calendar_black_24dp:2131165361
+ drawable:material_ic_edit_black_24dp:2131165363
+ drawable:mtrl_checkbox_button:2131165371
+ drawable:mtrl_checkbox_button_checked_unchecked:2131165372
+ drawable:mtrl_checkbox_button_icon:2131165373
+ drawable:mtrl_dropdown_arrow:2131165382
+ drawable:mtrl_ic_cancel:2131165385
+ drawable:navigation_empty_icon:2131165407
  id:BOTTOM_END:2131230721
  id:BOTTOM_START:2131230722
  id:SHOW_ALL:2131230728
@@ -17067,128 +17057,129 @@ The root reachable resources are:
  id:btnMultiply:2131230826
  id:btnPercent:2131230827
  id:btnPlus:2131230828
- id:btnToggleSign:2131230829
- id:buttonPanel:2131230830
- id:cancel_button:2131230831
- id:checked:2131230840
- id:circle_center:2131230842
- id:confirm_button:2131230849
- id:content:2131230851
- id:contentPanel:2131230852
- id:coordinator:2131230854
- id:customPanel:2131230859
- id:decelerate:2131230862
- id:decelerateAndComplete:2131230863
- id:decor_content_parent:2131230864
- id:design_bottom_sheet:2131230867
- id:design_menu_item_action_area_stub:2131230869
- id:design_menu_item_text:2131230870
- id:dimensions:2131230873
- id:end:2131230894
- id:endToStart:2131230895
- id:enterAlways:2131230896
- id:enterAlwaysCollapsed:2131230897
- id:floating:2131230914
- id:fragment_container_view_tag:2131230916
- id:fullscreen_header:2131230917
- id:group_divider:2131230923
- id:groups:2131230924
- id:indeterminate:2131230937
- id:is_pooling_container_tag:2131230941
- id:item_touch_helper_previous_elevation:2131230943
- id:labeled:2131230946
- id:layout:2131230947
- id:linear:2131230953
- id:listHistory:2131230954
- id:material_clock_display:2131230961
- id:material_clock_face:2131230963
- id:material_clock_hand:2131230964
- id:material_clock_level:2131230965
- id:material_clock_period_toggle:2131230968
- id:material_hour_tv:2131230970
- id:material_label:2131230971
- id:material_minute_tv:2131230973
- id:material_value_index:2131230980
- id:month_grid:2131230985
- id:month_navigation_fragment_toggle:2131230987
- id:month_navigation_next:2131230988
- id:month_navigation_previous:2131230989
- id:month_title:2131230990
- id:mtrl_calendar_day_selector_frame:2131230993
- id:mtrl_calendar_days_of_week:2131230994
- id:mtrl_calendar_frame:2131230995
- id:mtrl_calendar_main_pane:2131230996
- id:mtrl_calendar_months:2131230997
- id:mtrl_calendar_year_selector_frame:2131231000
- id:mtrl_picker_header_selection_text:2131231007
- id:mtrl_picker_header_toggle:2131231009
- id:mtrl_picker_title_text:2131231013
- id:none:2131231025
- id:parent:2131231050
- id:parentPanel:2131231051
- id:parentRelative:2131231052
- id:parent_matrix:2131231053
- id:path:2131231055
- id:pathRelative:2131231056
- id:pooling_container_listener_holder_tag:2131231060
- id:position:2131231061
- id:report_drawn:2131231069
- id:save_overlay_view:2131231079
- id:scrollIndicatorDown:2131231084
- id:scrollIndicatorUp:2131231085
- id:scrollView:2131231086
- id:selection_type:2131231100
- id:shortcut:2131231101
- id:skipCollapsed:2131231106
- id:snackbar_action:2131231108
- id:snackbar_text:2131231109
- id:spacer:2131231112
- id:special_effects_controller_view_tag:2131231113
- id:split_action_bar:2131231115
- id:standard:2131231122
- id:submenuarrow:2131231131
- id:tag_accessibility_actions:2131231134
- id:tag_accessibility_clickable_spans:2131231135
- id:tag_accessibility_heading:2131231136
- id:tag_accessibility_pane_title:2131231137
- id:tag_on_apply_window_listener:2131231138
- id:tag_on_receive_content_listener:2131231139
- id:tag_on_receive_content_mime_types:2131231140
- id:tag_screen_reader_focusable:2131231141
- id:tag_state_description:2131231142
- id:tag_unhandled_key_event_manager:2131231144
- id:tag_unhandled_key_listeners:2131231145
- id:tag_window_insets_animation_callback:2131231146
- id:textSpacerNoButtons:2131231150
- id:textSpacerNoTitle:2131231151
- id:text_input_end_icon:2131231154
- id:text_input_error_icon:2131231155
- id:textinput_counter:2131231157
- id:textinput_error:2131231158
- id:textinput_helper_text:2131231159
- id:textinput_placeholder:2131231160
- id:textinput_prefix_text:2131231161
- id:textinput_suffix_text:2131231162
- id:title:2131231164
- id:titleDividerNoCustom:2131231165
- id:title_template:2131231166
- id:topPanel:2131231169
- id:touch_outside:2131231170
- id:transition_current_scene:2131231174
- id:transition_pause_alpha:2131231177
- id:txtEmpty:2131231182
- id:txtExpr:2131231183
- id:txtItemExpr:2131231184
- id:txtItemResult:2131231185
- id:txtMain:2131231186
- id:unchecked:2131231187
- id:up:2131231190
- id:view_offset_helper:2131231192
- id:view_tree_lifecycle_owner:2131231193
- id:view_tree_on_back_pressed_dispatcher_owner:2131231194
- id:view_tree_saved_state_registry_owner:2131231195
- id:view_tree_view_model_store_owner:2131231196
- id:visible_removing_fragment_view_tag:2131231198
+ id:btnTheme:2131230829
+ id:btnToggleSign:2131230830
+ id:buttonPanel:2131230831
+ id:cancel_button:2131230832
+ id:checked:2131230841
+ id:circle_center:2131230843
+ id:confirm_button:2131230850
+ id:content:2131230852
+ id:contentPanel:2131230853
+ id:coordinator:2131230855
+ id:customPanel:2131230860
+ id:decelerate:2131230863
+ id:decelerateAndComplete:2131230864
+ id:decor_content_parent:2131230865
+ id:design_bottom_sheet:2131230868
+ id:design_menu_item_action_area_stub:2131230870
+ id:design_menu_item_text:2131230871
+ id:dimensions:2131230874
+ id:end:2131230895
+ id:endToStart:2131230896
+ id:enterAlways:2131230897
+ id:enterAlwaysCollapsed:2131230898
+ id:floating:2131230915
+ id:fragment_container_view_tag:2131230917
+ id:fullscreen_header:2131230918
+ id:group_divider:2131230924
+ id:groups:2131230925
+ id:indeterminate:2131230938
+ id:is_pooling_container_tag:2131230942
+ id:item_touch_helper_previous_elevation:2131230944
+ id:labeled:2131230947
+ id:layout:2131230948
+ id:linear:2131230954
+ id:listHistory:2131230955
+ id:material_clock_display:2131230962
+ id:material_clock_face:2131230964
+ id:material_clock_hand:2131230965
+ id:material_clock_level:2131230966
+ id:material_clock_period_toggle:2131230969
+ id:material_hour_tv:2131230971
+ id:material_label:2131230972
+ id:material_minute_tv:2131230974
+ id:material_value_index:2131230981
+ id:month_grid:2131230986
+ id:month_navigation_fragment_toggle:2131230988
+ id:month_navigation_next:2131230989
+ id:month_navigation_previous:2131230990
+ id:month_title:2131230991
+ id:mtrl_calendar_day_selector_frame:2131230994
+ id:mtrl_calendar_days_of_week:2131230995
+ id:mtrl_calendar_frame:2131230996
+ id:mtrl_calendar_main_pane:2131230997
+ id:mtrl_calendar_months:2131230998
+ id:mtrl_calendar_year_selector_frame:2131231001
+ id:mtrl_picker_header_selection_text:2131231008
+ id:mtrl_picker_header_toggle:2131231010
+ id:mtrl_picker_title_text:2131231014
+ id:none:2131231026
+ id:parent:2131231051
+ id:parentPanel:2131231052
+ id:parentRelative:2131231053
+ id:parent_matrix:2131231054
+ id:path:2131231056
+ id:pathRelative:2131231057
+ id:pooling_container_listener_holder_tag:2131231061
+ id:position:2131231062
+ id:report_drawn:2131231070
+ id:save_overlay_view:2131231080
+ id:scrollIndicatorDown:2131231085
+ id:scrollIndicatorUp:2131231086
+ id:scrollView:2131231087
+ id:selection_type:2131231101
+ id:shortcut:2131231102
+ id:skipCollapsed:2131231107
+ id:snackbar_action:2131231109
+ id:snackbar_text:2131231110
+ id:spacer:2131231113
+ id:special_effects_controller_view_tag:2131231114
+ id:split_action_bar:2131231116
+ id:standard:2131231123
+ id:submenuarrow:2131231132
+ id:tag_accessibility_actions:2131231135
+ id:tag_accessibility_clickable_spans:2131231136
+ id:tag_accessibility_heading:2131231137
+ id:tag_accessibility_pane_title:2131231138
+ id:tag_on_apply_window_listener:2131231139
+ id:tag_on_receive_content_listener:2131231140
+ id:tag_on_receive_content_mime_types:2131231141
+ id:tag_screen_reader_focusable:2131231142
+ id:tag_state_description:2131231143
+ id:tag_unhandled_key_event_manager:2131231145
+ id:tag_unhandled_key_listeners:2131231146
+ id:tag_window_insets_animation_callback:2131231147
+ id:textSpacerNoButtons:2131231151
+ id:textSpacerNoTitle:2131231152
+ id:text_input_end_icon:2131231155
+ id:text_input_error_icon:2131231156
+ id:textinput_counter:2131231158
+ id:textinput_error:2131231159
+ id:textinput_helper_text:2131231160
+ id:textinput_placeholder:2131231161
+ id:textinput_prefix_text:2131231162
+ id:textinput_suffix_text:2131231163
+ id:title:2131231165
+ id:titleDividerNoCustom:2131231166
+ id:title_template:2131231167
+ id:topPanel:2131231170
+ id:touch_outside:2131231171
+ id:transition_current_scene:2131231175
+ id:transition_pause_alpha:2131231178
+ id:txtEmpty:2131231183
+ id:txtExpr:2131231184
+ id:txtItemExpr:2131231185
+ id:txtItemResult:2131231186
+ id:txtMain:2131231187
+ id:unchecked:2131231188
+ id:up:2131231191
+ id:view_offset_helper:2131231193
+ id:view_tree_lifecycle_owner:2131231194
+ id:view_tree_on_back_pressed_dispatcher_owner:2131231195
+ id:view_tree_saved_state_registry_owner:2131231196
+ id:view_tree_view_model_store_owner:2131231197
+ id:visible_removing_fragment_view_tag:2131231199
  integer:mtrl_calendar_year_selector_span:2131296306
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
@@ -17530,256 +17521,255 @@ Unused resources are:
  color:cardview_light_background:2131034156
  color:cardview_shadow_end_color:2131034157
  color:cardview_shadow_start_color:2131034158
- color:cinnabar:2131034159
- color:design_bottom_navigation_shadow_color:2131034160
- color:design_fab_shadow_end_color:2131034189
- color:design_fab_shadow_mid_color:2131034190
- color:design_fab_shadow_start_color:2131034191
- color:design_fab_stroke_end_inner_color:2131034192
- color:design_fab_stroke_end_outer_color:2131034193
- color:design_fab_stroke_top_inner_color:2131034194
- color:design_fab_stroke_top_outer_color:2131034195
- color:dim_foreground_disabled_material_dark:2131034198
- color:dim_foreground_disabled_material_light:2131034199
- color:dim_foreground_material_dark:2131034200
- color:dim_foreground_material_light:2131034201
- color:m3_appbar_overlay_color:2131034219
- color:m3_assist_chip_stroke_color:2131034221
- color:m3_button_ripple_color:2131034226
- color:m3_elevated_chip_background_color:2131034258
- color:m3_popupmenu_overlay_color:2131034276
- color:m3_ref_palette_black:2131034280
- color:m3_ref_palette_dynamic_neutral0:2131034281
- color:m3_ref_palette_dynamic_neutral100:2131034283
- color:m3_ref_palette_dynamic_neutral12:2131034284
- color:m3_ref_palette_dynamic_neutral17:2131034285
- color:m3_ref_palette_dynamic_neutral22:2131034287
- color:m3_ref_palette_dynamic_neutral24:2131034288
- color:m3_ref_palette_dynamic_neutral30:2131034289
- color:m3_ref_palette_dynamic_neutral4:2131034290
- color:m3_ref_palette_dynamic_neutral40:2131034291
- color:m3_ref_palette_dynamic_neutral50:2131034292
- color:m3_ref_palette_dynamic_neutral6:2131034293
- color:m3_ref_palette_dynamic_neutral60:2131034294
- color:m3_ref_palette_dynamic_neutral70:2131034295
- color:m3_ref_palette_dynamic_neutral80:2131034296
- color:m3_ref_palette_dynamic_neutral87:2131034297
- color:m3_ref_palette_dynamic_neutral92:2131034299
- color:m3_ref_palette_dynamic_neutral94:2131034300
- color:m3_ref_palette_dynamic_neutral96:2131034302
- color:m3_ref_palette_dynamic_neutral98:2131034303
- color:m3_ref_palette_dynamic_neutral99:2131034304
- color:m3_ref_palette_dynamic_neutral_variant0:2131034305
- color:m3_ref_palette_dynamic_neutral_variant20:2131034310
- color:m3_ref_palette_dynamic_neutral_variant40:2131034315
- color:m3_ref_palette_dynamic_neutral_variant70:2131034319
- color:m3_ref_palette_dynamic_neutral_variant95:2131034325
- color:m3_ref_palette_dynamic_neutral_variant99:2131034328
- color:m3_ref_palette_dynamic_primary0:2131034329
- color:m3_ref_palette_dynamic_primary50:2131034335
- color:m3_ref_palette_dynamic_primary60:2131034336
- color:m3_ref_palette_dynamic_primary70:2131034337
- color:m3_ref_palette_dynamic_primary95:2131034340
- color:m3_ref_palette_dynamic_primary99:2131034341
- color:m3_ref_palette_dynamic_secondary0:2131034342
- color:m3_ref_palette_dynamic_secondary50:2131034348
- color:m3_ref_palette_dynamic_secondary60:2131034349
- color:m3_ref_palette_dynamic_secondary70:2131034350
- color:m3_ref_palette_dynamic_secondary95:2131034353
- color:m3_ref_palette_dynamic_secondary99:2131034354
- color:m3_ref_palette_dynamic_tertiary0:2131034355
- color:m3_ref_palette_dynamic_tertiary50:2131034361
- color:m3_ref_palette_dynamic_tertiary60:2131034362
- color:m3_ref_palette_dynamic_tertiary70:2131034363
- color:m3_ref_palette_dynamic_tertiary95:2131034366
- color:m3_ref_palette_dynamic_tertiary99:2131034367
- color:m3_ref_palette_error0:2131034368
- color:m3_ref_palette_error50:2131034374
- color:m3_ref_palette_error60:2131034375
- color:m3_ref_palette_error70:2131034376
- color:m3_ref_palette_error95:2131034379
- color:m3_ref_palette_error99:2131034380
- color:m3_ref_palette_neutral0:2131034381
- color:m3_ref_palette_neutral30:2131034389
- color:m3_ref_palette_neutral40:2131034391
- color:m3_ref_palette_neutral50:2131034392
- color:m3_ref_palette_neutral60:2131034394
- color:m3_ref_palette_neutral70:2131034395
- color:m3_ref_palette_neutral80:2131034396
- color:m3_ref_palette_neutral99:2131034404
- color:m3_ref_palette_neutral_variant0:2131034405
- color:m3_ref_palette_neutral_variant10:2131034406
- color:m3_ref_palette_neutral_variant100:2131034407
- color:m3_ref_palette_neutral_variant20:2131034408
- color:m3_ref_palette_neutral_variant40:2131034410
- color:m3_ref_palette_neutral_variant70:2131034413
- color:m3_ref_palette_neutral_variant95:2131034416
- color:m3_ref_palette_neutral_variant99:2131034417
- color:m3_ref_palette_primary0:2131034418
- color:m3_ref_palette_primary50:2131034424
- color:m3_ref_palette_primary60:2131034425
- color:m3_ref_palette_primary70:2131034426
- color:m3_ref_palette_primary95:2131034429
- color:m3_ref_palette_primary99:2131034430
- color:m3_ref_palette_secondary0:2131034431
- color:m3_ref_palette_secondary50:2131034437
- color:m3_ref_palette_secondary60:2131034438
- color:m3_ref_palette_secondary70:2131034439
- color:m3_ref_palette_secondary95:2131034442
- color:m3_ref_palette_secondary99:2131034443
- color:m3_ref_palette_tertiary0:2131034444
- color:m3_ref_palette_tertiary50:2131034450
- color:m3_ref_palette_tertiary60:2131034451
- color:m3_ref_palette_tertiary70:2131034452
- color:m3_ref_palette_tertiary95:2131034455
- color:m3_ref_palette_tertiary99:2131034456
- color:m3_ref_palette_white:2131034457
- color:m3_slider_active_track_color_legacy:2131034461
- color:m3_slider_halo_color_legacy:2131034462
- color:m3_slider_inactive_track_color_legacy:2131034464
- color:m3_slider_thumb_color_legacy:2131034466
- color:material_blue_grey_800:2131034654
- color:material_blue_grey_900:2131034655
- color:material_blue_grey_950:2131034656
- color:material_cursor_color:2131034657
- color:material_dynamic_neutral0:2131034669
- color:material_dynamic_neutral10:2131034670
- color:material_dynamic_neutral100:2131034671
- color:material_dynamic_neutral20:2131034672
- color:material_dynamic_neutral30:2131034673
- color:material_dynamic_neutral40:2131034674
- color:material_dynamic_neutral50:2131034675
- color:material_dynamic_neutral60:2131034676
- color:material_dynamic_neutral70:2131034677
- color:material_dynamic_neutral80:2131034678
- color:material_dynamic_neutral90:2131034679
- color:material_dynamic_neutral95:2131034680
- color:material_dynamic_neutral99:2131034681
- color:material_dynamic_neutral_variant0:2131034682
- color:material_dynamic_neutral_variant10:2131034683
- color:material_dynamic_neutral_variant100:2131034684
- color:material_dynamic_neutral_variant20:2131034685
- color:material_dynamic_neutral_variant30:2131034686
- color:material_dynamic_neutral_variant40:2131034687
- color:material_dynamic_neutral_variant50:2131034688
- color:material_dynamic_neutral_variant60:2131034689
- color:material_dynamic_neutral_variant70:2131034690
- color:material_dynamic_neutral_variant80:2131034691
- color:material_dynamic_neutral_variant90:2131034692
- color:material_dynamic_neutral_variant95:2131034693
- color:material_dynamic_neutral_variant99:2131034694
- color:material_dynamic_primary0:2131034695
- color:material_dynamic_primary10:2131034696
- color:material_dynamic_primary100:2131034697
- color:material_dynamic_primary20:2131034698
- color:material_dynamic_primary30:2131034699
- color:material_dynamic_primary40:2131034700
- color:material_dynamic_primary50:2131034701
- color:material_dynamic_primary60:2131034702
- color:material_dynamic_primary70:2131034703
- color:material_dynamic_primary80:2131034704
- color:material_dynamic_primary90:2131034705
- color:material_dynamic_primary95:2131034706
- color:material_dynamic_primary99:2131034707
- color:material_dynamic_secondary0:2131034708
- color:material_dynamic_secondary10:2131034709
- color:material_dynamic_secondary100:2131034710
- color:material_dynamic_secondary20:2131034711
- color:material_dynamic_secondary30:2131034712
- color:material_dynamic_secondary40:2131034713
- color:material_dynamic_secondary50:2131034714
- color:material_dynamic_secondary60:2131034715
- color:material_dynamic_secondary70:2131034716
- color:material_dynamic_secondary80:2131034717
- color:material_dynamic_secondary90:2131034718
- color:material_dynamic_secondary95:2131034719
- color:material_dynamic_secondary99:2131034720
- color:material_dynamic_tertiary0:2131034721
- color:material_dynamic_tertiary10:2131034722
- color:material_dynamic_tertiary100:2131034723
- color:material_dynamic_tertiary20:2131034724
- color:material_dynamic_tertiary30:2131034725
- color:material_dynamic_tertiary40:2131034726
- color:material_dynamic_tertiary50:2131034727
- color:material_dynamic_tertiary60:2131034728
- color:material_dynamic_tertiary70:2131034729
- color:material_dynamic_tertiary80:2131034730
- color:material_dynamic_tertiary90:2131034731
- color:material_dynamic_tertiary95:2131034732
- color:material_dynamic_tertiary99:2131034733
- color:material_grey_300:2131034735
- color:material_harmonized_color_error:2131034741
- color:material_harmonized_color_error_container:2131034742
- color:material_harmonized_color_on_error:2131034743
- color:material_harmonized_color_on_error_container:2131034744
- color:material_on_background_disabled:2131034745
- color:material_on_background_emphasis_high_type:2131034746
- color:material_on_background_emphasis_medium:2131034747
- color:material_on_primary_disabled:2131034748
- color:material_on_primary_emphasis_high_type:2131034749
- color:material_on_primary_emphasis_medium:2131034750
- color:material_on_surface_stroke:2131034754
- color:material_personalized__highlighted_text:2131034755
- color:material_personalized__highlighted_text_inverse:2131034756
- color:material_personalized_color_background:2131034757
- color:material_personalized_color_control_activated:2131034758
- color:material_personalized_color_control_highlight:2131034759
- color:material_personalized_color_control_normal:2131034760
- color:material_personalized_color_error:2131034761
- color:material_personalized_color_error_container:2131034762
- color:material_personalized_color_on_background:2131034763
- color:material_personalized_color_on_error:2131034764
- color:material_personalized_color_on_error_container:2131034765
- color:material_personalized_color_on_primary:2131034766
- color:material_personalized_color_on_primary_container:2131034767
- color:material_personalized_color_on_secondary:2131034768
- color:material_personalized_color_on_secondary_container:2131034769
- color:material_personalized_color_on_surface:2131034770
- color:material_personalized_color_on_surface_inverse:2131034771
- color:material_personalized_color_on_surface_variant:2131034772
- color:material_personalized_color_on_tertiary:2131034773
- color:material_personalized_color_on_tertiary_container:2131034774
- color:material_personalized_color_outline:2131034775
- color:material_personalized_color_outline_variant:2131034776
- color:material_personalized_color_primary:2131034777
- color:material_personalized_color_primary_container:2131034778
- color:material_personalized_color_primary_inverse:2131034779
- color:material_personalized_color_primary_text:2131034780
- color:material_personalized_color_primary_text_inverse:2131034781
- color:material_personalized_color_secondary:2131034782
- color:material_personalized_color_secondary_container:2131034783
- color:material_personalized_color_secondary_text:2131034784
- color:material_personalized_color_secondary_text_inverse:2131034785
- color:material_personalized_color_surface:2131034786
- color:material_personalized_color_surface_bright:2131034787
- color:material_personalized_color_surface_container:2131034788
- color:material_personalized_color_surface_container_high:2131034789
- color:material_personalized_color_surface_container_highest:2131034790
- color:material_personalized_color_surface_container_low:2131034791
- color:material_personalized_color_surface_container_lowest:2131034792
- color:material_personalized_color_surface_dim:2131034793
- color:material_personalized_color_surface_inverse:2131034794
- color:material_personalized_color_surface_variant:2131034795
- color:material_personalized_color_tertiary:2131034796
- color:material_personalized_color_tertiary_container:2131034797
- color:material_personalized_color_text_hint_foreground_inverse:2131034798
- color:material_personalized_color_text_primary_inverse:2131034799
- color:material_personalized_color_text_primary_inverse_disable_only:2131034800
- color:material_personalized_color_text_secondary_and_tertiary_inverse:2131034801
- color:material_personalized_color_text_secondary_and_tertiary_inverse_disabled:2131034802
- color:material_personalized_hint_foreground:2131034803
- color:material_personalized_hint_foreground_inverse:2131034804
- color:material_personalized_primary_inverse_text_disable_only:2131034805
- color:material_personalized_primary_text_disable_only:2131034806
- color:mtrl_btn_text_color_disabled:2131034823
- color:mtrl_btn_transparent_bg_color:2131034825
- color:mtrl_navigation_bar_colored_item_tint:2131034845
- color:mtrl_navigation_bar_colored_ripple_color:2131034846
- color:mtrl_tabs_colored_ripple_color:2131034862
- color:mtrl_tabs_icon_color_selector_colored:2131034864
- color:mtrl_textinput_filled_box_default_background_color:2131034870
- color:notification_action_color_filter:2131034873
- color:notification_icon_bg_color:2131034874
+ color:design_bottom_navigation_shadow_color:2131034159
+ color:design_fab_shadow_end_color:2131034188
+ color:design_fab_shadow_mid_color:2131034189
+ color:design_fab_shadow_start_color:2131034190
+ color:design_fab_stroke_end_inner_color:2131034191
+ color:design_fab_stroke_end_outer_color:2131034192
+ color:design_fab_stroke_top_inner_color:2131034193
+ color:design_fab_stroke_top_outer_color:2131034194
+ color:dim_foreground_disabled_material_dark:2131034197
+ color:dim_foreground_disabled_material_light:2131034198
+ color:dim_foreground_material_dark:2131034199
+ color:dim_foreground_material_light:2131034200
+ color:m3_appbar_overlay_color:2131034215
+ color:m3_assist_chip_stroke_color:2131034217
+ color:m3_button_ripple_color:2131034222
+ color:m3_elevated_chip_background_color:2131034254
+ color:m3_popupmenu_overlay_color:2131034272
+ color:m3_ref_palette_black:2131034276
+ color:m3_ref_palette_dynamic_neutral0:2131034277
+ color:m3_ref_palette_dynamic_neutral100:2131034279
+ color:m3_ref_palette_dynamic_neutral12:2131034280
+ color:m3_ref_palette_dynamic_neutral17:2131034281
+ color:m3_ref_palette_dynamic_neutral22:2131034283
+ color:m3_ref_palette_dynamic_neutral24:2131034284
+ color:m3_ref_palette_dynamic_neutral30:2131034285
+ color:m3_ref_palette_dynamic_neutral4:2131034286
+ color:m3_ref_palette_dynamic_neutral40:2131034287
+ color:m3_ref_palette_dynamic_neutral50:2131034288
+ color:m3_ref_palette_dynamic_neutral6:2131034289
+ color:m3_ref_palette_dynamic_neutral60:2131034290
+ color:m3_ref_palette_dynamic_neutral70:2131034291
+ color:m3_ref_palette_dynamic_neutral80:2131034292
+ color:m3_ref_palette_dynamic_neutral87:2131034293
+ color:m3_ref_palette_dynamic_neutral92:2131034295
+ color:m3_ref_palette_dynamic_neutral94:2131034296
+ color:m3_ref_palette_dynamic_neutral96:2131034298
+ color:m3_ref_palette_dynamic_neutral98:2131034299
+ color:m3_ref_palette_dynamic_neutral99:2131034300
+ color:m3_ref_palette_dynamic_neutral_variant0:2131034301
+ color:m3_ref_palette_dynamic_neutral_variant20:2131034306
+ color:m3_ref_palette_dynamic_neutral_variant40:2131034311
+ color:m3_ref_palette_dynamic_neutral_variant70:2131034315
+ color:m3_ref_palette_dynamic_neutral_variant95:2131034321
+ color:m3_ref_palette_dynamic_neutral_variant99:2131034324
+ color:m3_ref_palette_dynamic_primary0:2131034325
+ color:m3_ref_palette_dynamic_primary50:2131034331
+ color:m3_ref_palette_dynamic_primary60:2131034332
+ color:m3_ref_palette_dynamic_primary70:2131034333
+ color:m3_ref_palette_dynamic_primary95:2131034336
+ color:m3_ref_palette_dynamic_primary99:2131034337
+ color:m3_ref_palette_dynamic_secondary0:2131034338
+ color:m3_ref_palette_dynamic_secondary50:2131034344
+ color:m3_ref_palette_dynamic_secondary60:2131034345
+ color:m3_ref_palette_dynamic_secondary70:2131034346
+ color:m3_ref_palette_dynamic_secondary95:2131034349
+ color:m3_ref_palette_dynamic_secondary99:2131034350
+ color:m3_ref_palette_dynamic_tertiary0:2131034351
+ color:m3_ref_palette_dynamic_tertiary50:2131034357
+ color:m3_ref_palette_dynamic_tertiary60:2131034358
+ color:m3_ref_palette_dynamic_tertiary70:2131034359
+ color:m3_ref_palette_dynamic_tertiary95:2131034362
+ color:m3_ref_palette_dynamic_tertiary99:2131034363
+ color:m3_ref_palette_error0:2131034364
+ color:m3_ref_palette_error50:2131034370
+ color:m3_ref_palette_error60:2131034371
+ color:m3_ref_palette_error70:2131034372
+ color:m3_ref_palette_error95:2131034375
+ color:m3_ref_palette_error99:2131034376
+ color:m3_ref_palette_neutral0:2131034377
+ color:m3_ref_palette_neutral30:2131034385
+ color:m3_ref_palette_neutral40:2131034387
+ color:m3_ref_palette_neutral50:2131034388
+ color:m3_ref_palette_neutral60:2131034390
+ color:m3_ref_palette_neutral70:2131034391
+ color:m3_ref_palette_neutral80:2131034392
+ color:m3_ref_palette_neutral99:2131034400
+ color:m3_ref_palette_neutral_variant0:2131034401
+ color:m3_ref_palette_neutral_variant10:2131034402
+ color:m3_ref_palette_neutral_variant100:2131034403
+ color:m3_ref_palette_neutral_variant20:2131034404
+ color:m3_ref_palette_neutral_variant40:2131034406
+ color:m3_ref_palette_neutral_variant70:2131034409
+ color:m3_ref_palette_neutral_variant95:2131034412
+ color:m3_ref_palette_neutral_variant99:2131034413
+ color:m3_ref_palette_primary0:2131034414
+ color:m3_ref_palette_primary50:2131034420
+ color:m3_ref_palette_primary60:2131034421
+ color:m3_ref_palette_primary70:2131034422
+ color:m3_ref_palette_primary95:2131034425
+ color:m3_ref_palette_primary99:2131034426
+ color:m3_ref_palette_secondary0:2131034427
+ color:m3_ref_palette_secondary50:2131034433
+ color:m3_ref_palette_secondary60:2131034434
+ color:m3_ref_palette_secondary70:2131034435
+ color:m3_ref_palette_secondary95:2131034438
+ color:m3_ref_palette_secondary99:2131034439
+ color:m3_ref_palette_tertiary0:2131034440
+ color:m3_ref_palette_tertiary50:2131034446
+ color:m3_ref_palette_tertiary60:2131034447
+ color:m3_ref_palette_tertiary70:2131034448
+ color:m3_ref_palette_tertiary95:2131034451
+ color:m3_ref_palette_tertiary99:2131034452
+ color:m3_ref_palette_white:2131034453
+ color:m3_slider_active_track_color_legacy:2131034457
+ color:m3_slider_halo_color_legacy:2131034458
+ color:m3_slider_inactive_track_color_legacy:2131034460
+ color:m3_slider_thumb_color_legacy:2131034462
+ color:material_blue_grey_800:2131034650
+ color:material_blue_grey_900:2131034651
+ color:material_blue_grey_950:2131034652
+ color:material_cursor_color:2131034653
+ color:material_dynamic_neutral0:2131034665
+ color:material_dynamic_neutral10:2131034666
+ color:material_dynamic_neutral100:2131034667
+ color:material_dynamic_neutral20:2131034668
+ color:material_dynamic_neutral30:2131034669
+ color:material_dynamic_neutral40:2131034670
+ color:material_dynamic_neutral50:2131034671
+ color:material_dynamic_neutral60:2131034672
+ color:material_dynamic_neutral70:2131034673
+ color:material_dynamic_neutral80:2131034674
+ color:material_dynamic_neutral90:2131034675
+ color:material_dynamic_neutral95:2131034676
+ color:material_dynamic_neutral99:2131034677
+ color:material_dynamic_neutral_variant0:2131034678
+ color:material_dynamic_neutral_variant10:2131034679
+ color:material_dynamic_neutral_variant100:2131034680
+ color:material_dynamic_neutral_variant20:2131034681
+ color:material_dynamic_neutral_variant30:2131034682
+ color:material_dynamic_neutral_variant40:2131034683
+ color:material_dynamic_neutral_variant50:2131034684
+ color:material_dynamic_neutral_variant60:2131034685
+ color:material_dynamic_neutral_variant70:2131034686
+ color:material_dynamic_neutral_variant80:2131034687
+ color:material_dynamic_neutral_variant90:2131034688
+ color:material_dynamic_neutral_variant95:2131034689
+ color:material_dynamic_neutral_variant99:2131034690
+ color:material_dynamic_primary0:2131034691
+ color:material_dynamic_primary10:2131034692
+ color:material_dynamic_primary100:2131034693
+ color:material_dynamic_primary20:2131034694
+ color:material_dynamic_primary30:2131034695
+ color:material_dynamic_primary40:2131034696
+ color:material_dynamic_primary50:2131034697
+ color:material_dynamic_primary60:2131034698
+ color:material_dynamic_primary70:2131034699
+ color:material_dynamic_primary80:2131034700
+ color:material_dynamic_primary90:2131034701
+ color:material_dynamic_primary95:2131034702
+ color:material_dynamic_primary99:2131034703
+ color:material_dynamic_secondary0:2131034704
+ color:material_dynamic_secondary10:2131034705
+ color:material_dynamic_secondary100:2131034706
+ color:material_dynamic_secondary20:2131034707
+ color:material_dynamic_secondary30:2131034708
+ color:material_dynamic_secondary40:2131034709
+ color:material_dynamic_secondary50:2131034710
+ color:material_dynamic_secondary60:2131034711
+ color:material_dynamic_secondary70:2131034712
+ color:material_dynamic_secondary80:2131034713
+ color:material_dynamic_secondary90:2131034714
+ color:material_dynamic_secondary95:2131034715
+ color:material_dynamic_secondary99:2131034716
+ color:material_dynamic_tertiary0:2131034717
+ color:material_dynamic_tertiary10:2131034718
+ color:material_dynamic_tertiary100:2131034719
+ color:material_dynamic_tertiary20:2131034720
+ color:material_dynamic_tertiary30:2131034721
+ color:material_dynamic_tertiary40:2131034722
+ color:material_dynamic_tertiary50:2131034723
+ color:material_dynamic_tertiary60:2131034724
+ color:material_dynamic_tertiary70:2131034725
+ color:material_dynamic_tertiary80:2131034726
+ color:material_dynamic_tertiary90:2131034727
+ color:material_dynamic_tertiary95:2131034728
+ color:material_dynamic_tertiary99:2131034729
+ color:material_grey_300:2131034731
+ color:material_harmonized_color_error:2131034737
+ color:material_harmonized_color_error_container:2131034738
+ color:material_harmonized_color_on_error:2131034739
+ color:material_harmonized_color_on_error_container:2131034740
+ color:material_on_background_disabled:2131034741
+ color:material_on_background_emphasis_high_type:2131034742
+ color:material_on_background_emphasis_medium:2131034743
+ color:material_on_primary_disabled:2131034744
+ color:material_on_primary_emphasis_high_type:2131034745
+ color:material_on_primary_emphasis_medium:2131034746
+ color:material_on_surface_stroke:2131034750
+ color:material_personalized__highlighted_text:2131034751
+ color:material_personalized__highlighted_text_inverse:2131034752
+ color:material_personalized_color_background:2131034753
+ color:material_personalized_color_control_activated:2131034754
+ color:material_personalized_color_control_highlight:2131034755
+ color:material_personalized_color_control_normal:2131034756
+ color:material_personalized_color_error:2131034757
+ color:material_personalized_color_error_container:2131034758
+ color:material_personalized_color_on_background:2131034759
+ color:material_personalized_color_on_error:2131034760
+ color:material_personalized_color_on_error_container:2131034761
+ color:material_personalized_color_on_primary:2131034762
+ color:material_personalized_color_on_primary_container:2131034763
+ color:material_personalized_color_on_secondary:2131034764
+ color:material_personalized_color_on_secondary_container:2131034765
+ color:material_personalized_color_on_surface:2131034766
+ color:material_personalized_color_on_surface_inverse:2131034767
+ color:material_personalized_color_on_surface_variant:2131034768
+ color:material_personalized_color_on_tertiary:2131034769
+ color:material_personalized_color_on_tertiary_container:2131034770
+ color:material_personalized_color_outline:2131034771
+ color:material_personalized_color_outline_variant:2131034772
+ color:material_personalized_color_primary:2131034773
+ color:material_personalized_color_primary_container:2131034774
+ color:material_personalized_color_primary_inverse:2131034775
+ color:material_personalized_color_primary_text:2131034776
+ color:material_personalized_color_primary_text_inverse:2131034777
+ color:material_personalized_color_secondary:2131034778
+ color:material_personalized_color_secondary_container:2131034779
+ color:material_personalized_color_secondary_text:2131034780
+ color:material_personalized_color_secondary_text_inverse:2131034781
+ color:material_personalized_color_surface:2131034782
+ color:material_personalized_color_surface_bright:2131034783
+ color:material_personalized_color_surface_container:2131034784
+ color:material_personalized_color_surface_container_high:2131034785
+ color:material_personalized_color_surface_container_highest:2131034786
+ color:material_personalized_color_surface_container_low:2131034787
+ color:material_personalized_color_surface_container_lowest:2131034788
+ color:material_personalized_color_surface_dim:2131034789
+ color:material_personalized_color_surface_inverse:2131034790
+ color:material_personalized_color_surface_variant:2131034791
+ color:material_personalized_color_tertiary:2131034792
+ color:material_personalized_color_tertiary_container:2131034793
+ color:material_personalized_color_text_hint_foreground_inverse:2131034794
+ color:material_personalized_color_text_primary_inverse:2131034795
+ color:material_personalized_color_text_primary_inverse_disable_only:2131034796
+ color:material_personalized_color_text_secondary_and_tertiary_inverse:2131034797
+ color:material_personalized_color_text_secondary_and_tertiary_inverse_disabled:2131034798
+ color:material_personalized_hint_foreground:2131034799
+ color:material_personalized_hint_foreground_inverse:2131034800
+ color:material_personalized_primary_inverse_text_disable_only:2131034801
+ color:material_personalized_primary_text_disable_only:2131034802
+ color:mtrl_btn_text_color_disabled:2131034819
+ color:mtrl_btn_transparent_bg_color:2131034821
+ color:mtrl_navigation_bar_colored_item_tint:2131034841
+ color:mtrl_navigation_bar_colored_ripple_color:2131034842
+ color:mtrl_tabs_colored_ripple_color:2131034858
+ color:mtrl_tabs_icon_color_selector_colored:2131034860
+ color:mtrl_textinput_filled_box_default_background_color:2131034866
+ color:notification_action_color_filter:2131034869
+ color:notification_icon_bg_color:2131034870
  dimen:abc_action_bar_icon_vertical_padding_material:2131099654
  dimen:abc_action_bar_overflow_padding_end_material:2131099655
  dimen:abc_action_bar_overflow_padding_start_material:2131099656
@@ -17837,8 +17827,8 @@ Unused resources are:
  dimen:design_tab_text_size_2line:2131099788
  dimen:disabled_alpha_material_dark:2131099790
  dimen:disabled_alpha_material_light:2131099791
- dimen:highlight_alpha_material_dark:2131099796
- dimen:highlight_alpha_material_light:2131099797
+ dimen:highlight_alpha_material_dark:2131099797
+ dimen:highlight_alpha_material_light:2131099798
  dimen:m3_alert_dialog_corner_size:2131099810
  dimen:m3_back_progress_main_container_max_translation_y:2131099825
  dimen:m3_back_progress_main_container_min_edge_gap:2131099826
@@ -18007,24 +17997,24 @@ Unused resources are:
  drawable:ic_clear_black_24:2131165328
  drawable:ic_m3_chip_check:2131165335
  drawable:ic_search_black_24:2131165342
- drawable:m3_tabs_transparent_background:2131165358
- drawable:material_ic_menu_arrow_up_black_24dp:2131165368
- drawable:mtrl_bottomsheet_drag_handle:2131165369
- drawable:mtrl_navigation_bar_item_background:2131165390
- drawable:notification_action_background:2131165407
- drawable:notification_bg:2131165408
- drawable:notification_bg_low:2131165409
- drawable:notification_bg_low_normal:2131165410
- drawable:notification_bg_low_pressed:2131165411
- drawable:notification_bg_normal:2131165412
- drawable:notification_bg_normal_pressed:2131165413
- drawable:notification_icon_background:2131165414
- drawable:notification_oversize_large_icon_bg:2131165415
- drawable:notification_template_icon_bg:2131165416
- drawable:notification_template_icon_low_bg:2131165417
- drawable:notification_tile_bg:2131165418
- drawable:notify_panel_notification_icon_bg:2131165419
- drawable:test_level_drawable:2131165420
+ drawable:m3_tabs_transparent_background:2131165359
+ drawable:material_ic_menu_arrow_up_black_24dp:2131165369
+ drawable:mtrl_bottomsheet_drag_handle:2131165370
+ drawable:mtrl_navigation_bar_item_background:2131165391
+ drawable:notification_action_background:2131165408
+ drawable:notification_bg:2131165409
+ drawable:notification_bg_low:2131165410
+ drawable:notification_bg_low_normal:2131165411
+ drawable:notification_bg_low_pressed:2131165412
+ drawable:notification_bg_normal:2131165413
+ drawable:notification_bg_normal_pressed:2131165414
+ drawable:notification_icon_background:2131165415
+ drawable:notification_oversize_large_icon_bg:2131165416
+ drawable:notification_template_icon_bg:2131165417
+ drawable:notification_template_icon_low_bg:2131165418
+ drawable:notification_tile_bg:2131165419
+ drawable:notify_panel_notification_icon_bg:2131165420
+ drawable:test_level_drawable:2131165421
  id:ALT:2131230720
  id:CTRL:2131230723
  id:FUNCTION:2131230724
@@ -18058,259 +18048,259 @@ Unused resources are:
  id:blocking:2131230805
  id:bottom:2131230806
  id:bounce:2131230807
- id:center:2131230832
- id:centerCrop:2131230833
- id:centerInside:2131230834
- id:center_horizontal:2131230835
- id:center_vertical:2131230836
- id:chain:2131230837
- id:chains:2131230838
- id:checkbox:2131230839
- id:chronometer:2131230841
- id:clear_text:2131230843
- id:clip_horizontal:2131230844
- id:clip_vertical:2131230845
- id:clockwise:2131230846
- id:collapseActionView:2131230847
- id:compress:2131230848
- id:container:2131230850
- id:contiguous:2131230853
- id:cos:2131230855
- id:counterclockwise:2131230856
- id:cradle:2131230857
- id:custom:2131230858
- id:cut:2131230860
- id:date_picker_actions:2131230861
- id:default_activity_button:2131230865
- id:deltaRelative:2131230866
- id:design_menu_item_action_area:2131230868
- id:design_navigation_view:2131230871
- id:dialog_button:2131230872
- id:direct:2131230874
- id:disableHome:2131230875
- id:disablePostScroll:2131230876
- id:disableScroll:2131230877
- id:disjoint:2131230878
- id:dragDown:2131230879
- id:dragEnd:2131230880
- id:dragLeft:2131230881
- id:dragRight:2131230882
- id:dragStart:2131230883
- id:dragUp:2131230884
- id:dropdown_menu:2131230885
- id:easeIn:2131230886
- id:easeInOut:2131230887
- id:easeOut:2131230888
- id:edge:2131230889
- id:edit_query:2131230890
- id:edit_text_id:2131230891
- id:elastic:2131230892
- id:embed:2131230893
- id:escape:2131230898
- id:exitUntilCollapsed:2131230899
- id:expand_activities_button:2131230900
- id:expanded_menu:2131230901
- id:fade:2131230902
- id:fill:2131230903
- id:fill_horizontal:2131230904
- id:fill_vertical:2131230905
- id:filled:2131230906
- id:fitCenter:2131230907
- id:fitEnd:2131230908
- id:fitStart:2131230909
- id:fitToContents:2131230910
- id:fitXY:2131230911
- id:fixed:2131230912
- id:flip:2131230913
- id:forever:2131230915
- id:ghost_view:2131230918
- id:ghost_view_holder:2131230919
- id:gone:2131230920
- id:graph:2131230921
- id:graph_wrap:2131230922
- id:header_title:2131230925
- id:hide_ime_id:2131230926
- id:hideable:2131230927
- id:home:2131230928
- id:homeAsUp:2131230929
- id:honorRequest:2131230930
- id:icon:2131230931
- id:icon_group:2131230932
- id:ifRoom:2131230933
- id:ignore:2131230934
- id:ignoreRequest:2131230935
- id:image:2131230936
- id:info:2131230938
- id:invisible:2131230939
- id:inward:2131230940
- id:italic:2131230942
- id:jumpToEnd:2131230944
- id:jumpToStart:2131230945
- id:left:2131230948
- id:leftToRight:2131230949
- id:legacy:2131230950
- id:line1:2131230951
- id:line3:2131230952
- id:listMode:2131230955
- id:list_item:2131230956
- id:m3_side_sheet:2131230957
- id:marquee:2131230958
- id:masked:2131230959
- id:match_parent:2131230960
- id:material_clock_display_and_toggle:2131230962
- id:material_clock_period_am_button:2131230966
- id:material_clock_period_pm_button:2131230967
- id:material_hour_text_input:2131230969
- id:material_minute_text_input:2131230972
- id:material_textinput_timepicker:2131230974
- id:material_timepicker_cancel_button:2131230975
- id:material_timepicker_container:2131230976
- id:material_timepicker_mode_button:2131230977
- id:material_timepicker_ok_button:2131230978
- id:material_timepicker_view:2131230979
- id:matrix:2131230981
- id:message:2131230982
- id:middle:2131230983
- id:mini:2131230984
- id:month_navigation_bar:2131230986
- id:motion_base:2131230991
- id:mtrl_anchor_parent:2131230992
- id:mtrl_calendar_selection_frame:2131230998
- id:mtrl_calendar_text_input_frame:2131230999
- id:mtrl_card_checked_layer_id:2131231001
- id:mtrl_child_content_container:2131231002
- id:mtrl_internal_children_alpha_tag:2131231003
- id:mtrl_motion_snapshot_view:2131231004
- id:mtrl_picker_fullscreen:2131231005
- id:mtrl_picker_header:2131231006
- id:mtrl_picker_header_title_and_selection:2131231008
- id:mtrl_picker_text_input_date:2131231010
- id:mtrl_picker_text_input_range_end:2131231011
- id:mtrl_picker_text_input_range_start:2131231012
- id:mtrl_view_tag_bottom_padding:2131231014
- id:multiply:2131231015
- id:navigation_bar_item_active_indicator_view:2131231016
- id:navigation_bar_item_icon_container:2131231017
- id:navigation_bar_item_icon_view:2131231018
- id:navigation_bar_item_labels_group:2131231019
- id:navigation_bar_item_large_label_view:2131231020
- id:navigation_bar_item_small_label_view:2131231021
- id:navigation_header_container:2131231022
- id:never:2131231023
- id:noScroll:2131231024
- id:normal:2131231026
- id:notification_background:2131231027
- id:notification_main_column:2131231028
- id:notification_main_column_container:2131231029
- id:off:2131231030
- id:on:2131231031
- id:open_search_bar_text_view:2131231032
- id:open_search_view_background:2131231033
- id:open_search_view_clear_button:2131231034
- id:open_search_view_content_container:2131231035
- id:open_search_view_divider:2131231036
- id:open_search_view_dummy_toolbar:2131231037
- id:open_search_view_edit_text:2131231038
- id:open_search_view_header_container:2131231039
- id:open_search_view_root:2131231040
- id:open_search_view_scrim:2131231041
- id:open_search_view_search_prefix:2131231042
- id:open_search_view_status_bar_spacer:2131231043
- id:open_search_view_toolbar:2131231044
- id:open_search_view_toolbar_container:2131231045
- id:outline:2131231046
- id:outward:2131231047
- id:packed:2131231048
- id:parallax:2131231049
- id:password_toggle:2131231054
- id:peekHeight:2131231057
- id:percent:2131231058
- id:pin:2131231059
- id:postLayout:2131231062
- id:pressed:2131231063
- id:progress_circular:2131231064
- id:progress_horizontal:2131231065
- id:radio:2131231066
- id:ratio:2131231067
- id:rectangles:2131231068
- id:reverseSawtooth:2131231070
- id:right:2131231071
- id:rightToLeft:2131231072
- id:right_icon:2131231073
- id:right_side:2131231074
- id:root:2131231075
- id:rounded:2131231076
- id:row_index_key:2131231077
- id:save_non_transition_alpha:2131231078
- id:sawtooth:2131231080
- id:scale:2131231081
- id:screen:2131231082
- id:scroll:2131231083
- id:scrollable:2131231087
- id:search_badge:2131231088
- id:search_bar:2131231089
- id:search_button:2131231090
- id:search_close_btn:2131231091
- id:search_edit_frame:2131231092
- id:search_go_btn:2131231093
- id:search_mag_icon:2131231094
- id:search_plate:2131231095
- id:search_src_text:2131231096
- id:search_voice_btn:2131231097
- id:select_dialog_listview:2131231098
- id:selected:2131231099
- id:showCustom:2131231102
- id:showHome:2131231103
- id:showTitle:2131231104
- id:sin:2131231105
- id:slide:2131231107
- id:snap:2131231110
- id:snapMargins:2131231111
- id:spline:2131231114
- id:spread:2131231116
- id:spread_inside:2131231117
- id:square:2131231118
- id:src_atop:2131231119
- id:src_in:2131231120
- id:src_over:2131231121
- id:start:2131231123
- id:startHorizontal:2131231124
- id:startToEnd:2131231125
- id:startVertical:2131231126
- id:staticLayout:2131231127
- id:staticPostLayout:2131231128
- id:stop:2131231129
- id:stretch:2131231130
- id:submit_area:2131231132
- id:tabMode:2131231133
- id:tag_transition_group:2131231143
- id:text:2131231147
- id:text2:2131231148
- id:textEnd:2131231149
- id:textStart:2131231152
- id:textTop:2131231153
- id:text_input_start_icon:2131231156
- id:time:2131231163
- id:toggle:2131231167
- id:top:2131231168
- id:transitionToEnd:2131231171
- id:transitionToStart:2131231172
- id:transition_clip:2131231173
- id:transition_image_transform:2131231175
- id:transition_layout_save:2131231176
- id:transition_position:2131231178
- id:transition_scene_layoutid_cache:2131231179
- id:transition_transform:2131231180
- id:triangle:2131231181
- id:uniform:2131231188
- id:unlabeled:2131231189
- id:useLogo:2131231191
- id:visible:2131231197
- id:withText:2131231199
- id:with_icon:2131231200
- id:withinBounds:2131231201
- id:wrap:2131231202
- id:wrap_content:2131231203
+ id:center:2131230833
+ id:centerCrop:2131230834
+ id:centerInside:2131230835
+ id:center_horizontal:2131230836
+ id:center_vertical:2131230837
+ id:chain:2131230838
+ id:chains:2131230839
+ id:checkbox:2131230840
+ id:chronometer:2131230842
+ id:clear_text:2131230844
+ id:clip_horizontal:2131230845
+ id:clip_vertical:2131230846
+ id:clockwise:2131230847
+ id:collapseActionView:2131230848
+ id:compress:2131230849
+ id:container:2131230851
+ id:contiguous:2131230854
+ id:cos:2131230856
+ id:counterclockwise:2131230857
+ id:cradle:2131230858
+ id:custom:2131230859
+ id:cut:2131230861
+ id:date_picker_actions:2131230862
+ id:default_activity_button:2131230866
+ id:deltaRelative:2131230867
+ id:design_menu_item_action_area:2131230869
+ id:design_navigation_view:2131230872
+ id:dialog_button:2131230873
+ id:direct:2131230875
+ id:disableHome:2131230876
+ id:disablePostScroll:2131230877
+ id:disableScroll:2131230878
+ id:disjoint:2131230879
+ id:dragDown:2131230880
+ id:dragEnd:2131230881
+ id:dragLeft:2131230882
+ id:dragRight:2131230883
+ id:dragStart:2131230884
+ id:dragUp:2131230885
+ id:dropdown_menu:2131230886
+ id:easeIn:2131230887
+ id:easeInOut:2131230888
+ id:easeOut:2131230889
+ id:edge:2131230890
+ id:edit_query:2131230891
+ id:edit_text_id:2131230892
+ id:elastic:2131230893
+ id:embed:2131230894
+ id:escape:2131230899
+ id:exitUntilCollapsed:2131230900
+ id:expand_activities_button:2131230901
+ id:expanded_menu:2131230902
+ id:fade:2131230903
+ id:fill:2131230904
+ id:fill_horizontal:2131230905
+ id:fill_vertical:2131230906
+ id:filled:2131230907
+ id:fitCenter:2131230908
+ id:fitEnd:2131230909
+ id:fitStart:2131230910
+ id:fitToContents:2131230911
+ id:fitXY:2131230912
+ id:fixed:2131230913
+ id:flip:2131230914
+ id:forever:2131230916
+ id:ghost_view:2131230919
+ id:ghost_view_holder:2131230920
+ id:gone:2131230921
+ id:graph:2131230922
+ id:graph_wrap:2131230923
+ id:header_title:2131230926
+ id:hide_ime_id:2131230927
+ id:hideable:2131230928
+ id:home:2131230929
+ id:homeAsUp:2131230930
+ id:honorRequest:2131230931
+ id:icon:2131230932
+ id:icon_group:2131230933
+ id:ifRoom:2131230934
+ id:ignore:2131230935
+ id:ignoreRequest:2131230936
+ id:image:2131230937
+ id:info:2131230939
+ id:invisible:2131230940
+ id:inward:2131230941
+ id:italic:2131230943
+ id:jumpToEnd:2131230945
+ id:jumpToStart:2131230946
+ id:left:2131230949
+ id:leftToRight:2131230950
+ id:legacy:2131230951
+ id:line1:2131230952
+ id:line3:2131230953
+ id:listMode:2131230956
+ id:list_item:2131230957
+ id:m3_side_sheet:2131230958
+ id:marquee:2131230959
+ id:masked:2131230960
+ id:match_parent:2131230961
+ id:material_clock_display_and_toggle:2131230963
+ id:material_clock_period_am_button:2131230967
+ id:material_clock_period_pm_button:2131230968
+ id:material_hour_text_input:2131230970
+ id:material_minute_text_input:2131230973
+ id:material_textinput_timepicker:2131230975
+ id:material_timepicker_cancel_button:2131230976
+ id:material_timepicker_container:2131230977
+ id:material_timepicker_mode_button:2131230978
+ id:material_timepicker_ok_button:2131230979
+ id:material_timepicker_view:2131230980
+ id:matrix:2131230982
+ id:message:2131230983
+ id:middle:2131230984
+ id:mini:2131230985
+ id:month_navigation_bar:2131230987
+ id:motion_base:2131230992
+ id:mtrl_anchor_parent:2131230993
+ id:mtrl_calendar_selection_frame:2131230999
+ id:mtrl_calendar_text_input_frame:2131231000
+ id:mtrl_card_checked_layer_id:2131231002
+ id:mtrl_child_content_container:2131231003
+ id:mtrl_internal_children_alpha_tag:2131231004
+ id:mtrl_motion_snapshot_view:2131231005
+ id:mtrl_picker_fullscreen:2131231006
+ id:mtrl_picker_header:2131231007
+ id:mtrl_picker_header_title_and_selection:2131231009
+ id:mtrl_picker_text_input_date:2131231011
+ id:mtrl_picker_text_input_range_end:2131231012
+ id:mtrl_picker_text_input_range_start:2131231013
+ id:mtrl_view_tag_bottom_padding:2131231015
+ id:multiply:2131231016
+ id:navigation_bar_item_active_indicator_view:2131231017
+ id:navigation_bar_item_icon_container:2131231018
+ id:navigation_bar_item_icon_view:2131231019
+ id:navigation_bar_item_labels_group:2131231020
+ id:navigation_bar_item_large_label_view:2131231021
+ id:navigation_bar_item_small_label_view:2131231022
+ id:navigation_header_container:2131231023
+ id:never:2131231024
+ id:noScroll:2131231025
+ id:normal:2131231027
+ id:notification_background:2131231028
+ id:notification_main_column:2131231029
+ id:notification_main_column_container:2131231030
+ id:off:2131231031
+ id:on:2131231032
+ id:open_search_bar_text_view:2131231033
+ id:open_search_view_background:2131231034
+ id:open_search_view_clear_button:2131231035
+ id:open_search_view_content_container:2131231036
+ id:open_search_view_divider:2131231037
+ id:open_search_view_dummy_toolbar:2131231038
+ id:open_search_view_edit_text:2131231039
+ id:open_search_view_header_container:2131231040
+ id:open_search_view_root:2131231041
+ id:open_search_view_scrim:2131231042
+ id:open_search_view_search_prefix:2131231043
+ id:open_search_view_status_bar_spacer:2131231044
+ id:open_search_view_toolbar:2131231045
+ id:open_search_view_toolbar_container:2131231046
+ id:outline:2131231047
+ id:outward:2131231048
+ id:packed:2131231049
+ id:parallax:2131231050
+ id:password_toggle:2131231055
+ id:peekHeight:2131231058
+ id:percent:2131231059
+ id:pin:2131231060
+ id:postLayout:2131231063
+ id:pressed:2131231064
+ id:progress_circular:2131231065
+ id:progress_horizontal:2131231066
+ id:radio:2131231067
+ id:ratio:2131231068
+ id:rectangles:2131231069
+ id:reverseSawtooth:2131231071
+ id:right:2131231072
+ id:rightToLeft:2131231073
+ id:right_icon:2131231074
+ id:right_side:2131231075
+ id:root:2131231076
+ id:rounded:2131231077
+ id:row_index_key:2131231078
+ id:save_non_transition_alpha:2131231079
+ id:sawtooth:2131231081
+ id:scale:2131231082
+ id:screen:2131231083
+ id:scroll:2131231084
+ id:scrollable:2131231088
+ id:search_badge:2131231089
+ id:search_bar:2131231090
+ id:search_button:2131231091
+ id:search_close_btn:2131231092
+ id:search_edit_frame:2131231093
+ id:search_go_btn:2131231094
+ id:search_mag_icon:2131231095
+ id:search_plate:2131231096
+ id:search_src_text:2131231097
+ id:search_voice_btn:2131231098
+ id:select_dialog_listview:2131231099
+ id:selected:2131231100
+ id:showCustom:2131231103
+ id:showHome:2131231104
+ id:showTitle:2131231105
+ id:sin:2131231106
+ id:slide:2131231108
+ id:snap:2131231111
+ id:snapMargins:2131231112
+ id:spline:2131231115
+ id:spread:2131231117
+ id:spread_inside:2131231118
+ id:square:2131231119
+ id:src_atop:2131231120
+ id:src_in:2131231121
+ id:src_over:2131231122
+ id:start:2131231124
+ id:startHorizontal:2131231125
+ id:startToEnd:2131231126
+ id:startVertical:2131231127
+ id:staticLayout:2131231128
+ id:staticPostLayout:2131231129
+ id:stop:2131231130
+ id:stretch:2131231131
+ id:submit_area:2131231133
+ id:tabMode:2131231134
+ id:tag_transition_group:2131231144
+ id:text:2131231148
+ id:text2:2131231149
+ id:textEnd:2131231150
+ id:textStart:2131231153
+ id:textTop:2131231154
+ id:text_input_start_icon:2131231157
+ id:time:2131231164
+ id:toggle:2131231168
+ id:top:2131231169
+ id:transitionToEnd:2131231172
+ id:transitionToStart:2131231173
+ id:transition_clip:2131231174
+ id:transition_image_transform:2131231176
+ id:transition_layout_save:2131231177
+ id:transition_position:2131231179
+ id:transition_scene_layoutid_cache:2131231180
+ id:transition_transform:2131231181
+ id:triangle:2131231182
+ id:uniform:2131231189
+ id:unlabeled:2131231190
+ id:useLogo:2131231192
+ id:visible:2131231198
+ id:withText:2131231200
+ id:with_icon:2131231201
+ id:withinBounds:2131231202
+ id:wrap:2131231203
+ id:wrap_content:2131231204
  integer:cancel_button_image_alpha:2131296260
  integer:config_tooltipAnimTime:2131296261
  integer:m3_card_anim_delay_ms:2131296268

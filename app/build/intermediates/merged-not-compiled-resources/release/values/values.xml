@@ -573,7 +573,6 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="cinnabar">#B4442C</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -615,21 +614,18 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
-    <color name="error_text">#B3402B</color>
+    <color name="error_text">#C4472B</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="history_tint">#6F6650</color>
-    <color name="ink">#2A241A</color>
-    <color name="ink_soft">#9A907C</color>
+    <color name="history_tint">#7C828D</color>
+    <color name="ink">#16181D</color>
+    <color name="ink_soft">#878D98</color>
     <color name="key_bg">#FFFFFF</color>
-    <color name="key_eq_text">#FFF6EE</color>
-    <color name="key_fn_bg">#EFE7D3</color>
-    <color name="key_fn_text">#6F6650</color>
-    <color name="key_op_bg">#F5E4D2</color>
-    <color name="key_op_text">#B4442C</color>
-    <color name="key_stroke">#E8DFC9</color>
+    <color name="key_eq_text">#241503</color>
+    <color name="key_fn_text">#7C828D</color>
+    <color name="key_op_text">#B26A00</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_error0">#ff000000</color>
     <color name="m3_ref_palette_error10">#ff410e0b</color>
@@ -869,7 +865,7 @@
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
-    <color name="paper">#F6F1E6</color>
+    <color name="paper">#F7F8FA</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -884,7 +880,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="sheet_bg">#FBF7EE</color>
+    <color name="sheet_bg">#FFFFFF</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -1035,6 +1031,7 @@
     <dimen name="design_textinput_caption_translate_y">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="edge_margin">14dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -1048,9 +1045,8 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="key_gap">8dp</dimen>
+    <dimen name="key_gap">12dp</dimen>
     <dimen name="key_height">68dp</dimen>
-    <dimen name="key_radius">26dp</dimen>
     <dimen name="m3_alert_dialog_action_bottom_padding">14dp</dimen>
     <dimen name="m3_alert_dialog_action_top_padding">14dp</dimen>
     <dimen name="m3_alert_dialog_corner_size">28dp</dimen>
@@ -5503,8 +5499,8 @@
         <item name="android:layout_height">@dimen/key_height</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
-        <item name="android:background">@drawable/key_bg_digit</item>
-        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/key_bg_round</item>
+        <item name="android:textSize">26sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/ink</item>
         <item name="android:stateListAnimator">@null</item>
@@ -5514,26 +5510,23 @@
     <style name="Key.Eq">
         <item name="android:background">@drawable/key_bg_eq</item>
         <item name="android:textColor">@color/key_eq_text</item>
-        <item name="android:textSize">27sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">26sp</item>
     </style>
     <style name="Key.Fn">
-        <item name="android:background">@drawable/key_bg_fn</item>
         <item name="android:textColor">@color/key_fn_text</item>
-        <item name="android:textSize">21sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:padding">0dp</item>
     </style>
     <style name="Key.Op">
-        <item name="android:background">@drawable/key_bg_op</item>
         <item name="android:textColor">@color/key_op_text</item>
-        <item name="android:textSize">27sp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="KeyRow">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/key_gap</item>
-        <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
+        <item name="android:layout_marginHorizontal">@dimen/edge_margin</item>
         <item name="android:orientation">horizontal</item>
     </style>
     <style name="MaterialAlertDialog.Material3" parent="MaterialAlertDialog.MaterialComponents">

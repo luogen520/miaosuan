@@ -50,19 +50,19 @@
                 android:gravity="end"
                 android:maxLines="1"
                 android:textColor="@color/ink_soft"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <!-- 高度定死再垂直居中，自动缩字在某些机器上会把字裁掉一半 -->
             <TextView
                 android:id="@+id/txtMain"
                 android:layout_width="match_parent"
-                android:layout_height="104dp"
+                android:layout_height="112dp"
                 android:layout_marginTop="4dp"
                 android:ellipsize="start"
                 android:gravity="end|center_vertical"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMinTextSize="28sp"
-                android:autoSizeMaxTextSize="60sp"
+                android:autoSizeMinTextSize="30sp"
+                android:autoSizeMaxTextSize="64sp"
                 android:autoSizeStepGranularity="2sp"
                 android:maxLines="1"
                 android:text="@string/zero"

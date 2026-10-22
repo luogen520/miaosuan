@@ -1288,7 +1288,6 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color cinnabar
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1343,11 +1342,8 @@ color ink
 color ink_soft
 color key_bg
 color key_eq_text
-color key_fn_bg
 color key_fn_text
-color key_op_bg
 color key_op_text
-color key_stroke
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2172,6 +2168,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen edge_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -2187,7 +2184,6 @@ dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen key_gap
 dimen key_height
-dimen key_radius
 dimen m3_alert_dialog_action_bottom_padding
 dimen m3_alert_dialog_action_top_padding
 dimen m3_alert_dialog_corner_size
@@ -2955,10 +2951,8 @@ drawable ic_theme_auto
 drawable ic_theme_dark
 drawable ic_theme_light
 drawable indeterminate_static
-drawable key_bg_digit
 drawable key_bg_eq
-drawable key_bg_fn
-drawable key_bg_op
+drawable key_bg_round
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
