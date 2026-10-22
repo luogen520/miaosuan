@@ -4,10 +4,6 @@
         "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.miaosuan.app-main-34:/layout/sheet_history.xml"
     },
     {
-        "merged": "io.github.luogen520.miaosuan.app-mergeReleaseResources-31:/layout/activity_main.xml",
-        "source": "io.github.luogen520.miaosuan.app-main-34:/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.miaosuan.app-mergeReleaseResources-31:/layout/item_history.xml",
         "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.miaosuan.app-main-34:/layout/item_history.xml"
     },

@@ -1,8 +1,8 @@
-# 轻算 Qingsuan
+# 妙算 Miaosuan
 
 简洁精准的安卓计算器。不联网、无广告、不申请任何权限。
 
-[![Get it on Orion Store](https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png)](https://rookieenough.github.io/Orion-Data/redirect.html?id=qingsuan)
+[![Get it on Orion Store](https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png)](https://rookieenough.github.io/Orion-Data/redirect.html?id=miaosuan)
 
 ## 特性
 
@@ -12,18 +12,18 @@
 - 千位分隔显示，长按结果一键复制
 - 历史记录保留最近 50 条，点一条接着算
 - 连按等号重复上一次运算，和系统计算器一致
-- 深色模式跟随系统，支持 Android 13 主题图标
-- 全部按键带触感反馈
+- 深浅色手动可切：跟随系统、常亮、常暗，右上角一键循环
+- 全部按键带触感反馈，支持 Android 13 主题图标
 
 ## 截图
 
 | | | |
 |---|---|---|
-| ![亮色](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/1_light.png) | ![暗色](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/2_dark.png) | ![历史](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/4_light_history.png) |
+| ![亮色](https://raw.githubusercontent.com/luogen520/miaosuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/1_light.png) | ![暗色](https://raw.githubusercontent.com/luogen520/miaosuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/2_dark.png) | ![历史](https://raw.githubusercontent.com/luogen520/miaosuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/4_light_history.png) |
 
 ## 下载
 
-在 [Releases](https://github.com/luogen520/qingsuan/releases) 里拿 APK，需要 Android 8.0（API 26）及以上。也可以在 Orion Store 搜索「轻算」。
+在 [Releases](https://github.com/luogen520/miaosuan/releases) 里拿 APK，需要 Android 8.0（API 26）及以上。也可以在 Orion Store 搜索「妙算」。
 
 ## 构建
 
@@ -37,14 +37,14 @@
 ```properties
 QS_STORE_FILE=/path/to/keystore
 QS_STORE_PASSWORD=******
-QS_KEY_ALIAS=qingsuan
+QS_KEY_ALIAS=******
 QS_KEY_PASSWORD=******
 ```
 
 ## 代码结构
 
 ```
-app/src/main/java/io/github/luogen520/qingsuan/
+app/src/main/java/io/github/luogen520/miaosuan/
 ├── MainActivity.kt   界面、输入状态机、展示格式化
 ├── CalcEngine.kt     词法、百分号语义、加减乘除求值
 ├── HistorySheet.kt   历史记录弹层
