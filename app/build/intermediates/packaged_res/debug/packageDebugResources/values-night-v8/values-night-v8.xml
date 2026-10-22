@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinnabar">#C14B33</color>
+    <color name="error_text">#E06A50</color>
+    <color name="history_tint">#A8A295</color>
+    <color name="ink">#F0EDE6</color>
+    <color name="ink_soft">#918C82</color>
+    <color name="key_bg">#24232A</color>
+    <color name="key_eq_bg">#C14B33</color>
+    <color name="key_eq_text">#FFF6EE</color>
+    <color name="key_fn_bg">#2C2B33</color>
+    <color name="key_fn_text">#A8A295</color>
+    <color name="key_op_text">#E08A72</color>
+    <color name="paper">#17161A</color>
+    <style name="Theme.Qingsuan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

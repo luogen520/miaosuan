@@ -3,7 +3,15 @@
     <!-- 纸墨配色：米白纸面、墨色文字、朱砂点睛 -->
     <color name="paper">#F7F3EB</color>
     <color name="ink">#26241E</color>
+    <color name="ink_soft">#8F897C</color>
     <color name="cinnabar">#C14B33</color>
-    <color name="paper_night">#17161A</color>
-    <color name="ink_night">#F0EDE6</color>
+
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_fn_bg">#EFE9DC</color>
+    <color name="key_fn_text">#6E6759</color>
+    <color name="key_op_text">#C14B33</color>
+    <color name="key_eq_bg">#C14B33</color>
+    <color name="key_eq_text">#FFF6EE</color>
+    <color name="history_tint">#6E6759</color>
+    <color name="error_text">#B3402B</color>
 </resources>

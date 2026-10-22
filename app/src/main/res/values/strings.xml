@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">轻算</string>
+    <string name="zero">0</string>
+    <string name="history">历史记录</string>
+    <string name="copied">已复制结果</string>
+
+    <string name="key_clear">C</string>
+    <string name="key_backspace">⌫</string>
+    <string name="key_percent">%</string>
+    <string name="key_divide">÷</string>
+    <string name="key_multiply">×</string>
+    <string name="key_minus">−</string>
+    <string name="key_plus">+</string>
+    <string name="key_toggle_sign">±</string>
+    <string name="key_dot">.</string>
+    <string name="key_equals">=</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
 </resources>

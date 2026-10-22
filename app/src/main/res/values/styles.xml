@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/key_gap</item>
+        <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 按键统一样式：圆角、无阴影、大字 -->
+    <style name="Key">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/key_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginHorizontal">@dimen/key_gap</item>
+        <item name="android:background">@drawable/key_bg_digit</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Key.Fn">
+        <item name="android:background">@drawable/key_bg_fn</item>
+        <item name="android:textColor">@color/key_fn_text</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Key.Op">
+        <item name="android:background">@drawable/key_bg_op</item>
+        <item name="android:textColor">@color/key_op_text</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Key.Eq">
+        <item name="android:background">@drawable/key_bg_eq</item>
+        <item name="android:textColor">@color/key_eq_text</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+</resources>
