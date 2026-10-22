@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 纸墨配色：米白纸面、墨色文字、朱砂点睛 -->
+    <color name="paper">#F7F3EB</color>
+    <color name="ink">#26241E</color>
+    <color name="cinnabar">#C14B33</color>
+    <color name="paper_night">#17161A</color>
+    <color name="ink_night">#F0EDE6</color>
+</resources>
