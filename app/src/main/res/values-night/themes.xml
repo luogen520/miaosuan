@@ -6,6 +6,11 @@
         <item name="android:navigationBarColor">@color/paper</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="colorSurface">@color/sheet_bg</item>
+        <!-- 同上：主色琥珀，不留给紫色任何后门 -->
+        <item name="colorPrimary">@color/key_op_text</item>
+        <item name="colorOnPrimary">@color/key_eq_text</item>
+        <item name="colorPrimaryContainer">@color/key_op_bg</item>
+        <item name="colorOnPrimaryContainer">@color/key_eq_text</item>
         <!-- 弹层容器色默认带紫，统一压到墨色上 -->
         <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
         <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>

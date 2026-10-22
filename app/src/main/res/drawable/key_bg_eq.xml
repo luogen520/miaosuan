@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 等号：圆形琥珀渐变，整排键里唯一带底色的彩色键 -->
+<!-- 等号：琥珀渐变，整排键里唯一的高饱和键 -->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="#40FFF3DC">
     <item>
-        <shape android:shape="oval">
+        <shape android:shape="rectangle">
+            <corners android:radius="26dp" />
             <gradient
                 android:angle="315"
                 android:startColor="#FFB94E"

@@ -6,6 +6,11 @@
         <item name="android:navigationBarColor">@color/paper</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="colorSurface">@color/sheet_bg</item>
+        <!-- 全局主色换琥珀：万一哪个组件没关 backgroundTint，也只会染成琥珀而不是默认紫 -->
+        <item name="colorPrimary">@color/key_op_text</item>
+        <item name="colorOnPrimary">@color/key_eq_text</item>
+        <item name="colorPrimaryContainer">@color/key_op_bg</item>
+        <item name="colorOnPrimaryContainer">@color/key_eq_text</item>
         <!-- 弹层容器色默认带紫，统一压到纸色上 -->
         <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
         <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>
