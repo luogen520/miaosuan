@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主题图标（monochrome）用的简化版：只有梁和珠，不带高光和渐变 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M30,53.5 L78,53.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M33.5,38.5 a7.5,6.5 0 1,0 15,0 a7.5,6.5 0 1,0 -15,0 z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M59.5,38.5 a7.5,6.5 0 1,0 15,0 a7.5,6.5 0 1,0 -15,0 z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M32,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M47,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M62,67.5 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 z" />
+
+</vector>

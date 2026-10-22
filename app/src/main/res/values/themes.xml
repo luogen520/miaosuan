@@ -6,5 +6,16 @@
         <item name="android:navigationBarColor">@color/paper</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="colorSurface">@color/sheet_bg</item>
+        <!-- 弹层容器色默认带紫，统一压到纸色上 -->
+        <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
+        <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>
+        <item name="colorOnSurfaceVariant">@color/ink_soft</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Qingsuan.BottomSheet</item>
+    </style>
+
+    <style name="ThemeOverlay.Qingsuan.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="colorSurfaceContainerLow">@color/sheet_bg</item>
+        <item name="colorSurfaceContainerHigh">@color/sheet_bg</item>
+        <item name="colorOnSurfaceVariant">@color/ink_soft</item>
     </style>
 </resources>
