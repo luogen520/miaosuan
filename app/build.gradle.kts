@@ -13,8 +13,8 @@ android {
         applicationId = "io.github.luogen520.miaosuan"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "3.0"
+        versionCode = 5
+        versionName = "3.1"
     }
 
     // 签名信息放 local.properties（不入库），没有就出未签名的包
