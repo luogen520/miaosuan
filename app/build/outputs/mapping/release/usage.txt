@@ -18619,6 +18619,7 @@ io.github.luogen520.qingsuan.R$layout:
 io.github.luogen520.qingsuan.R$mipmap
 io.github.luogen520.qingsuan.R$string:
     public static int app_name
+    public static int backspace
     public static int history
     public static int history_clear
     public static int history_empty
@@ -18632,7 +18633,6 @@ io.github.luogen520.qingsuan.R$string:
     public static int key_7
     public static int key_8
     public static int key_9
-    public static int key_backspace
     public static int key_clear
     public static int key_divide
     public static int key_dot

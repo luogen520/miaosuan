@@ -52,7 +52,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btn9;
 
   @NonNull
-  public final Button btnBackspace;
+  public final ImageButton btnBackspace;
 
   @NonNull
   public final Button btnClear;
@@ -96,7 +96,7 @@ public final class ActivityMainBinding implements ViewBinding {
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btn0,
       @NonNull Button btn1, @NonNull Button btn2, @NonNull Button btn3, @NonNull Button btn4,
       @NonNull Button btn5, @NonNull Button btn6, @NonNull Button btn7, @NonNull Button btn8,
-      @NonNull Button btn9, @NonNull Button btnBackspace, @NonNull Button btnClear,
+      @NonNull Button btn9, @NonNull ImageButton btnBackspace, @NonNull Button btnClear,
       @NonNull Button btnDivide, @NonNull Button btnDot, @NonNull Button btnEquals,
       @NonNull ImageButton btnHistory, @NonNull Button btnMinus, @NonNull Button btnMultiply,
       @NonNull Button btnPercent, @NonNull Button btnPlus, @NonNull Button btnToggleSign,
@@ -216,7 +216,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.btnBackspace;
-      Button btnBackspace = ViewBindings.findChildViewById(rootView, id);
+      ImageButton btnBackspace = ViewBindings.findChildViewById(rootView, id);
       if (btnBackspace == null) {
         break missingId;
       }

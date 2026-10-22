@@ -17,6 +17,7 @@ color sheet_bg
 dimen key_gap
 dimen key_height
 dimen key_radius
+drawable ic_backspace
 drawable ic_history
 drawable ic_launcher_fg
 drawable key_bg_digit
@@ -58,6 +59,7 @@ layout sheet_history
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string backspace
 string copied
 string history
 string history_clear
@@ -72,7 +74,6 @@ string key_6
 string key_7
 string key_8
 string key_9
-string key_backspace
 string key_clear
 string key_divide
 string key_dot

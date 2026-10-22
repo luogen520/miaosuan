@@ -36,7 +36,7 @@ Marking dimen:design_navigation_icon_size:2131099767 reachable: referenced from 
 Marking id:design_menu_item_text:2131230870 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:colorControlHighlight:2130903265 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:design_menu_item_action_area_stub:2131230869 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:navigation_empty_icon:2131165401 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:navigation_empty_icon:2131165402 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:textAppearanceLineHeightEnabled:2130904066 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:toolbarStyle:2130904140 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_Toolbar:2131756134 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -49,7 +49,7 @@ Marking id:action_context_bar:2131230776 reachable: referenced from /home/z/my-p
 Marking dimen:mtrl_min_touch_target_size:2131100357 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:bottomSheetStyle:2130903158 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_Design_BottomSheet_Modal:2131755833 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:bottomsheet_action_expand_halfway:2131689505 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:bottomsheet_action_expand_halfway:2131689506 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_bottom_sheet_peek_height_min:2131099757 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_on_apply_window_listener:2131231138 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:tag_window_insets_animation_callback:2131231146 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -109,8 +109,8 @@ Marking layout:abc_popup_menu_header_item_layout:2131427346 reachable: reference
 Marking id:material_value_index:2131230980 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionDurationShort3:2130903809 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionEasingLinearInterpolator:2130903818 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:clear_text_end_icon_content_description:2131689518 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_ic_cancel:2131165379 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:clear_text_end_icon_content_description:2131689519 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_ic_cancel:2131165380 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:design_textinput_caption_translate_y:2131099789 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionDurationShort4:2130903810 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionEasingEmphasizedDecelerateInterpolator:2130903815 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -226,8 +226,8 @@ Marking color:ink:2131034211 reachable: referenced from /home/z/my-project/qings
 Marking color:error_text:2131034204 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:alpha:2130903084 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:lStar:2130903619 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:exposed_dropdown_menu_content_description:2131689522 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_dropdown_arrow:2131165376 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:exposed_dropdown_menu_content_description:2131689523 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_dropdown_arrow:2131165377 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_RadioButton:2131756059 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:visible_removing_fragment_view_tag:2131231198 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking animator:fragment_fade_enter:2130837509 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -264,7 +264,7 @@ Marking id:btnPlus:2131230828 reachable: referenced from /home/z/my-project/qing
 Marking id:btnToggleSign:2131230829 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:txtExpr:2131231183 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:txtMain:2131231186 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:copied:2131689519 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:copied:2131689520 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:chipStyle:2130903231 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_Chip_Action:2131756048 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:motionEasingStandardDecelerateInterpolator:2130903821 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -287,8 +287,8 @@ Marking id:mtrl_calendar_main_pane:2131230996 reachable: referenced from /home/z
 Marking id:mtrl_picker_header_selection_text:2131231007 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:mtrl_picker_header_toggle:2131231009 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:mtrl_picker_title_text:2131231013 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:material_ic_calendar_black_24dp:2131165355 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:material_ic_edit_black_24dp:2131165357 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:material_ic_calendar_black_24dp:2131165356 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:material_ic_edit_black_24dp:2131165358 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_calendar_input_mode:2131689637 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking string:mtrl_picker_toggle_to_text_input_mode:2131689639 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:fullscreen_header:2131230917 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -310,10 +310,10 @@ Marking layout:abc_list_menu_item_layout:2131427344 reachable: referenced from /
 Marking attr:state_indeterminate:2130903981 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:state_error:2130903980 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:Widget_MaterialComponents_CompoundButton_CheckBox:2131756058 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165366 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button_checked_unchecked:2131165367 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking attr:isMaterial3Theme:2130903584 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button:2131165365 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking drawable:mtrl_checkbox_button_icon:2131165367 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button:2131165366 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking drawable:mtrl_checkbox_button_icon:2131165368 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:checked:2131230840 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:unchecked:2131231187 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:indeterminate:2131230937 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -372,9 +372,9 @@ Marking dimen:material_filled_edittext_font_1_3_padding_top:2131100219 reachable
 Marking dimen:material_filled_edittext_font_1_3_padding_bottom:2131100218 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking style:TextAppearance_AppCompat_Caption:2131755420 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking color:design_error:2131034188 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:character_counter_overflowed_content_description:2131689516 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:character_counter_content_description:2131689515 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:character_counter_pattern:2131689517 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:character_counter_overflowed_content_description:2131689517 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:character_counter_content_description:2131689516 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:character_counter_pattern:2131689518 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:textinput_counter:2131231157 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:mtrl_textinput_counter_margin_start:2131100420 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:textinput_error:2131231158 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -409,7 +409,7 @@ Marking attr:elevationOverlayColor:2130903428 reachable: referenced from /home/z
 Marking attr:elevationOverlayAccentColor:2130903427 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:text_input_error_icon:2131231155 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:text_input_end_icon:2131231154 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-Marking string:error_icon_content_description:2131689521 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:error_icon_content_description:2131689522 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking id:textinput_suffix_text:2131231162 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking layout:design_text_input_end_icon:2131427371 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 Marking dimen:material_input_text_to_prefix_suffix_padding:2131100227 reachable: referenced from /home/z/my-project/qingsuan/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
@@ -1281,7 +1281,7 @@ Marking attr:labelVisibilityMode:2130903622 used because it matches string pool 
 Marking id:labeled:2131230946 used because it matches string pool constant label
 Marking attr:indeterminateAnimationType:2130903572 used because it matches string pool constant indeterminate
 Marking attr:indeterminateProgressStyle:2130903573 used because it matches string pool constant indeterminate
-Marking drawable:indeterminate_static:2131165338 used because it matches string pool constant indeterminate
+Marking drawable:indeterminate_static:2131165339 used because it matches string pool constant indeterminate
 Marking id:indeterminate:2131230937 used because it matches string pool constant indeterminate
 Marking attr:closeIconEnabled:2130903241 used because it matches string pool constant closeIconEnabled
 Marking id:TOP_END:2131230732 used because it matches string pool constant TOP
@@ -1462,21 +1462,20 @@ Marking color:key_op_text:2131034218 used because it matches string pool constan
 Marking dimen:key_gap:2131099805 used because it matches string pool constant key
 Marking dimen:key_height:2131099806 used because it matches string pool constant key
 Marking dimen:key_radius:2131099807 used because it matches string pool constant key
-Marking drawable:key_bg_digit:2131165339 used because it matches string pool constant key
-Marking drawable:key_bg_eq:2131165340 used because it matches string pool constant key
-Marking drawable:key_bg_fn:2131165341 used because it matches string pool constant key
-Marking drawable:key_bg_op:2131165342 used because it matches string pool constant key
-Marking string:key_0:2131689531 used because it matches string pool constant key
-Marking string:key_1:2131689532 used because it matches string pool constant key
-Marking string:key_2:2131689533 used because it matches string pool constant key
-Marking string:key_3:2131689534 used because it matches string pool constant key
-Marking string:key_4:2131689535 used because it matches string pool constant key
-Marking string:key_5:2131689536 used because it matches string pool constant key
-Marking string:key_6:2131689537 used because it matches string pool constant key
-Marking string:key_7:2131689538 used because it matches string pool constant key
-Marking string:key_8:2131689539 used because it matches string pool constant key
-Marking string:key_9:2131689540 used because it matches string pool constant key
-Marking string:key_backspace:2131689541 used because it matches string pool constant key
+Marking drawable:key_bg_digit:2131165340 used because it matches string pool constant key
+Marking drawable:key_bg_eq:2131165341 used because it matches string pool constant key
+Marking drawable:key_bg_fn:2131165342 used because it matches string pool constant key
+Marking drawable:key_bg_op:2131165343 used because it matches string pool constant key
+Marking string:key_0:2131689532 used because it matches string pool constant key
+Marking string:key_1:2131689533 used because it matches string pool constant key
+Marking string:key_2:2131689534 used because it matches string pool constant key
+Marking string:key_3:2131689535 used because it matches string pool constant key
+Marking string:key_4:2131689536 used because it matches string pool constant key
+Marking string:key_5:2131689537 used because it matches string pool constant key
+Marking string:key_6:2131689538 used because it matches string pool constant key
+Marking string:key_7:2131689539 used because it matches string pool constant key
+Marking string:key_8:2131689540 used because it matches string pool constant key
+Marking string:key_9:2131689541 used because it matches string pool constant key
 Marking string:key_clear:2131689542 used because it matches string pool constant key
 Marking string:key_divide:2131689543 used because it matches string pool constant key
 Marking string:key_dot:2131689544 used because it matches string pool constant key
@@ -1751,10 +1750,10 @@ Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131099803 used becaus
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131099804 used because it matches string pool constant item
 Marking id:item_touch_helper_previous_elevation:2131230943 used because it matches string pool constant item
 Marking layout:item_history:2131427375 used because it matches string pool constant item
-Marking string:item_view_role_description:2131689530 used because it matches string pool constant item
-Marking string:character_counter_content_description:2131689515 used because it matches string pool constant char
-Marking string:character_counter_overflowed_content_description:2131689516 used because it matches string pool constant char
-Marking string:character_counter_pattern:2131689517 used because it matches string pool constant char
+Marking string:item_view_role_description:2131689531 used because it matches string pool constant item
+Marking string:character_counter_content_description:2131689516 used because it matches string pool constant char
+Marking string:character_counter_overflowed_content_description:2131689517 used because it matches string pool constant char
+Marking string:character_counter_pattern:2131689518 used because it matches string pool constant char
 Marking attr:floatingActionButtonLargePrimaryStyle:2130903487 used because it matches string pool constant float
 Marking attr:floatingActionButtonLargeSecondaryStyle:2130903488 used because it matches string pool constant float
 Marking attr:floatingActionButtonLargeStyle:2130903489 used because it matches string pool constant float
@@ -1786,9 +1785,9 @@ Marking id:checked:2131230840 used because it matches string pool constant check
 Marking id:group_divider:2131230923 used because it matches string pool constant group
 Marking id:groups:2131230924 used because it matches string pool constant group
 Marking color:history_tint:2131034209 used because it matches string pool constant history
-Marking string:history:2131689526 used because it matches string pool constant history
-Marking string:history_clear:2131689527 used because it matches string pool constant history
-Marking string:history_empty:2131689528 used because it matches string pool constant history
+Marking string:history:2131689527 used because it matches string pool constant history
+Marking string:history_clear:2131689528 used because it matches string pool constant history
+Marking string:history_empty:2131689529 used because it matches string pool constant history
 Marking attr:errorAccessibilityLabel:2130903443 used because it matches string pool constant error
 Marking attr:errorAccessibilityLiveRegion:2130903444 used because it matches string pool constant error
 Marking attr:errorContentDescription:2130903445 used because it matches string pool constant error
@@ -1802,8 +1801,8 @@ Marking attr:errorTextColor:2130903452 used because it matches string pool const
 Marking color:error_color_material_dark:2131034202 used because it matches string pool constant error
 Marking color:error_color_material_light:2131034203 used because it matches string pool constant error
 Marking color:error_text:2131034204 used because it matches string pool constant error
-Marking string:error_a11y_label:2131689520 used because it matches string pool constant error
-Marking string:error_icon_content_description:2131689521 used because it matches string pool constant error
+Marking string:error_a11y_label:2131689521 used because it matches string pool constant error
+Marking string:error_icon_content_description:2131689522 used because it matches string pool constant error
 Marking attr:values:2130904176 used because it matches string pool constant value
 Marking anim:fragment_fast_out_extra_slow_in:2130771996 used because it matches string pool constant fragment
 Marking animator:fragment_close_enter:2130837507 used because it matches string pool constant fragment
@@ -6039,6 +6038,8 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
     @dimen/design_snackbar_background_corner_radius
     @color/design_snackbar_background_color
 @drawable/ic_arrow_back_black_24 : reachable=false
+@drawable/ic_backspace : reachable=false
+    @color/key_fn_text
 @drawable/ic_call_answer : reachable=false
 @drawable/ic_call_answer_low : reachable=false
 @drawable/ic_call_answer_video : reachable=false
@@ -7061,7 +7062,8 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
     @style/KeyRow
     @string/key_clear
     @style/Key_Fn
-    @string/key_backspace
+    @drawable/ic_backspace
+    @string/backspace
     @string/key_percent
     @string/key_divide
     @style/Key_Op
@@ -7485,6 +7487,7 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @string/androidx_startup : reachable=true
 @string/app_name : reachable=true
 @string/appbar_scrolling_view_behavior : reachable=false
+@string/backspace : reachable=false
 @string/bottom_sheet_behavior : reachable=false
 @string/bottomsheet_action_collapse : reachable=false
 @string/bottomsheet_action_expand : reachable=false
@@ -7524,7 +7527,6 @@ Marking id:fragment_container_view_tag:2131230916 used because it matches string
 @string/key_7 : reachable=true
 @string/key_8 : reachable=true
 @string/key_9 : reachable=true
-@string/key_backspace : reachable=true
 @string/key_clear : reachable=true
 @string/key_divide : reachable=true
 @string/key_dot : reachable=true
@@ -16947,19 +16949,19 @@ The root reachable resources are:
  drawable:abc_textfield_search_material:2131165301
  drawable:abc_vector_test:2131165302
  drawable:design_password_eye:2131165316
- drawable:indeterminate_static:2131165338
- drawable:key_bg_digit:2131165339
- drawable:key_bg_eq:2131165340
- drawable:key_bg_fn:2131165341
- drawable:key_bg_op:2131165342
- drawable:material_ic_calendar_black_24dp:2131165355
- drawable:material_ic_edit_black_24dp:2131165357
- drawable:mtrl_checkbox_button:2131165365
- drawable:mtrl_checkbox_button_checked_unchecked:2131165366
- drawable:mtrl_checkbox_button_icon:2131165367
- drawable:mtrl_dropdown_arrow:2131165376
- drawable:mtrl_ic_cancel:2131165379
- drawable:navigation_empty_icon:2131165401
+ drawable:indeterminate_static:2131165339
+ drawable:key_bg_digit:2131165340
+ drawable:key_bg_eq:2131165341
+ drawable:key_bg_fn:2131165342
+ drawable:key_bg_op:2131165343
+ drawable:material_ic_calendar_black_24dp:2131165356
+ drawable:material_ic_edit_black_24dp:2131165358
+ drawable:mtrl_checkbox_button:2131165366
+ drawable:mtrl_checkbox_button_checked_unchecked:2131165367
+ drawable:mtrl_checkbox_button_icon:2131165368
+ drawable:mtrl_dropdown_arrow:2131165377
+ drawable:mtrl_ic_cancel:2131165380
+ drawable:navigation_empty_icon:2131165402
  id:BOTTOM_END:2131230721
  id:BOTTOM_START:2131230722
  id:SHOW_ALL:2131230728
@@ -17213,30 +17215,29 @@ The root reachable resources are:
  string:abc_prepend_shortcut_label:2131689489
  string:androidx_startup:2131689499
  string:app_name:2131689500
- string:bottomsheet_action_expand_halfway:2131689505
- string:character_counter_content_description:2131689515
- string:character_counter_overflowed_content_description:2131689516
- string:character_counter_pattern:2131689517
- string:clear_text_end_icon_content_description:2131689518
- string:copied:2131689519
- string:error_a11y_label:2131689520
- string:error_icon_content_description:2131689521
- string:exposed_dropdown_menu_content_description:2131689522
- string:history:2131689526
- string:history_clear:2131689527
- string:history_empty:2131689528
- string:item_view_role_description:2131689530
- string:key_0:2131689531
- string:key_1:2131689532
- string:key_2:2131689533
- string:key_3:2131689534
- string:key_4:2131689535
- string:key_5:2131689536
- string:key_6:2131689537
- string:key_7:2131689538
- string:key_8:2131689539
- string:key_9:2131689540
- string:key_backspace:2131689541
+ string:bottomsheet_action_expand_halfway:2131689506
+ string:character_counter_content_description:2131689516
+ string:character_counter_overflowed_content_description:2131689517
+ string:character_counter_pattern:2131689518
+ string:clear_text_end_icon_content_description:2131689519
+ string:copied:2131689520
+ string:error_a11y_label:2131689521
+ string:error_icon_content_description:2131689522
+ string:exposed_dropdown_menu_content_description:2131689523
+ string:history:2131689527
+ string:history_clear:2131689528
+ string:history_empty:2131689529
+ string:item_view_role_description:2131689531
+ string:key_0:2131689532
+ string:key_1:2131689533
+ string:key_2:2131689534
+ string:key_3:2131689535
+ string:key_4:2131689536
+ string:key_5:2131689537
+ string:key_6:2131689538
+ string:key_7:2131689539
+ string:key_8:2131689540
+ string:key_9:2131689541
  string:key_clear:2131689542
  string:key_divide:2131689543
  string:key_dot:2131689544
@@ -17968,33 +17969,33 @@ Unused resources are:
  dimen:tooltip_y_offset_non_touch:2131100452
  dimen:tooltip_y_offset_touch:2131100453
  drawable:abc_ic_menu_overflow_material:2131165252
- drawable:ic_call_answer:2131165319
- drawable:ic_call_answer_low:2131165320
- drawable:ic_call_answer_video:2131165321
- drawable:ic_call_answer_video_low:2131165322
- drawable:ic_call_decline:2131165323
- drawable:ic_call_decline_low:2131165324
- drawable:ic_clear_black_24:2131165325
- drawable:ic_m3_chip_check:2131165330
- drawable:ic_search_black_24:2131165337
- drawable:m3_tabs_transparent_background:2131165353
- drawable:material_ic_menu_arrow_up_black_24dp:2131165363
- drawable:mtrl_bottomsheet_drag_handle:2131165364
- drawable:mtrl_navigation_bar_item_background:2131165385
- drawable:notification_action_background:2131165402
- drawable:notification_bg:2131165403
- drawable:notification_bg_low:2131165404
- drawable:notification_bg_low_normal:2131165405
- drawable:notification_bg_low_pressed:2131165406
- drawable:notification_bg_normal:2131165407
- drawable:notification_bg_normal_pressed:2131165408
- drawable:notification_icon_background:2131165409
- drawable:notification_oversize_large_icon_bg:2131165410
- drawable:notification_template_icon_bg:2131165411
- drawable:notification_template_icon_low_bg:2131165412
- drawable:notification_tile_bg:2131165413
- drawable:notify_panel_notification_icon_bg:2131165414
- drawable:test_level_drawable:2131165415
+ drawable:ic_call_answer:2131165320
+ drawable:ic_call_answer_low:2131165321
+ drawable:ic_call_answer_video:2131165322
+ drawable:ic_call_answer_video_low:2131165323
+ drawable:ic_call_decline:2131165324
+ drawable:ic_call_decline_low:2131165325
+ drawable:ic_clear_black_24:2131165326
+ drawable:ic_m3_chip_check:2131165331
+ drawable:ic_search_black_24:2131165338
+ drawable:m3_tabs_transparent_background:2131165354
+ drawable:material_ic_menu_arrow_up_black_24dp:2131165364
+ drawable:mtrl_bottomsheet_drag_handle:2131165365
+ drawable:mtrl_navigation_bar_item_background:2131165386
+ drawable:notification_action_background:2131165403
+ drawable:notification_bg:2131165404
+ drawable:notification_bg_low:2131165405
+ drawable:notification_bg_low_normal:2131165406
+ drawable:notification_bg_low_pressed:2131165407
+ drawable:notification_bg_normal:2131165408
+ drawable:notification_bg_normal_pressed:2131165409
+ drawable:notification_icon_background:2131165410
+ drawable:notification_oversize_large_icon_bg:2131165411
+ drawable:notification_template_icon_bg:2131165412
+ drawable:notification_template_icon_low_bg:2131165413
+ drawable:notification_tile_bg:2131165414
+ drawable:notify_panel_notification_icon_bg:2131165415
+ drawable:test_level_drawable:2131165416
  id:ALT:2131230720
  id:CTRL:2131230723
  id:FUNCTION:2131230724
@@ -18339,20 +18340,20 @@ Unused resources are:
  string:abc_shareactionprovider_share_with:2131689496
  string:abc_shareactionprovider_share_with_application:2131689497
  string:appbar_scrolling_view_behavior:2131689501
- string:bottomsheet_action_collapse:2131689503
- string:bottomsheet_action_expand:2131689504
- string:bottomsheet_drag_handle_clicked:2131689506
- string:call_notification_answer_action:2131689508
- string:call_notification_answer_video_action:2131689509
- string:call_notification_decline_action:2131689510
- string:call_notification_hang_up_action:2131689511
- string:call_notification_incoming_text:2131689512
- string:call_notification_ongoing_text:2131689513
- string:call_notification_screening_text:2131689514
- string:fab_transformation_scrim_behavior:2131689523
- string:fab_transformation_sheet_behavior:2131689524
- string:hide_bottom_view_on_scroll_behavior:2131689525
- string:icon_content_description:2131689529
+ string:bottomsheet_action_collapse:2131689504
+ string:bottomsheet_action_expand:2131689505
+ string:bottomsheet_drag_handle_clicked:2131689507
+ string:call_notification_answer_action:2131689509
+ string:call_notification_answer_video_action:2131689510
+ string:call_notification_decline_action:2131689511
+ string:call_notification_hang_up_action:2131689512
+ string:call_notification_incoming_text:2131689513
+ string:call_notification_ongoing_text:2131689514
+ string:call_notification_screening_text:2131689515
+ string:fab_transformation_scrim_behavior:2131689524
+ string:fab_transformation_sheet_behavior:2131689525
+ string:hide_bottom_view_on_scroll_behavior:2131689526
+ string:icon_content_description:2131689530
  string:m3_exceed_max_badge_text_suffix:2131689551
  string:m3_ref_typeface_brand_medium:2131689552
  string:m3_sys_motion_easing_emphasized_accelerate:2131689557
