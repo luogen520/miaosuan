@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 夜间换成墨色纸面，朱砂保持一致 -->
-    <color name="paper">#17161A</color>
-    <color name="ink">#F0EDE6</color>
-    <color name="ink_soft">#918C82</color>
-    <color name="cinnabar">#C14B33</color>
+    <!-- 夜间换成墨色纸面，全部走暖灰，不发蓝 -->
+    <color name="paper">#17140E</color>
+    <color name="ink">#F0EADC</color>
+    <color name="ink_soft">#97907E</color>
+    <color name="cinnabar">#B4442C</color>
 
-    <color name="key_bg">#24232A</color>
-    <color name="key_fn_bg">#2C2B33</color>
-    <color name="key_fn_text">#A8A295</color>
-    <color name="key_op_text">#E08A72</color>
-    <color name="key_eq_bg">#C14B33</color>
+    <color name="key_bg">#292417</color>
+    <color name="key_stroke">#3B3422</color>
+    <color name="key_fn_bg">#211D12</color>
+    <color name="key_fn_text">#A69C86</color>
+    <color name="key_op_bg">#362A18</color>
+    <color name="key_op_text">#E5876A</color>
     <color name="key_eq_text">#FFF6EE</color>
-    <color name="history_tint">#A8A295</color>
+    <color name="history_tint">#A69C86</color>
     <color name="error_text">#E06A50</color>
-    <color name="sheet_bg">#201F25</color>
+    <color name="sheet_bg">#201C13</color>
 </resources>
