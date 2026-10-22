@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="key_height">68dp</dimen>
-    <dimen name="key_gap">12dp</dimen>
-    <dimen name="edge_margin">14dp</dimen>
+    <dimen name="key_height">64dp</dimen>
+    <!-- 竖向行距与横向键距保持一致，都是 10dp，密而不挤 -->
+    <dimen name="key_gap">10dp</dimen>
+    <!-- 键与键之间横向各让 5dp，加起来正好一个行距 -->
+    <dimen name="key_side">5dp</dimen>
+    <!-- 整排再外扩 15dp，加上键自身的 5dp，边缘留白正好 20dp，和顶栏对齐 -->
+    <dimen name="edge_margin">15dp</dimen>
 </resources>

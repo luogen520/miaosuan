@@ -6,7 +6,10 @@
     <color name="ink_soft">#7C828D</color>
 
     <color name="key_bg">#1C1E24</color>
+    <!-- 夜里同样四层：曜石白键、深一号的功能键、暗珀运算键 -->
+    <color name="key_fn_bg">#23262E</color>
     <color name="key_fn_text">#8A909B</color>
+    <color name="key_op_bg">#2C2416</color>
     <color name="key_op_text">#FFB35C</color>
     <color name="key_eq_text">#241503</color>
     <color name="history_tint">#8A909B</color>

@@ -6,7 +6,10 @@
     <color name="ink_soft">#878D98</color>
 
     <color name="key_bg">#FFFFFF</color>
+    <!-- 功能键浅灰、运算键淡珀、等号琥珀渐变，四种底色拉开层级 -->
+    <color name="key_fn_bg">#EEF1F5</color>
     <color name="key_fn_text">#7C828D</color>
+    <color name="key_op_bg">#FFF1DC</color>
     <color name="key_op_text">#B26A00</color>
     <color name="key_eq_text">#241503</color>
     <color name="history_tint">#7C828D</color>

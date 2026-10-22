@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 运算键：淡琥珀底，一眼认出加减乘除 -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#26000000">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="26dp" />
+            <solid android:color="@color/key_op_bg" />
+        </shape>
+    </item>
+</ripple>

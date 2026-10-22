@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 功能键：沉一号的浅灰，和数字键分开主次 -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#24000000">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="26dp" />
+            <solid android:color="@color/key_fn_bg" />
+        </shape>
+    </item>
+</ripple>
