@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
     // 当前输入的表达式，用展示符号（×÷−）直接存，求值交给 CalcEngine
     private val input = StringBuilder("0")
     private var isError = false
+    private var evaluated = false          // 刚按过等号，输入的是结果
+    private var lastOp: Char? = null       // 重复按等号时重放上一次运算
+    private var lastOperand: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,11 +42,12 @@ class MainActivity : AppCompatActivity() {
         binding.btnBackspace.setOnClickListener { backspace() }
         binding.btnClear.setOnClickListener { clearAll() }
         binding.btnEquals.setOnClickListener { equals() }
-        // TODO: ± 的补全逻辑下一轮加上
+        binding.btnToggleSign.setOnClickListener { toggleSign() }
     }
 
     private fun appendDigit(d: String) {
         if (isError) clearAll()
+        if (evaluated) startNewNumber()
         // 百分号后面直接按数字，默认接着乘，比如 50%3 就是 50%×3
         if (input.isNotEmpty() && input.last() == '%') input.append('×')
         // 开头的 0 直接顶掉，避免出现 007
@@ -55,6 +59,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun appendOperator(op: String) {
         if (isError) clearAll()
+        evaluated = false
         // 连按运算符时把结尾的运算符换掉
         while (input.isNotEmpty() && isOperator(input.last())) input.deleteCharAt(input.length - 1)
         if (input.isEmpty()) {
@@ -67,6 +72,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun appendDot() {
         if (isError) clearAll()
+        if (evaluated) startNewNumber()
         if (input.isNotEmpty() && input.last() == '%') input.append('×')
         if (input.isEmpty() || isOperator(input.last())) {
             input.append("0.")
@@ -80,12 +86,57 @@ class MainActivity : AppCompatActivity() {
 
     private fun appendPercent() {
         if (isError) clearAll()
-        if (input.isNotEmpty() && input.last().isDigit()) input.append("%")
+        if (input.isNotEmpty() && input.last().isDigit()) {
+            evaluated = false
+            input.append("%")
+        }
+        refreshDisplay()
+    }
+
+    /** 正负号翻转：针对末尾正在输入的那个数。 */
+    private fun toggleSign() {
+        if (isError) clearAll()
+        if (input.toString() == "0") return
+        // 结尾挂着没写完的负号前缀，再按一次就摘掉
+        if (input.last() == '−' && (input.length == 1 || isOperator(input[input.length - 2]))) {
+            input.deleteCharAt(input.length - 1)
+            if (input.isEmpty()) input.append("0")
+            refreshDisplay()
+            return
+        }
+        when (input.last()) {
+            '+', '−' -> {
+                // 还没输右边的数，直接把加减号翻面，效果等同于给后面的数取负
+                val flipped = if (input.last() == '+') '−' else '+'
+                input.replace(input.length - 1, input.length, flipped.toString())
+                evaluated = false
+            }
+            '×', '÷' -> {
+                // 乘除后面挂个负号前缀，等着下一个数
+                input.append('−')
+                evaluated = false
+            }
+            else -> {
+                // 已有数在末尾，找到它的开头插入或摘掉负号
+                var i = input.length - 1
+                while (i >= 0 && (input[i].isDigit() || input[i] == '.' || input[i] == '%')) i--
+                val numStart = i + 1
+                if (numStart > 0 && input[numStart - 1] == '−' &&
+                    (numStart - 1 == 0 || isOperator(input[numStart - 2]))
+                ) {
+                    input.deleteCharAt(numStart - 1)
+                } else {
+                    input.insert(numStart, '−')
+                }
+                evaluated = false
+            }
+        }
         refreshDisplay()
     }
 
     private fun backspace() {
         if (isError) { clearAll(); return }
+        evaluated = false
         if (input.length > 1) input.deleteCharAt(input.length - 1) else input.clear().append("0")
         refreshDisplay()
     }
@@ -93,12 +144,21 @@ class MainActivity : AppCompatActivity() {
     private fun clearAll() {
         input.clear().append("0")
         isError = false
+        evaluated = false
+        lastOp = null
+        lastOperand = null
         refreshDisplay()
     }
 
     private fun equals() {
         if (isError) { clearAll(); return }
-        val expr = input.toString()
+        var expr = input.toString()
+        if (evaluated) {
+            // 重复按等号：把上一次的运算重放一遍，比如 200+50 = 之后连按 = 得 300
+            val op = lastOp
+            val operand = lastOperand
+            if (op != null && operand != null) expr = "$input$op$operand"
+        }
         val result = try {
             CalcEngine.format(CalcEngine.evaluate(expr))
         } catch (e: CalcException) {
@@ -110,8 +170,36 @@ class MainActivity : AppCompatActivity() {
         }
         binding.txtMain.setTextColor(ContextCompat.getColor(this, R.color.ink))
         binding.txtExpr.text = "$expr ="
+        rememberLastOperation(expr)
         input.clear().append(result)
+        evaluated = true
         refreshDisplay(result)
+    }
+
+    /** 记下表达式末尾的那次运算，供重复等号用。 */
+    private fun rememberLastOperation(expr: String) {
+        var end = expr.length
+        while (end > 0 && isOperator(expr[end - 1])) end--
+        var i = end - 1
+        while (i >= 0 && (expr[i].isDigit() || expr[i] == '.' || expr[i] == '%')) i--
+        // 数字前面若挂着负号，往前多看一位判断是负号还是减号
+        if (i >= 0 && expr[i] == '−' && (i == 0 || isOperator(expr[i - 1]))) {
+            i--
+            while (i >= 0 && (expr[i].isDigit() || expr[i] == '.' || expr[i] == '%')) i--
+        }
+        if (i < 0 || !isOperator(expr[i])) {
+            lastOp = null
+            lastOperand = null
+            return
+        }
+        lastOp = expr[i]
+        lastOperand = expr.substring(i + 1, end)
+    }
+
+    /** 刚出结果又按了数字：清掉重新开一个数。 */
+    private fun startNewNumber() {
+        input.clear()
+        evaluated = false
     }
 
     /** 取末尾正在输入的那个数，用来判断小数点和前导零。 */
