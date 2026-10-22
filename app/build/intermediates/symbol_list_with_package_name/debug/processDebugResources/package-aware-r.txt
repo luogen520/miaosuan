@@ -2018,6 +2018,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color sheet_bg
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -3126,6 +3127,7 @@ id btn8
 id btn9
 id btnBackspace
 id btnClear
+id btnClearHistory
 id btnDivide
 id btnDot
 id btnEquals
@@ -3246,6 +3248,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3258,6 +3261,7 @@ id legacy
 id line1
 id line3
 id linear
+id listHistory
 id listMode
 id list_item
 id m3_side_sheet
@@ -3363,6 +3367,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -3484,7 +3489,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtEmpty
 id txtExpr
+id txtItemExpr
+id txtItemResult
 id txtMain
 id unchecked
 id uniform
@@ -3636,6 +3644,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_history
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3696,6 +3705,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sheet_history
 layout support_simple_spinner_dropdown_item
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3753,6 +3763,8 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string history
+string history_clear
+string history_empty
 string icon_content_description
 string item_view_role_description
 string key_0

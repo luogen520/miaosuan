@@ -12,12 +12,15 @@
     <color name="key_fn_text">#6E6759</color>
     <color name="key_op_text">#C14B33</color>
     <color name="paper">#F7F3EB</color>
+    <color name="sheet_bg">#FCF9F2</color>
     <dimen name="key_gap">5dp</dimen>
     <dimen name="key_height">62dp</dimen>
     <dimen name="key_radius">22dp</dimen>
     <string name="app_name">轻算</string>
     <string name="copied">已复制结果</string>
     <string name="history">历史记录</string>
+    <string name="history_clear">清空</string>
+    <string name="history_empty">还没有算过什么</string>
     <string name="key_0">0</string>
     <string name="key_1">1</string>
     <string name="key_2">2</string>
@@ -78,5 +81,6 @@
         <item name="android:statusBarColor">@color/paper</item>
         <item name="android:navigationBarColor">@color/paper</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="colorSurface">@color/sheet_bg</item>
     </style>
 </resources>

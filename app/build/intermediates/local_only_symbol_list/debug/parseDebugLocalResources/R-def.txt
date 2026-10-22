@@ -12,6 +12,7 @@ color key_fn_bg
 color key_fn_text
 color key_op_text
 color paper
+color sheet_bg
 dimen key_gap
 dimen key_height
 dimen key_radius
@@ -33,6 +34,7 @@ id btn8
 id btn9
 id btnBackspace
 id btnClear
+id btnClearHistory
 id btnDivide
 id btnDot
 id btnEquals
@@ -42,13 +44,21 @@ id btnMultiply
 id btnPercent
 id btnPlus
 id btnToggleSign
+id listHistory
 id root
+id txtEmpty
 id txtExpr
+id txtItemExpr
+id txtItemResult
 id txtMain
 layout activity_main
+layout item_history
+layout sheet_history
 string app_name
 string copied
 string history
+string history_clear
+string history_empty
 string key_0
 string key_1
 string key_2

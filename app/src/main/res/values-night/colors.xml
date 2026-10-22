@@ -14,4 +14,5 @@
     <color name="key_eq_text">#FFF6EE</color>
     <color name="history_tint">#A8A295</color>
     <color name="error_text">#E06A50</color>
+    <color name="sheet_bg">#201F25</color>
 </resources>

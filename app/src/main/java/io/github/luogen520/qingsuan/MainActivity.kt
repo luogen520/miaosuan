@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     private var evaluated = false          // 刚按过等号，输入的是结果
     private var lastOp: Char? = null       // 重复按等号时重放上一次运算
     private var lastOperand: String? = null
+    private val history = ArrayList<HistoryEntry>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +49,21 @@ class MainActivity : AppCompatActivity() {
         // 长按退格一键清空，长按结果复制到剪贴板
         binding.btnBackspace.setOnLongClickListener { clearAll(); true }
         binding.txtMain.setOnLongClickListener { copyResult(); true }
+        binding.btnHistory.setOnClickListener { openHistory() }
+    }
+
+    private fun openHistory() {
+        HistorySheet(this, history, onPick = { e ->
+            isError = false
+            binding.txtMain.setTextColor(ContextCompat.getColor(this, R.color.ink))
+            input.clear().append(e.result)
+            binding.txtExpr.text = "${grouped(e.expression)} ="
+            rememberLastOperation(e.expression)
+            evaluated = true
+            refreshDisplay(e.result)
+        }, onClear = {
+            history.clear()
+        }).show()
     }
 
     private fun copyResult() {
@@ -185,6 +201,10 @@ class MainActivity : AppCompatActivity() {
         binding.txtMain.setTextColor(ContextCompat.getColor(this, R.color.ink))
         binding.txtExpr.text = "${grouped(expr)} ="
         rememberLastOperation(expr)
+        if (history.isEmpty() || history[0].expression != expr) {
+            history.add(0, HistoryEntry(expr, result))
+            if (history.size > 50) history.removeAt(history.size - 1)
+        }
         input.clear().append(result)
         evaluated = true
         refreshDisplay(result)

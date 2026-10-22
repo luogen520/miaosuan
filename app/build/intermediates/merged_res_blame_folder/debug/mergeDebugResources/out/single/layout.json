@@ -1,6 +1,14 @@
 [
     {
-        "merged": "io.github.luogen520.qingsuan.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "io.github.luogen520.qingsuan.app-main-33:/layout/activity_main.xml"
+        "merged": "io.github.luogen520.qingsuan.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "io.github.luogen520.qingsuan.app-mergeDebugResources-31:/layout/sheet_history.xml",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/sheet_history.xml"
+    },
+    {
+        "merged": "io.github.luogen520.qingsuan.app-mergeDebugResources-31:/layout/item_history.xml",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/item_history.xml"
     }
 ]
