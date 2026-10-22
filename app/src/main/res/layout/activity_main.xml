@@ -32,7 +32,7 @@
             android:layout_marginTop="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/toggle_theme"
-            android:src="@drawable/ic_theme_auto"
+            android:src="@drawable/ic_theme_dark"
             android:tint="@color/history_tint" />
 
         <LinearLayout
