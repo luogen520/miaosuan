@@ -15,6 +15,12 @@
 - 深色模式跟随系统，支持 Android 13 主题图标
 - 全部按键带触感反馈
 
+## 截图
+
+| | | |
+|---|---|---|
+| ![亮色](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/1_light.png) | ![暗色](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/2_dark.png) | ![历史](https://raw.githubusercontent.com/luogen520/qingsuan/main/fastlane/metadata/android/zh-CN/phoneScreenshots/4_light_history.png) |
+
 ## 下载
 
 在 [Releases](https://github.com/luogen520/qingsuan/releases) 里拿 APK，需要 Android 8.0（API 26）及以上。也可以在 Orion Store 搜索「轻算」。
