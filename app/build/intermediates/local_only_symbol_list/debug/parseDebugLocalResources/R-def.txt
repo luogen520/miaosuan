@@ -3,6 +3,7 @@ local
 color cinnabar
 color error_text
 color history_tint
+color ic_launcher_bg
 color ink
 color ink_soft
 color key_bg
@@ -17,7 +18,7 @@ dimen key_gap
 dimen key_height
 dimen key_radius
 drawable ic_history
-drawable ic_launcher
+drawable ic_launcher_fg
 drawable key_bg_digit
 drawable key_bg_eq
 drawable key_bg_fn
@@ -54,6 +55,8 @@ id txtMain
 layout activity_main
 layout item_history
 layout sheet_history
+mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
 string copied
 string history

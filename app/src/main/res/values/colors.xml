@@ -15,4 +15,5 @@
     <color name="history_tint">#6E6759</color>
     <color name="error_text">#B3402B</color>
     <color name="sheet_bg">#FCF9F2</color>
+    <color name="ic_launcher_bg">#F1E7D3</color>
 </resources>

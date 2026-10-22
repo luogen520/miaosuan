@@ -1,38 +1,50 @@
 [
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/layout_item_history.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/item_history.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_ic_history.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/ic_history.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_ic_history.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/ic_history.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_op.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_op.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_digit.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_digit.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_fn.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_fn.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_ic_launcher.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/ic_launcher.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/layout_item_history.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/layout/item_history.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/activity_main.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/layout_sheet_history.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/layout/sheet_history.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_fn.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_fn.xml"
+        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_ic_launcher_fg.xml.flat",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/ic_launcher_fg.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_eq.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_eq.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_eq.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_eq.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_op.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_op.xml"
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "io.github.luogen520.qingsuan.app-debug-32:/layout_sheet_history.xml.flat",
-        "source": "io.github.luogen520.qingsuan.app-main-34:/layout/sheet_history.xml"
+        "merged": "io.github.luogen520.qingsuan.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_ic_launcher.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "io.github.luogen520.qingsuan.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "io.github.luogen520.qingsuan.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-debug-32:/drawable_key_bg_digit.xml.flat",
+        "source": "/home/z/.gradle/daemon/8.9/io.github.luogen520.qingsuan.app-main-34:/drawable/key_bg_digit.xml"
     }
 ]
