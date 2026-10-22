@@ -22,6 +22,9 @@ drawable ic_history
 drawable ic_launcher_bg
 drawable ic_launcher_fg
 drawable ic_launcher_mono
+drawable ic_theme_auto
+drawable ic_theme_dark
+drawable ic_theme_light
 drawable key_bg_digit
 drawable key_bg_eq
 drawable key_bg_fn
@@ -47,6 +50,7 @@ id btnMinus
 id btnMultiply
 id btnPercent
 id btnPlus
+id btnTheme
 id btnToggleSign
 id listHistory
 id root
@@ -85,6 +89,7 @@ string key_multiply
 string key_percent
 string key_plus
 string key_toggle_sign
+string toggle_theme
 string zero
 style Key
 style KeyRow

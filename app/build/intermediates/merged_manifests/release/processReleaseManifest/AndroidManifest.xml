@@ -15,6 +15,7 @@
     <uses-permission android:name="io.github.luogen520.miaosuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="io.github.luogen520.miaosuan.App"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="false"

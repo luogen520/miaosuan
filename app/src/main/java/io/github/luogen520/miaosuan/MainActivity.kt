@@ -1,11 +1,13 @@
 package io.github.luogen520.miaosuan
 
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.HapticFeedbackConstants
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -22,11 +24,14 @@ class MainActivity : AppCompatActivity() {
     private var lastOp: Char? = null       // 重复按等号时重放上一次运算
     private var lastOperand: String? = null
     private val history = ArrayList<HistoryEntry>()
+    private lateinit var prefs: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        prefs = getSharedPreferences("ui", MODE_PRIVATE)
+        binding.btnTheme.setImageResource(themeIcon(prefs.getInt("nightMode", AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)))
 
         // 全面屏：内容避开状态栏和手势条
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, insets ->
@@ -70,6 +75,30 @@ class MainActivity : AppCompatActivity() {
         binding.btnBackspace.setOnLongClickListener { clearAll(); true }
         binding.txtMain.setOnLongClickListener { copyResult(); true }
         binding.btnHistory.key { openHistory() }
+        binding.btnTheme.key { cycleTheme() }
+    }
+
+    /** 深浅色三档循环：跟系统 → 一直亮 → 一直暗。设完 AppCompat 会自己重建页面。 */
+    private fun cycleTheme() {
+        val modes = intArrayOf(
+            AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM,
+            AppCompatDelegate.MODE_NIGHT_NO,
+            AppCompatDelegate.MODE_NIGHT_YES,
+        )
+        val current = prefs.getInt("nightMode", AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+        var next = 0
+        for (i in modes.indices) {
+            if (modes[i] == current) next = (i + 1) % modes.size
+        }
+        prefs.edit().putInt("nightMode", modes[next]).apply()
+        binding.btnTheme.setImageResource(themeIcon(modes[next]))
+        AppCompatDelegate.setDefaultNightMode(modes[next])
+    }
+
+    private fun themeIcon(mode: Int) = when (mode) {
+        AppCompatDelegate.MODE_NIGHT_NO -> R.drawable.ic_theme_light
+        AppCompatDelegate.MODE_NIGHT_YES -> R.drawable.ic_theme_dark
+        else -> R.drawable.ic_theme_auto
     }
 
     private fun openHistory() {

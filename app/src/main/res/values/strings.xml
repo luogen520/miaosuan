@@ -3,6 +3,7 @@
     <string name="app_name">妙算</string>
     <string name="zero">0</string>
     <string name="history">历史记录</string>
+    <string name="toggle_theme">切换深浅色</string>
     <string name="history_empty">还没有算过什么</string>
     <string name="history_clear">清空</string>
     <string name="copied">已复制结果</string>

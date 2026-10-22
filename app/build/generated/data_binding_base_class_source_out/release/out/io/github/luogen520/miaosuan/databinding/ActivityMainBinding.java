@@ -82,6 +82,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnPlus;
 
   @NonNull
+  public final ImageButton btnTheme;
+
+  @NonNull
   public final Button btnToggleSign;
 
   @NonNull
@@ -99,8 +102,9 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull Button btn9, @NonNull ImageButton btnBackspace, @NonNull Button btnClear,
       @NonNull Button btnDivide, @NonNull Button btnDot, @NonNull Button btnEquals,
       @NonNull ImageButton btnHistory, @NonNull Button btnMinus, @NonNull Button btnMultiply,
-      @NonNull Button btnPercent, @NonNull Button btnPlus, @NonNull Button btnToggleSign,
-      @NonNull LinearLayout root, @NonNull TextView txtExpr, @NonNull TextView txtMain) {
+      @NonNull Button btnPercent, @NonNull Button btnPlus, @NonNull ImageButton btnTheme,
+      @NonNull Button btnToggleSign, @NonNull LinearLayout root, @NonNull TextView txtExpr,
+      @NonNull TextView txtMain) {
     this.rootView = rootView;
     this.btn0 = btn0;
     this.btn1 = btn1;
@@ -122,6 +126,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnMultiply = btnMultiply;
     this.btnPercent = btnPercent;
     this.btnPlus = btnPlus;
+    this.btnTheme = btnTheme;
     this.btnToggleSign = btnToggleSign;
     this.root = root;
     this.txtExpr = txtExpr;
@@ -275,6 +280,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnTheme;
+      ImageButton btnTheme = ViewBindings.findChildViewById(rootView, id);
+      if (btnTheme == null) {
+        break missingId;
+      }
+
       id = R.id.btnToggleSign;
       Button btnToggleSign = ViewBindings.findChildViewById(rootView, id);
       if (btnToggleSign == null) {
@@ -297,7 +308,8 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((LinearLayout) rootView, btn0, btn1, btn2, btn3, btn4, btn5,
           btn6, btn7, btn8, btn9, btnBackspace, btnClear, btnDivide, btnDot, btnEquals, btnHistory,
-          btnMinus, btnMultiply, btnPercent, btnPlus, btnToggleSign, root, txtExpr, txtMain);
+          btnMinus, btnMultiply, btnPercent, btnPlus, btnTheme, btnToggleSign, root, txtExpr,
+          txtMain);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

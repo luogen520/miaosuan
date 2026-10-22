@@ -42,6 +42,7 @@
     <string name="key_percent">%</string>
     <string name="key_plus">+</string>
     <string name="key_toggle_sign">±</string>
+    <string name="toggle_theme">切换深浅色</string>
     <string name="zero">0</string>
     <style name="Key">
         <item name="android:layout_width">0dp</item>
