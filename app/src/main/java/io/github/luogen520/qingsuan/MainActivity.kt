@@ -2,6 +2,7 @@ package io.github.luogen520.qingsuan
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import io.github.luogen520.qingsuan.databinding.ActivityMainBinding
@@ -43,6 +44,19 @@ class MainActivity : AppCompatActivity() {
         binding.btnClear.setOnClickListener { clearAll() }
         binding.btnEquals.setOnClickListener { equals() }
         binding.btnToggleSign.setOnClickListener { toggleSign() }
+
+        // 长按退格一键清空，长按结果复制到剪贴板
+        binding.btnBackspace.setOnLongClickListener { clearAll(); true }
+        binding.txtMain.setOnLongClickListener { copyResult(); true }
+    }
+
+    private fun copyResult() {
+        if (isError) return
+        val text = input.toString()
+        if (text == "0") return
+        val cm = getSystemService(CLIPBOARD_SERVICE) as android.content.ClipboardManager
+        cm.setPrimaryClip(android.content.ClipData.newPlainText("result", text))
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
     }
 
     private fun appendDigit(d: String) {
@@ -169,7 +183,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
         binding.txtMain.setTextColor(ContextCompat.getColor(this, R.color.ink))
-        binding.txtExpr.text = "$expr ="
+        binding.txtExpr.text = "${grouped(expr)} ="
         rememberLastOperation(expr)
         input.clear().append(result)
         evaluated = true
@@ -210,7 +224,39 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun refreshDisplay(main: String = input.toString()) {
-        binding.txtMain.text = main
+        binding.txtMain.text = grouped(main)
+    }
+
+    /** 展示用的千位分隔：只动整数部分，小数和科学计数法不碰。 */
+    private fun grouped(s: String): String {
+        val sb = StringBuilder()
+        var i = 0
+        while (i < s.length) {
+            val c = s[i]
+            if (c.isDigit() || c == '.') {
+                var j = i
+                while (j < s.length && (s[j].isDigit() || s[j] == '.')) j++
+                sb.append(groupNumber(s.substring(i, j)))
+                i = j
+            } else {
+                sb.append(c)
+                i++
+            }
+        }
+        return sb.toString()
+    }
+
+    private fun groupNumber(n: String): String {
+        val dot = n.indexOf('.')
+        val intPart = if (dot < 0) n else n.substring(0, dot)
+        val frac = if (dot < 0) "" else n.substring(dot)
+        if (intPart.length <= 3) return n
+        val sb = StringBuilder()
+        for ((idx, ch) in intPart.withIndex()) {
+            if (idx > 0 && (intPart.length - idx) % 3 == 0) sb.append(',')
+            sb.append(ch)
+        }
+        return sb.toString() + frac
     }
 
     private fun isOperator(c: Char) = c in "+−×÷"
